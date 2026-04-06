@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Generated data & checkpoints (large — regenerate with scripts/ocr.py)
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained artifacts (when added)
+models/*
+!models/.gitkeep
+
+# Reports (when added)
+reports/*
+!reports/.gitkeep
+
+# Hugging Face / pip caches (if under project)
+.cache/
