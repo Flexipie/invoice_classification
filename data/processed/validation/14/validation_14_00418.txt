@@ -1,0 +1,78 @@
+Nester b 57727
+
+control is: 9$.ck.252
+* PERFORMANCE
+
+PIC Tar, mg
+
+Tar/putt, mg
+
+Nicotine, mg/cigt.
+
+co, mg/cigt.
+
+Pufts/ctgt,
+
+‘Dota? Cigarette RID, mnH20
+Cigarette Length, mm
+Static Bum Time, min
+Mass Burn Rate, ag/min
+Butt Length, mm
+
+* TOBACCO-ROD PROPERTIES
+
+Circumference, mm
+Wrapper Component Type
+Component Percent
+Permeability, CORESTA (sec)
+Wt. of Tob., g
+
+Rod Density, g/cc
+
+Rod Length, nm
+
+Cuts Per Inch non-E? (BT)
+Expanded Tobacco, §
+
+* PILTER PROPERTIES
+
+rilter Type
+Filter RTD, mm W20
+Filter Length, mm
+Fiber Denier
+
+Tipping Paper Len, mn
+Ventilation, t
+
+ey
+as.ck.1s2 tigrwn Fe
+
+conrrot, PROTOTYPE
+12.2 11.0
+1.4 1.3
+0.91, 0.84
+11 34.2
+8.7 a8
+123 124,
+83.9 ga.ort
+ai. a1
+53 53.
+34. 3a
+24.9 24.8
+cir. cir
+0.60 0.60
+29.(18.) 29.18.)
+0.688 0.681
+244 244
+57.0 57.9
+
+30.0 30.) 30.¢ 30.)
+1s Fry
+car caT
+a7 403,
+26.9 27.0
+27 27
+3110 31.0
+23. 29.
+
+99SZ98L502

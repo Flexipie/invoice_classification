@@ -1,0 +1,48 @@
+RR Interoffice Memorandum
+
+Subject: Use of Rare Earths Date: April 10, 1987
+(Lanthanides}
+To: Dr. Jim ¥, Dobbins From: Or, Rob Harrington
+
+In response to your request, Scientific Affairs has conducted a thorough
+literature search of the toxicity of rare earths and their toxicological tm-
+plications as “tracers” in blends. This evaluation focused specifically on
+Yttrium (¥), Ytterbium (Yb) and Europium (Eu), although this toxicity inforn-
+tion generally applies to the entire series of rare earths (RE).
+
+RE generally have a low order of toxicity by the oral youte with LOsp
+values (lethal dose to 50% of the population) of greater than 5 g/kg in rats.
+The RE chlorides, nitrates and oxides are not well absorbed from the gastroin-
+testinal tract (approximately 1%). The toxictty when administered in-
+traperitoneally was much greater, with LDgg values ranging from 0.3 to 0.6 o/
+kg (Haley, 1965). RE tend to form complexes with proteins causing a precip!-
+tate to form. In one sertes of studies, rats consuming diets containing 0.01,
+0.1 or 1% of a lanthanide for 12 weeks, showed only non-specific liver damage
+at the 1% dose (Clayton et. al., 1981}. In another chronic study, C13 was
+infected intraper{toneally for 5 months (dose not stated) and did not produce
+adverse health effects (Bruce et. al., 1963).
+
+Only one inhalation study concerning RE toxicity was found. In this
+study, rats were given 50 mg ¥203 {ntratracheally. After 8 months, granuloma-
+tous nodules consisting of crystalline deposits of the oxide with cellular
+elements were present in the lung. This study alone 4s not very useful in
+assessing the effects of a compound because of the very high dose concentra-
+tions used and the mode of dose administration (e.g., rapid injection of Y203
+deep into. the trachea). The oxides are also considered much more toxic than
+the chloride form of RE (Israelson, 1963).
+
+Based on this scant evidence, the American Conference of Governmenta
+Industrial Hygienists (ACGIH) has set a threshold limit value (TL¥) of 1 mg/m
+{present as ¥) for yttrium compounds. There are no specifle TLV’s for other
+RE. This TL¥ is based on an average exposure to workers over the course of an
+&-hour working day (ACGIH, 1986).
+
+Based on the Jack of information on the inhalation of RE compounds,
+Scientific Affairs recommends that additional information be obtained before a
+final determination can be made regarding this project. A pilot study should
+be conducted to determine both the content of the RE in the final tobacco
+blend and the rate of transfer rate of RE from tobacco to smoke. This wil)
+enable us to estimate exposure levels. These results would provide us with
+the necessary information so that a more informed decis{on can be made.
+
+T9ZL Leees

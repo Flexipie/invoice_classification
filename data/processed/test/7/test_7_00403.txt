@@ -1,0 +1,48 @@
+AMES REPORT
+
+for Mr. C.D, McGee
+=
+FROM: Ms, Cindy Fulp
+DATE: September 27, 1990
+
+DESCRIPTION OF SAMPLES
+
+SAMPLE CODE SAMPLE DESCRIPTION TPM/CIGARETTE
+(MG)
+Av PPA) 224% Doral 85 Control 24
+Doral @5 with reconstituted 22
+
+224 B
+Aan gyuB sheet containing 108 Tripar
+{DDGS} [2.13% Total Tripar}
+
+All samples were tested at 0, 25, 50, 75, 100, 125, and
+
+DOSES:
+250 ug/plate,
+
+aor 5
+STRAINS! TASB and TAO
+
+RESULTS:
+STRAIN TASS STRAIN TA100
+SAMPLE CODE REV/HG TPM = REV/CIG = REV/MG TPM = REV/CIG
+Baan 1053 25272 458 10992
+2248 1092 24024 603 13266
+
+Samples were compared on both a revertant per mg TPM and a
+
+revertant per cigarette basis. Statistical analysis was based on
+95% Confidence Limits; therefore, probability values <0,0500 are
+considered to be significantly different. P values are listed
+
+below.
+@TRAIN TASS STRAIN TA100
+REV/MG TPH = -REV/CIG = REV/MG TPM -REV/CIG
+SAMPLE CODE PB value P value pvalue = p value
+2244
+va 0.89619 0.69077 0.40891 0.21648
+224.8
+
+Tz teere
+

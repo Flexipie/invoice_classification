@@ -1,0 +1,53 @@
+CHARGE NUMBER: Project 1708
+
+PROJECT TITLE: PhySicat and Chemical Properties of Tobacco
+PERIOD COVERED: February 1-28, 1983
+
+PROJECT LEADER: B, C. LaRoy
+
+OATE OF REPORT: March 3, 1983
+
+PARTITIONING OF WATER IN STEM ANO LAMINAL,2 (J. Crump, |, Trentham)
+
+A study of the kinetics of water sarption by "factory stem”,
+“factory lamina”, whole leaf, "test stem" and "test lamina” is in
+progress, Factary stem and lamina designate material separated by the
+Richmond Stenmery. Test stem and lamina destonate material obtained
+from the Stenmery as whole leaf, reordered as whole leaf then hand
+separated for analysis. Initial results on Burley grade 857 give
+adsorptton relaxation tines for each sample as follows:
+
+Factory Sten 4.9 hrs
+Factory Lamina 4.0 hes
+Whole Leaf 6,7 hrs
+Test Stems 9.9 hes
+Test Lamina 6.0 hrs
+
+Sorption rates for factory separated stam and lamina are
+essentially the sane and are faster than for whole leaf. The slower
+rate of sorption for stem compared with lamina when they are part of a
+whole leaf could prave useful during Stenmery threshing. If the sane
+is true for desorption, it may be possible (as suggested by J. Wnidby)
+to overwet leaf and then rapidly dry 1t back to the normal Ov
+(approximately 18%) Just prior to threshing, leaving stems more moist
+than the lanina, and thus more flexible for threshing. Desorption
+studies are in progress,
+
+TRACKING METHODS FOR TOBACCO ACCOUNTABILITYI,3,4 (M. Wood, J. Crump,
+‘4. Hartung)
+
+For tobacco accounting purposes, tt fs desirable to track the mass
+flow of tobacco independently of water and casings. Two current
+methods for tracking tobacco “dry weight" are O¥ and GC water, The
+former method is substrate dependent, while the latter is more tine
+consuming and has moce measurenent-to-neasurement variability, Tt, has
+been suggested that tracking an “inorganic” component (Ca, Mg or K}
+might provide a better means of accounting for tobacco loss or gain
+than either moisture measurement mettod. Thus, a cooperative program
+with QA and the Analytical Division was initiated for quantitative
+comparison of these approaches. The program includes comparisons of
+OV, GC water and inorganic analyses on dried tobacco to which measured
+aflounts of water and casings have deen added. Initial experiments are
+in progress.
+
+FOTEOZSzOz

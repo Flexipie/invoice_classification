@@ -1,0 +1,54 @@
+CTR GRANT NO. 2612 PROGRESS REPORT NO. 1
+Period Covered: from 1/1/90-5/1/91
+
+Name of Investigator; Robart D. Kuchta
+Title of Original Grant: DNA Primase as a Target for Chemotherapeutics
+
+Our broad goa! in these studies is to understand how nucleotides interact with and
+inhibit ONA primase. The tale of primase is fo synthesize RNA primers that pol c.can then
+elongate. Hence, we ara considering the mechanism and inhibition of primase within the
+Context of the pol a:primase complex. Initially, we proposed to develop a kinetic model of
+primase's unusual processivity and the role of base:pair stability. Experimenis to understand
+the switch from primase to pol o. activity and how the primar is translocated between the two
+active sites were proposed. These experiments would provide the basis for understanding
+how araA and araC inhibit primase. Finally, we proposed to examine how varying the
+structure of the ribose moiety in a NTP affects inhibition,
+
+{nitially, we examined the unusual pracassivity of primase. On a poly{dT) template,
+primase products ate mostly 2-10 nuclaotides long, ‘The short products (2-6 nuciaotides}
+appear to be at least partially due to primer-template instability. Reducing the assay
+temperature fram 379C to 25°C dacreased the relative amount of the short products ca. 15%.
+When primars were synthesized using poly(dC) as template, virtually no short products wera
+synthesized. Since G:C base-pairs are more stable than T-A base-pairs, this is consistent
+with primer:template instability being a major cause of the short products.
+
+Processivity is defined by a competition between addition of the next NTP onto the
+growing primer and cissociation of the primer from the enzyme, With greater than 75 uM
+ATP, primer dissociation competas with a catalytic process that does not involve ATP
+binding. At lower ATP concentrations, primer dissociation also competes with ATP binding.
+
+Of the various length primers synthesized by primase on poiy(dT), pol « could only
+utilize these al least 7 nucleotides long. This was true regardless of temperature (26 ar 370C)
+or dATP concentration {2-50 uM). Work by several groups found that in vive primers are also
+8-10 nucleotides long. These results have important implications for studying inhibition in
+vitro. Since pol ot will only utilize primers at least 7 nucleotides long and the role of primase is
+to synthesize primers that pol a can further elongate, only products at least 7 nucleotides
+long should be considered when measuring primase inhibition,
+
+AtaATP inhibition of Primass.
+
+We examined araATP inhibition of primase using a poly(dT) template. AraATP-
+inhibited primase competitively with respect to ATP, and Ki=2.3 uM. Inclusion of araATP in
+primase assays had 3 ettecis on the primers: |) The relative amount af short primers
+increased; ii} New products 11-13 nucleotides long appeared, and; ii) Primers of altered
+mobility appeared, Tha new products 11-13 nucleotides long were due to pal a polymerizing
+multiple ar@AMPs onto the primers. Inhibiting pol a using aphidicalin prevented the
+synthesis of these products. Importantly, inhibiting pol o did not prevent the synthesis of
+primers 2-10 nucleotides long of altered mobility. Thus, primase incorporated araATP into
+primers. Whila we do not yet know the precise location of the araAMP in the primers, itis not
+incorporated at the S'-terminus. Only the 5'-terminal nucleotide retains ihe y-phosphate of
+the NTP. We synthesized [y-8@PjaraATP and tound that less than 0.5% of the araAMP
+containing primers contained (22P]. Experiments ara in progress to delarmine if araAMP is
+incorporated solely at the primer 3'-terminus.
+
+50717372

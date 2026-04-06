@@ -1,0 +1,52 @@
+~
+
+CHARGE NUMBER: = 1756 DATE: October 7, 1987
+
+PROGRAM TITLE: | The Separation and Identification of Tobacco and Smoke Components
+
+PROGRAM LEADER: DC, Watson
+PERIOD COVERED: August 25 - September 30, 1981
+
+1,
+
+I.
+
+FLAVOR ANALYSES
+
+AL
+
+The program to study the analytical/sensory relationships of flavor
+components and formulations (established with SEF and Flavor Development,
+Personnel) {s progressing satisfactorily.
+
+The (momtnal} £20% variation in formutation 1s quite obyious analytically
+and the samples are being run while the sensory evaluations are baing
+made,
+
+‘The information gained will be applied in establishing the QA specifications
+for the new Flavor Center.
+
+‘The Perkin Elmer Model 26 gas chromatograph and Model 15 data system
+ordered by QA have been received. A training session in their operations
+will be attended (October 5-9}. All applicable Flavor Center analytical
+methods will be transferred to, and/or developed on, these instruments,
+
+CHENOMETRICS
+
+A
+
+Discriminant analysis techniques are being applied to samples of a series
+of purposely altered cooked flavors. Similarities and differences of the
+discriminant scores of selected gc profite peaks are used in correlation
+with sensory "seceptonte/unacceptable” deta, These deta, along with other
+analytical evaluations, will be used in setting specifications for presiuct:
+Tots of cooked flavors.
+
+The nitrogen selective detector response on the Varian gc was optimized.
+A two factor simplex optimization was applied to set air and hydrogen
+Flows while the alkali source temperature was held constant. Detector
+sensitivity and selectivity were measured. A 2-level 2-factor factorial
+design was centered on the optimum region to explore how the factors
+effect these responses.
+
+ELPgeggosz~

@@ -1,0 +1,63 @@
+¥Ci cen
+‘
+INTEROFFICE MEMORANDUM -
+Subjects “Tobacco Blending Technology — Date: Decenber 3, 1986
+Fourth Quarterly Report, 1986
+Tor M. E. Stowe Fran J. P. Dickerson
+
+Objectir
+
+To identify elements of cigarette design and manufacture which
+are major contributors to product variability.
+
+lend /Tobacco Rod
+
+‘var Variation Studies: The effects on ‘tar’ variability of the
+factors "tolal casing load" and G13 percent of blend" have been
+examined by an RSM design study. Blends and cigarette products were
+prepared with G13 percentages Tanging from 0-50 and total casing
+load ranging from 0-258 by weight of total blend. Analytical ‘tar’
+values and puff-by-puff smoke analyses were chtained. Results
+indicate that for a WINSTON-type product, a 1 mg increase in ‘tar’
+yield would result from an 8€ by weight increase in casing load. A
+7% increase in percent G13 would result in a 1 mg decrease in ‘tar
+yield.
+
+Results from G13 'tar' variation study presented to RED Management
+on Novernber 6, 1986. At comparable cigarette rod drafts variation in
+the percentage G13 is not a significant causa) factor in ‘tar’
+variation; thus, 'tar' variation was found to be strongly correlated
+with tobacco weight and weakly correlated to G13 content, and bum
+rate.
+
+NIRS Blend Studies: Manufacturing test design neoded for evaluation
+of NIRS blend identification technology established. First of a four
+part sanpling test conducted at ‘Tobaccoville Primary Processing on
+
+Novexber 7, 1986. Part two sarples collected at FES bulker
+
+discharge and after the cutter. Labor intensive process of hand
+
+picking strip sarples to begin next week and should be complete
+
+early January, 1987. NIRS processing/data probably will be complete
+
+late January, 1967. This initial test will determine future efforts.
+
+Blend data derived from SALEM KS FBS and cutter discharges will be
+
+evaluated as it ney pertain to SALEM ‘tar’ problem.
+
+G13 Factors: Recommendation made that current G13 factors used at
+QA and the R&D Plant be replaced with a single correction factor of
+3.04; suggested date for implementation weck of Decenber 29, 1986.
+‘target flotation nurbers and specifications for 54 blends and
+associoted cigarettes will need to be revised.
+
+‘Tobacco Out Width Study: RSM analysis of data froma cut width
+study of WINSTON KS blends in which Part THD and G13-23 were tested
+at 20, 30, and 40 cpi indicated that at constant draft cut width is
+not an operable variable with respect to “tar", nicotine, bum rate,
+or ©,
+
+4~99 SP90S

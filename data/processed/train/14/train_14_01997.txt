@@ -1,0 +1,56 @@
+eee eee
+
+en a ed
+
+PROJECT NUMBER: 1752
+
+PROJECT TITLE: Opt Leal Spectroscopy of Tobaceo and Smoke
+PROJECT LEADER: R.A. Fenner
+
+PROJECT COVERED: July, 1986
+
+I. Multicomponent Smoke Analysis
+
+Changes have been made in the hardware associated with che research
+oriented FI-IR procedure. The swoking machine has been disassembled so chat
+Modification can be made to the syringe to reduce dead volume and to permit
+flushing between puffs. ' A new fixed pathlength cell has been obtained on
+loan from Infrared Analysis (Ossining, NY). This cell has a longer
+pathlength “(6 meter vs 4.5 meter) than the previous cell and has larger
+optical elements. Both features have resulted in enhanced sensicivity.
+Reference spectra have been acquired on a number of molecules reported
+in cigarette smoke. These spectra are being used to help identify the Large
+mumber of limes observed in the high resolution (0.24cm-') spectrum of
+cigarette smoke and to aid in selecting preferred spectral regions for
+quantitation. :
+5
+
+TI. Addition of Lactic Acid to Burley Tobace
+
+A comparative analysis of the acid, base and neutral TPN fractions from
+burley cigarettes vith and without added lactic acid has been completed by
+Dr. F. Hsu. The results showed no significant differences in these
+fractions between the test and control cigarettes. An evaluation of the gas
+phase smoke is being considered to further investigate the reported
+smoothing effect of the lactic acid on burley sucke.
+
+III. Simultaneous Determination of Gaseous Ammonia 5
+Mainst: d_ Si dest: s
+
+The SS/MS gaseous ammonia analyses of the 15 single blend component
+cigarettes from the North Complex Panel have been coupleted. ‘These data are
+now being evaluated and compared vith soluble ammonia and total ammonia (ion
+chromatographic procedure) data. A special internal report will be issued
+Tegarding the results.
+
+A study was conducted on the influence of heating the inlet systens
+used in the SS/M5 gaseous ammonia analysis. While heating vas observed to
+have very little effect on sidestream delivery, the per puff mainstream
+delivery increased by an order of magnitude as the inlet temperature was
+increasad from anbient to -120°C Ie is thought that the heating 1s shifting
+the NHy/,,/MH,+(1) equilibrium. In the sidestream measurement, the smoke is
+moved “ftough the Inlet system at much greater velocity and the residence
+time would not be sufficient for the temperature effect.  Furcher
+investigation is planned.
+
+2660C80002

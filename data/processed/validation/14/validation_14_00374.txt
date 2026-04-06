@@ -1,0 +1,55 @@
+BOReH1997 141 volta Techaite 7 Scmutung Mo 40 SOMOS S870
+
+APPENDIX Gt
+Ale Change Efectiveness [Informative]
+
+‘The pimpose of this appendix is to describe the role of aix change effectiveness 2s it telates to
+the determination of design venvilation retes in this standard. A general discussion of
+Yeotlation effestiveness Is presented, followed by a discussion of how air change
+sffestivencss, 2s defined and measured using ASHRAE Standard 125. is used in Seetion 6,
+The teren “veatlation effectiveness” has been used over the years 10 describe s namber of
+different aspeces of building ventilation and air distribution ynem performance. Several
+Gefinitions and measureraem approacits have. been developed in the name of ventilation
+Bfectiveness, some of which characterize very ditferem aspects of perfarmunce.
+
+The most general approach 19 ventilation effectiveaets is a characterization of the ability of
+(he ventilation system ts accomplish its design gouts in the areus of thermal comfeet, ourdoct
+tir delivery and contaminant removal (Parsily 1992). Mechanical ventilation systems axe
+designed and operated to full! several functions: the minteaence of thermally ecceptable
+conditions within the oesupied space, the delivery of oudoor alr w the occupants, and the
+removal of fnemnally-generated contaminants. Ventilation effectiveness can be defined in
+sereral tens as the ability of a ventibeian system to achieve these threc goals. The ability of
+42 ventilation systena ta achieve these goals depends oa several factors inchiding supply
+airflow mefes, owdoor airflow sates, the psychrometic properties of the supply air, the
+distribution of the supply air throughout the building, and ihe mixing of the supply air within,
+‘the occupied space, In most discussions of ventilation effectiveness, it it only the last aspect
+Of system performance that is addressed. Supply ais mixing in the space is the aspect of
+ventilation effectiveness that is characteriaed by the air change effectiveness discussed below,
+Toe veatllation system efficiency E,, discussed in Section 6 nd Appendix G.2, accounts for
+all factors affecting the ability of te ventilation system to deliver ourdoge air to the occupied
+Space issues, including mixing in the spice. To achieve good ventilation effectiveness in
+‘More general terms, the system must be properly designed, installed, operated mn maintained
+‘on all ofits vasious “scales”, ranging ftom the air handler 1o the air distribution duerwork to
+the ventilned space. Theve are specific design goals and performace requirements which
+rust be achieved at cech scale in the system, and ventilation effectiveness can be thought of
+43 the success of the system in attaining the dasited perfarmance at each seele (Persily 1992).
+‘The ability of 2 ventilation system to meets its vatious design objectives throughout the
+boilding depends on the design, issallation, operstion and ataintenance of all of the system
+Somponents. Section 5 of this standard presents guidance on ventilation system design much,
+that the system performs as intended, Sections 7 covers system installation, and Section &
+covers opereiion and miatenance tases.
+
+Several other definitions of ventilation effectiveness, including air change effectiveness os
+defined in Standard 129, focus ou the issue of ventilation vir mixing svthin a room. Theit
+development has been based on concems that a significam portion of the veetilailon ait
+delivered to » rocen dypasses the occupied portion of the room due to short-cireaiting of the
+ssopply air to the return or exhaust vents. While it is difficult to measure ventilation
+efftetivenees that quantify space mtixing in the field the litited experimental work done to
+dato bas not revealed the existeace of shott-citcciting problems, particularly in offe space
+with induction supply diffusers in the ceiling and ceiling remums vader cooling conditions
+(Fisk et al, 1993, Persily e€ al, 1991 and! 1994). Some evidence of shon-circuiting has been,
+sea under some Heating situations (Offerman tad Tot-Fiout 1989). Air change efftctiveness
+can be used to account for short-circaiting if it does eecur and for the benefits of ventilation
+systems that detiver veatilation air directly to the cecupied spare with title mixing.
+
+os0szers02

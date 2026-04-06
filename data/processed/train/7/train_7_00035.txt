@@ -1,0 +1,50 @@
+tee @2 /93°13:41 DEPT ANESTHESIA
+
+~ STANFORD UNIVERSITY MEDICAL CENTER
+Oe. Department of Auettbesie
+& 300 Pasteur Drive
+Stanford, CA 94305-5115
+Jaap W. Mandema, PhD. phone: 415-723-917)
+
+415-725-8082
+jeep@leland stantord.edu
+
+Assistant Professor
+
+J, Donald deBethizy, Ph.D.
+Director Biological Research
+Research and Development
+
+RJ, Reynolds Tobacco Company
+‘Winston-Salem, NC 27102
+
+December 1, 1993
+Dost Dr. deBethizy,
+Te was a plessure to visit the RJ. Reynolds Tobscco Company last November and diss some of the
+
+Principles of EK-PD modeling with your colleagues Drs. Chang, Pritchard, Robinson, and Yang,
+Unfortunately, we ware not able to meet,
+
+Based upon tho discussions T had with your colleagues on November 12, 1 wrote ¢ proposal for the
+development of s PK-PD model for nicotine smoking using the data obtained in the “alcoting fesponsa
+stidy” performed at your company and to tain one of your calleagues (Dr, Jamie Yang) in the
+principles of PK.PD modzting and ase of appropriate software. The software package T am proposing
+to use is NONMEM, This is e highly flexible, stato of the art nonlinear regression program, The
+program is specifically designed fos so calfed “poputetion analysis", however, individual fits can also
+be obtained. The flexibility of the program has its price: ic Is wot easy to use and requires a decent
+modeling experiance,
+
+The proposal focusses ox the developmet of a PK-PD model specifically for the “oicotine response
+study* data set. However, 1 will be happy to assist with othor PKPD related issues (study-design,
+analysis) that may surface during the next year
+
+Tlock forward to your comments and suggestions on this proposel. If there is additional information
+that I oan provide, please contact me.
+
+Sincerely,
+Ste —
+Jaap W. Mandema
+
+ce Dr. Kuo-Mei Chang
+
+eees Bests

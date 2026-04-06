@@ -1,0 +1,32 @@
+COPY = Saux
+
+Protocol 27.2 {Chromosome Aberrations in Chinese Hamster
+Ovary Cells}
+
+Protocol 27 was superceded by Protocol 27.1, effective December,
+1983. The revised protocol (27.1) details technical improvements
+and defines procedures and terminology more clearly. Detailed
+explanations were provided of cell culture conditions; tests for
+mycoplasma contamination and karyotype stability; usage levels of
+negative, positive, and solvent controls, and the 89 mixture;
+solubility and dose determinations; and cell staining and scoring
+techniques. The uppec dosage level of a material to be tested
+was defined to ba the maximum tolerated dose, the highest dose at
+which suitable nunbers of mitotic cells are obtainable. Modi~
+fications were outlined for materials which are volatile or alter
+pi. The major revision was the addition of a Sister Chromatid
+Exchange screening assay to determine cell cycle delay. CHO
+selis are exposed to various dose levels of the test compound,
+with and without 59, in the presence of 5~bromedeoxyuridine?
+microscopic examination of fluorescence-plus-Giemsa stained cells
+after 26 hours will show if the cell cycle has been slowed down,
+ensuring that in subsequent tests the CHO cells will be exposed
+for an adequate amount of time, Protocol 27.1 was superceded by
+Protocol 27.2 on March 22, 1984, ‘The revised protocel omitted
+the section describing modifications for volatile compounds.
+Pisher‘s Exact Test is now employed for statistical analysis,
+rather than the Student's t-test,
+
+/tb:6
+
+POTTARTS

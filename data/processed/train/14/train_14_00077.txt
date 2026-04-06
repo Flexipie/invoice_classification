@@ -1,0 +1,45 @@
+. Quantitation Repoxt (Not Reviewed)
+
+Data File : G:\5973\GASPHA~1\PT0698~1\9606-BAL-D Vial: 1
+
+Req On 16 Jun 1998 13:27 Operator: thomas
+sample Beta control 1st puff Inet GC/MS Ins
+Mise : Beta control for test 8G studies Multiplr: 1-00
+
+Sample Amount: 0.00
+MS Integration Params: sitoke.e
+Quant Time: Jun 25 14:24 1998 Quant Results Pile: BT0698-5.RES
+
+Quant Method :
+Title
+
+D:\HPCHEM\1\METHODS\BT0698-5.M (Chemstation Integrator}
+1R4F , 4th puff xeference standards
+
+Last Update : Thu Jun 25 13:55:29 1998 ow
+Response via : Initial Calibration veut
+DataAcg Meth ; BT0698-3 Wp oe
+
+Internal standarda R.T. Qlon Response Coie Units Dev (Min)
+
+System Monitoring Compounds
+
+Target Compounds Qvalue
+1) propene 3.08 41 1a2869 2.83 % 1nd 90
+2) Chloromethane 3.17 80462337 11.3¢ & 1R4 97
+3) Acetaldenyde 3.26 44 1326227 18.09 8 4R4 97
+8) methyl mercaptan 3.42 47 151814 11.21 8 1R4 99
+11) acrolein 3.89 56 157640 14.99 & IAB FS
+12) acetone 3193 43677087 6.36 8 IR4H 77
+13) Tsoprene 4.11 67 1214618 11.63 & 1R4 99
+16) 2,5-dihydrofuran 3.98 68 92443 a.24 & IRB 9
+18} Cyclopentadiene 4.54 66 102401 §.53 8 IRR | 19
+23) Methyl Vinyl Ketone 5.55 SS 7781S 13.14 $ 1R4A 25,
+24) Diacetyl 5163 43 887782 «13.65 $ 1R4 37
+25) Methyl Ethyl Ketone 5.78 43 170943 5.07 % 1RAH 38
+37) nicotine — Xamote 27.65 84 3967033 25.71 arb 100
+
+(#) = qualifier out of range (m) = manyal integration
+9806-BA1.D ETO698-5.M Thu Jun 25 14:25:00 1998
+
+€ezoverzoz

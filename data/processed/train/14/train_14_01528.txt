@@ -1,0 +1,66 @@
+0480! 2 How neurons regulate the metabolic stability
+and organization of their nicotinic acetylcholine receptors .
+{nachR) is not known, Nouronal nAChRs exhibit changes in their oe
+Surface distribution throughout developnent and aging. For
+
+example, in mammals chronically exposed to nicotine, the somber
+
+bf nAChRs in the CNS increases. However, in neurodeganerative
+
+diseases such as senile denentia of the Alzheiner’s type and
+Parkinson's disease, nAChRs are selectively lost. Molecular
+
+biologists have presented us with the possibility that a
+
+staggering mmber of nAChRs may exist in the mammalian brain, and
+
+formal and diseased state. The proposed experiments will use
+cultured cells transfected with neuronal nAChRs to examine the
+relationship between the structure of the divergent cytoplasmic
+domain of nauronal nachRe and receptor subunit aasembly and
+susceptibility to selective intracellular protein degradation.
+
+Background: Anatomical, pharmacological, and physiological
+Studies collectively implicate a role for nAChRs in memory and
+their selective loss fron the regions of the brain that
+Gegenerate in Alzheiner’s or Parkingon’s disease 1s now well
+documented. Wa have recently shown that (HJnicotine binds to
+only neuronal nAChRs composed of a4 and 82 subunite and not those
+PF other subunit composition (abstract Attached). Further, we
+have just completed a study of the regulation by NGP of nachRe in
+P12 cells (Abstract Attached), Our results support a model
+where NGF affects nAChR expression through a post-translational e
+nechaniem (s). If these results can be extrapolated to the
+intact animal, RNA measurements will not be sufficient to
+elaborate on the type(s) or the number of expressed receptors.
+
+Although nAChR subunits share substantia) overall sequence
+identity, there is little sinilarity between their cytoplasmic
+domains. However, a regulatory role for this diversity has been
+suggested by the observation that the stabilization of miscle
+NACHRs at tha neuromuscular junction corresponds with an
+association between the cytoplasmic domain and cytoarchitecture,
+Since one of the most rapid ways to regulate receptor function to
+rapidly degrade them, and this relatively unexplored process
+could play an important role in regulating receptors. In
+neuronal nAChRs, this regulatory process is implicated by the
+presence of PEST sequences (Roger at al., Science 234:364, 1986)
+in the cytoplasmic domain that correlate with rapid,
+nonlysosonal, degradation in other proteins that contain then.
+
+STATUS: To measure neuronal nicotinic acetylcholine receptor
+
+(mAChR) subunits, subunit-specific antisera were made to portions
+
+of the cytoplasmic domain which were prepared as trpE fuston
+
+Proteins in bacteria. Although nAChRs are probably degraded to
+completion in lysosones, the susceptinitity to initiating
+
+proteolytic events may be related to the presence and exposure of
+
+PEST sequences in the cytoplasm. This idea was tasted by
+
+neasuring the degradation of a282 nAchRs in transfected fat 2 e@
+gelle. Receptor degradation proceeded rapidly (Tal0 hrs), .
+independently of lysosomal proteolysis, and siniler to other

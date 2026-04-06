@@ -1,0 +1,121 @@
+Indoor Air Quality Commissioning
+
+of a New Office Building
+
+W. Stuart Dols, Andraw K. Persily, Steven J. Nabinger
+
+‘Note: Faliowing isthe executive summary ofthe report
+“Indoor Air Quality Commissioing of New Ofice Build-
+ing.” The entice repon is reprinued atthe end af this docu-
+ment
+
+Introduction
+
+Building commissioning generally refers tosheprovess
+cof verifying that building mochanieal systems are operating
+a designed, However, commissioning dots not slways
+‘include the verification of an “zccepiable” indoor environ:
+‘ment forthe building occupants, including factors related
+ta indoor ar qusity QAQ). In light of srowing concern
+abo indoor sir quality, IAQ commissioningcouldbecome
+‘an important part of bulding commissioning programs. A
+seell-detied and propesy-implemented TAQ commission-
+ing program could help provide a healthy and comfortable
+environment forthe building occupants and help reduce
+cher problems related to building operaion. However,
+thro are eunently no standard TAQ. commissioning
+protocols,
+
+Tiarder to identify and undetstand the isues involved
+{n implementing such a program, an TAQ commissioning
+program was developed and applied tothe new NRC office
+building in Rockville, Maryland, This conmissioning ro-
+gam is not presented as a candidate for a standardized
+protocol for {AQ commissioning, Instead, it was imended
+{9 provide expesience and nsight thax will assist in the
+evelopment of fuure TAQ commissioning protocols. The
+program described in hisreportennsited of ime aks: (I)
+evaluate the mechanical ventatin system design fom an
+TAQ pesspectve; (2) develop asetofenviconmentl pecfor
+mance paramevers and assocated reference values thal will
+be used to evalust [AQ in the building, an (3) measure
+dese environmental parameters inthe building and com-
+‘pars them with the rofeence values developed in Task 2
+
+Task 1: Design Evaluation
+
+‘The purpose of Task 1 was to compare those features
+ofthe building design that pertain 0 LAQ to relevant build-
+ing codas and IAQ guidelines. These comparisons were
+made for outdoor airinake rates and pressure rclationships
+betwoen building zones The design outdoor air intake tes
+‘ofthe mochanical ventilation system were compared voboth
+ate ROCA Mechanical Code, upon which the venation
+system design was based, and American Society of Heating,
+Refrigerating and Ait Conditioning Engineers (ASHRAB)
+‘Standard 62-1989 (Table 2on page 12). Tho design ouldoor
+Airflow rates confarin with the BOCA Code and in some
+cases exceed the BOCA requizements. The design outdocr
+airintake rates ar slightly below the ASHRAE recommen
+
+dations ia several zones and well ahove ASHRAE reeom-
+‘mendations in other 2ones. However, te system is capable
+of providing outdoor airflow rates what would comply with
+ASHRAE Standard 62-1989 toall zones of the building,
+
+Task 2: Indoor Environmental Parameters
+
+‘Task 2 consisted of the developmen of a set of
+parameters fo characterize the indoor envisonetent i the
+building, The values measured in shi building were com-
+pared toa set uf reference values. [deally, these parameters
+and the associated xeference values would be based on
+existing standards, However, in most cases therearenoTAQ
+standards for office buildings, Werofore, the reference
+values (Table 5 on page 20) were based on other guidelines
+‘andthe resus of previous 1AQ research effons (Table 4.on
+page 16). The referonce values do not svictly define an
+acceptable indoor environment, but are meant io providean
+indication of tho acceptability of te environment based on
+‘he limited informatioa that i avilable, and to identify the
+otenéal for situations of concern in the building, Three
+categaries of indoor eavimamental parameters were
+‘measured inthe building: venuilation, pollutants, and thsr-
+‘mal comfort, The following isa list ofthese parameters.
+
+1, Yeailadon Performance - Outdoor airflow rate and
+rossure relationship beawseen zones.
+
+2, Pollutants - Carbon dioxide, carbon monoxide, for-
+takiehyde, particulates, radon, volatile organic com-
+pounds.
+
+3. Thermal Comfort « Temperature, celadve humidity,
+‘operadive temperature.
+
+Task 3: Indoor Environmental Monitoring
+
+TAQ monitoring was performed in Wee phases of
+‘building construction: {1) Interior build-out comple; (2)
+System fuminue insalled; and (3) Approximately one
+‘month after occupancy, Tre results of these measurements
+are summarized here.
+
+Outdoor Alrtiow rate
+
+‘During occupancy (Phase 3), te outdoor airintake rae
+er person delivered to each of the eleven zones was at or
+above ASHRAE 62-1989 recommendations with the ex:
+‘eplion af the sixth floor and the auditoriam (Table 8 on
+page 29). The outdoor airflow rate the sixth Moor waslow
+‘because an outdoor air intake damper serving his floor was
+broken during Phase 3. An outdoor air damper serving one
+of the fifth floor mechanical rooms was also broken, caus+
+
+‘Way 10-12, Chicape, Minos
+
+3
+
+DOG
+
+GEETLO

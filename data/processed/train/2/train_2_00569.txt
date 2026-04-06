@@ -1,0 +1,46 @@
+PROCEDURE NOTE
+
+Procedure Note No. 96-08 Date: 50/36
+
+Temporary _X Effective Date, Termination Date _____
+
+Permanent
+
+‘Type: Product __Process Packaging Flavor
+Tobacco” = Material ___ Specification _X_
+
+SUBJECT: Establish @ Specification For Upper Reject Limit On % Stem Content
+For G14
+
+OBJECTIVE: To review and update specificalions on % Stem Content for G14 at
+RES Tobacoo.
+
+BACKGROUND: Referencing Procedure Note 93-21, an upper reject limit for
+Objectionable stem content of 6.0% was proposed. The 6.0% was based on historical
+Rotap Test Method data al Shed 119. change occurred in the standard test method
+from the Rotep Method to the Cardwell Test Method. Therefore an investigation/review
+of Historical (over time) CA capabilties data (CP & CPK data) has been completed and
+utilized as a basis for developing % Stem Content upper reject limits,
+
+PRODUCT IMPACT: Since no process change is being implemented, there should not
+be any negative impact and should provide a higher quality produc! because of the
+more sensitive test method,
+
+PRODUCT DISPOSITION: Disposition or re-work procedures for CRES product
+exceeding these limits are that the material will be rerun by introducing it before the
+tower separator to drop out additional material to meet the specification. Material may
+also be diluted with low stem materiat to meet specification.
+
+RISK ASSESSMENT: We do not see any risk associated with the proposal at this
+time, in fact, the more sensitive setup of the Cardwell Test Method will provide a more
+consistent product.
+
+RE ‘TION: It is recommended that this specification be accepted by the
+PAG Committee, This procedure note will be reviewed in light of on-going process
+capability studies upon the completion of a 90 day review period.
+
+1265 Ze085
+
+RJR0000000537013366.
+FODBD.2549
+va

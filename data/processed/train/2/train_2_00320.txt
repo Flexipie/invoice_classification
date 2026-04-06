@@ -1,0 +1,74 @@
+AG = yang XS.
+
+TL = Observers for a class of chaotac systems [Chinese]
+
+SO - Acta Physica Sinica 2000 dct;49(10):1929-1921
+
+AB - In this paper the design of observers of a class of chactic systens
+is discussed. By means of scalar nonlinear signal one can construct
+& contrel law to implement the synchronization between the
+investigated chaotic system and its observer. (References: 10)
+
+IN = Yang ¥S
+Chongqing Univ Post & Telecomm, Inst Nonlinear Syst
+Chongging 400965
+Peoples R China
+Chongqing Univ Post & Telecoms, Inst Nonlinear Syst
+Caongging 400065
+Peoples R China
+
+2
+
+AU - # HG
+
+AU - Ga TX
+
+TL - Nonlinear feedback following control of chaotic systems (Chinese)
+
+SO - Acta Physica Sinica 2000 oct; 49(10):1922-1925,
+
+AB - A now nonlinear feedback Following controlling method of chaotic
+systens is presented to stabilize chaotic systens and follow a
+deterministic motion, Theory and experiments show this controlling
+method is strongly robust. [References: 11]
+
+IN ~ Wa WG
+Daiv Elect Sci & Technol China, Dept Automat
+Chengdu 610054
+Peoples R China
+Univ Elect Sci & Technol China, Dept Automat
+Chengdu 610054
+Peoples R China
+Panzhihua Univ, Dept Elect
+Panzhihua 617000
+Peoples R China
+
+3
+
+AU Koltchingkii vr
+
+TL ~ Enpaticel geonetry of multivariate data: A deconvolution approach
+
+80 ~ Annals of Statistics 2000 apr;28{2) 591-625
+
+AB Let {¥ (3): 3 = 1y..-) m) be independent observations 1n R-m m
+greater than or equal to 1 with common distribution Q. Suppose that
+FO =k) txt Gi Fs Leeeeem, where (X GD. xi Ge =
+Ly.s.en) are independent, X (3), j= 1y.-.. n have connon
+distribution P and xi (i). 5 = 1,--.,n have common distribution mi,
+30 that Q= P * mu. The problem is to recover hadden geometric
+structure of the support of P based an the independent observations
+¥ (j). Assuming that the distribution of the errors mu is known,
+deconvolution statistical estimates of the fractal dimension and the
+hierarchical cluster tree of the support that converge with
+exponential rates axe suggested. Moreover, the exponential rates of
+convergence hold for adaptive versions of the estinates even in the
+case of nocmal noise xi (j) with unknown covariance. In the cage of
+the dimension estimation, though, the exponential rate holds only
+
+RJR0000001507031994
+
+70036 3756
+
+egez Leezs
+

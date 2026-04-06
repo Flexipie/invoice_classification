@@ -1,0 +1,31 @@
+> MINOO/3-DERIVED GEOMETRIES AND ENERGIES OF ALKYLPYRIDINES
+AND THE RELATED W-METHYLPYRIOINIOM CATIONS?
+
+deffrey I. Seeman*
+Phitip Morris U.S-A. Research Center
+P.O. Box 26583
+Richmond, VA 23225
+
+John C. Schug* and Jimmy W. Viers*
+Department of Chemistry
+Virginia Polytechnic Institute & State University
+Blacksburg, VA 24061
+
+ABSTRACT
+
+The structures of twenty-five alkyi substituted pyridines and their cor=
+responding Nenethylpyridiniun cations were calculated using semi-empirical all-
+valence electron (MINOO/3) self-consistent-field procedures. The effects of sub-
+stituents on the ring systems were exawined with particular attention focused on
+the changes on the aromatic ring bond angles. The energy of methylation for these
+twenty-five pyridines was calculated by subtracting the total energy of each
+pyridine free base from the total energy of the carresponding N-metnylpyridiniun
+cation. An excellent correlation was obtained between this calculated energy of
+methylation and Srown's experimental heats of trifluoroboronations for the same
+pyridines; implications of this correlation are discussed. Non-additive struc-
+
+tural and energetic effects are calculated and evaluated.
+
+4390S€8To0t
+
+ole

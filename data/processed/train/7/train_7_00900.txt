@@ -1,0 +1,55 @@
+ROR INTEROFFICE MEMORANDUM
+
+TO: A.B. NORMAN
+
+FROM: B.W. ARZONICO
+
+SUBJECT: QUARTERLY REPORT: FIRST QUARTER 1990
+DATE: APRIL 2, 1990
+OBJECTIVES:
+
+I. Determine a method of analysis for carbon sheet content in
+tobacco blends (and possibly 67-12).
+
+Background:
+
+Carbon contained at various levels in a tobacco matrix is
+known to aid the burning of low porosity cigarette papers. This
+carbon is included in the blend at various levels and in various
+sheet formulations. The blends are prepared on a dry weight basis,
+but due to the nature of the carbon sheets, the carbon/tobacco
+ratios may change during the making and tipping processes.
+Therefore, a quanitative method was necessary to deternine if and
+at what point these ratios may change.
+
+First Quarter progress:
+
+An WIR method of analysis was identified as a possible method
+for thie application. Discussions were held with Dr. Louis
+Dominguez of PT&D and the outlook was favorable. Thirteen
+calibration samples {15 g.each) were prepared using a 30/60/10
+carbon sheet from 1989. The sheet was included in a standard
+tobacco blend (CL 85) at 5% intervals ranging from 0% to 60%.
+
+The resulting instrument curve seened very promising, however, PT&D
+has requested 50 additional calibration samples using the entire
+range of possible sheet types, and 20 unknown sanples as a check.
+More discussions ensued, as the Product Design Division concluded
+that the established curve was sufficient. As a result, PT&D has
+offered assistance in the sample preparation.
+
+Next Steps:
+
+Different sheet types will be identified and the requested 50
+calibration samples in the range of 0% to 65% sheat inclusion will
+be supplied with the assistance of PT<D personnel. Using the
+identified carbon sheets, 20 unknown "check" samples will be
+prepared. PT&0 feels confident that this will esteblish a
+satisfactory curve on the 0% to 60% sheet inclusion range.
+
+When & satisfactory curve is established, the apparatus for
+this analysis will be transferred to the Product Design Division in
+a form that will be easily used. That is, with the internal
+calibration and mathematical calculations on a software progran
+
+6EET TETES

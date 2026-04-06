@@ -1,0 +1,60 @@
+qrep i 88
+
+DIVISION + RESEARCH
+SUBJECT TITLE : BYDRA
+
+PERIOD COVERED : APRIL-JUNE 1988
+
+WRITTEN BY 2 Piadé-J.-J. (JJP), Gerber-c. (CAG)
+KEYWORDS : ets, nicotine, rsp, TSNA, NNK, solanesol
+
+Obtain an analytical data-hase on ETS through indoor air
+monitoring experiments.
+
+STATUS
+
+Equipment and methods
+~ Collaborative studies.
+
+In order to check the accuracy and the precision of our
+methodology for nicotine analysis, XAD tubes spiked with known
+amounts of nicotine were obtained from Dr M. Ogden (RUR) and
+analysed blind. Additional tubes were spiked in-house and were
+subjected to the same analytical procedure.
+
+It was found that the difference between the results of the
+analysis of duplicates was always less than 4% in the range of @
+to 2-1 ug/tube.
+
+‘The recovery Of nicotine from tubes that had been spiked in-house
+was 958, The results were, however, systematically 10% too low
+for the RJR samples. After discussion with Dr. Ogden, it was
+apparent that the error could be traced to the spiking procedure,
+as similar discrepancies had been observed both at RJR and other
+external laboratories for several sets of tubes.
+
+Another collaborative study was organised with TNO, an external
+laboratory sub-contracted by S&T to do field analyses of BTS
+components. This time, the purpose was to check their metho@s and
+the study covered the analysis of respirable suspended particles
+(RSP), carbon monoxide and nicotine in indoor environments.
+Spiked XAD tubes were exchanged between laboratories for blind
+analysis. In addition, a series of 3 joint experiments for BTS
+monitoring were organised in an office at R&D Neuchatel: sampling
+was done at the same time, using both PME and ‘No methods.
+
+A report was written (1) and recommendations were made suggesting
+modifications in TNO analysis of RSP.
+
+- Solanesol analysis.
+
+Further efforts are being made to improve the analytical
+procedure. The points under investigation are:
+
++ choice of extracting and derivatisation solvents
+
++ lower the final GC temperature
+
+: possibly change the internal standard.
+
+obsettiosz

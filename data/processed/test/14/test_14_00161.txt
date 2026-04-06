@@ -1,0 +1,56 @@
+oe eee eae ae esses ee
+
+CHARGE NUMBER: 1620
+
+PROGRAM TITLE: ELECTROPHYSTOLOGICAL STUDIES
+PERIOD COVERED: AUGUST 1 - 31, 1985
+
+PROJECT LEADER: F. P, GULLOTTA
+
+DATE OF REPORT: AUGUST 29, 1985
+
+WRITTEN BY: C. S. HAYES
+
+T, EVENT-RELATED POTENTIALS TO CHEMICAL STIMULI
+
+A. Instrumentation Undate
+
+The smoke delivery device has been interfaced with the new olfac-
+tometer. However, in order to use the instrument for ERP studies, a triggering
+mechanism must be installed. This will require some additional hardware and
+software mdifications being made to the device. Once these modifications have
+been completed, studies utilizing cigarette smoke as stimuli will be
+initiated.
+
+A GC has been instatled in the laboratory and 1s awaiting interfacing
+with the olfactometer. Since test commounds are delivered in a water vaoor
+moistened air stream, it will be necessary to pack a nonpolar column in the
+&C.1 Once this modification is made, Timonene, methyl salicylate and menthol
+solutions will be utilized to generate standard curves.
+
+Considerable time and effort are currently being devoted to setting
+up and "debugging" the new computer database. The database system, which
+employs a Pascal-based language catled EPA, allows event-related potential
+waveforms to be stored, retrieved, manipulated and quantified. The database as
+originally configured’ by Cadwell Laboratories was impronerly implemented,
+resulting in the erroneous storage of ERP waveforms and excessive delays in
+storage and retrieval. Therefore, in order to fulfill its obligations to PM,
+Cadwell is currently modifying their software to permit: (1) fast and accurate
+waveform storage and, {2) mre efficient (i.e., keyed) data retrieval. Addi-
+tionally, Steve Peterson of CAD is currently in the process of writing
+additional routines to aid in the manioulation and quantification of ERP wave-
+forms.
+
+II. THE EFFECTS OF CO, ON CIGARETTE SMOKE FLAVOR
+
+CO, concentrations were obtained from the new olfactometer and analyzed by
+Project” 1752.2 [t was determined that the resulting concentrations were
+
+Consistent with those previously tested. | Therefore, CO, discriminat fon
+training and testing have been resumed.
+IIL. REFERENCES 2001116343
+
+1. Warfield, A. H. Persona? communication. 1985 August 26.
+2. Hayes, C, $. Notebook No. 8150, po. 78, 93.
+
+SP llr B.

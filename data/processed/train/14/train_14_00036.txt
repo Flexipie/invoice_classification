@@ -1,0 +1,25 @@
+INBIFO Institut fur biologische Forschung GmbH - Kéin PRIORITY
+
+4 Jui a7 JOESST —_ XAREWISCIRISK_ASS. DOC Page 34
+
+0.25 T T T
+
+pOdo1s F
+ea)
+
+(x) 01>
+
+0.05 -
+
+800
+
+Figurot — Curve-Fitting between Vinyl Acetate Concentration and Incidence of Nasal
+Tumors in Male Rats
+
+Remarks: data from Bogdanfy et af. (1994a)
+x: concentration of vinyl acetate (ppm)
+Pix): probabilty of getting a response
+‘U(%); upper limit on the concentration for p(x)
+Lo: lower limit on the concentration for p(x)
+
+ZLeeOLSOSe

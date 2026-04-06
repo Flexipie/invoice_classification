@@ -1,0 +1,40 @@
+A SELECTIVITY COEFFICIENT FOR CIGARETTE FILTERS
+
+Vv. Norman
+Research Department
+Liggett and Myers Incorporated
+DoDurham, N.C. -
+
+The selectivity of cigarette filter materials for specific
+
+components of smoke has long been recognized. The references in
+“ the literature dealing with this topic are too many to enumerate
+
+at this time and thus I shall only mention some of the representative
+examples. :
+
+Ten years ago Haag, Larson and Finnegan (2) showed that
+activated carbon reduced selectively the concentration of certain
+tts gases in smoke. Later, Hoffman and Wynder (3), and
+Spears (9) demonstrated selectivity of cellulose acetate for ~
+relatively non-volatile phenolic materials. Mumpower and Kiefer (8)
+Anvestigeted factors that affect the selective filtration of nico-
+tine. Lakritz, Stedman and Strange (5) last year reported the .
+effect of smoke pH on the filtration of various smoke components.
+
+Along with investigating the phenomenon of selectivity several
+authors have proposed expressions to describe the degree of selective
+filtration.
+
+‘Two formulas that appear to be most widely quoted are those of
+Davis and George {1} and of Waltz and Hausermann (10) which were
+both first revealed at the Coresta meeting in 1964.
+
+Slide (1).
+
+STs68900
+
+We have taken a few liberties with the notation to achieve
+
+a uniform nomenclature,
+

@@ -1,0 +1,33 @@
+P 0455/1803, 208059, V33 FROG V32 F100
+
+05 minus prot.
+
+6044
+
+DNA ELUTED (%)
+
+504
+
+404
+
+304
+
+20~
+
+10-4 LY)
+
+K
+
+: plus prot. K
+
+T T
+0 0.5 1.0
+NITRATE CONC.
+
+ALKALINE ELUTION, MWS
+
+T 1
+1.8 2.0
+IN THE FILLER (%)
+
+GEEOZ06Zz02

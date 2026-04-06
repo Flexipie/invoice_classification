@@ -1,0 +1,176 @@
+’
+
+Project
+Channel
+Analysis Name
+Analyst Name
+Method Name
+Method Title
+
+3213
+9
+
+RYN
+HBCO
+
+Calibration Name ; HBCO
+Run Sequence Name: HBCO
+Acquisition Date + 21-NoV.
+DE ID of Analysis: ACHBCO
+User Parameter 1 : Name
+
+User Parameter 2
+User parameter 3
+
+Name:
+Name:
+
+Concentration [tHbco
+
+Sample Name
+
+&° Stgas 476ppm
+Tales
+08 Blut
+0.258mlut
+0:5 @Blut
+
+1 Splut
+
+5 3Blut
+
+20 a8tuL
+
+20 Splut
+
+30 aBlut
+0-GR/00206#20-NOV-96
+0-GR/00207#20-NOV-96
+0-GR/002084 20-Nov-96
+1=GR/01206820-NOV-96
+1-GR/01207420-NOv-96
+1=GR/01208420-NOv-96
+2-GR/02206#20-NOv-96
+2-GR/ 022078 20-NOV-95
+2=€ 022089 20-Nov-96
+3. *793206$20-NOV-96
+3-u.4/03207820-NOV-96
+3-GR/0320B4 20-Nov-96
+4-GR/04206#20-NOV-96
+4-GR/04207$20-NOV-96
+4-GR/04208$20-NOV-96
+Pruefgas $76ppm
+5-CR/05206920-Nov-96
+5-GR/05208820-NOV-96
+5-GR/05209420-NOV-96
+6-GR/06206820-NOV-96
+
+GH/ 062078 20-NOV-96
+6-GR/06208%20-NOV-965
+7-GR/07206#20-NOV-96
+7-GR/07207420-NOV-95
+7-GR/07208#20-NOV-96
+8-GR/08206#20-NOV-96
+B-GR/08207#20-NOV-96
+8-GR/08208420-NOv-96
+
+24 44.36
+Ve
+
+ba eon ge
+
+eco cr9caa,
+
+1996
+
+DB ID
+
+0/206
+0/207
+0/208
+1/206
+4/207
+1/208
+2/206
+2/207
+2/208
+3/206
+3/207
+3/208
+4/206
+4/207
+4/208
+
+5/206
+5/208
+5/209
+6/206
+6/207
+6/208
+7/206
+74207
+77208
+8/206
+8/207
+8/208
+
+w
+
+11-28-96 14:38 OUT
+
+HBCOZ101196_1
+
+METHANTZER
+
+08:36
+
+HEBCO
+
+11-1808
+0.0000
+011432
+013839
+0.6321,
+1.1637
+5.2370
+10.3234
+1913968
+30-4877
+0.2366
+0.2038
+0.2517
+5.9298
+5.6792
+6.0223,
+12/0656
+13.2797
+312.1229
+17.9865
+17.7917
+3714654
+24,9397
+24.6681
+23,2062
+21/3537
+
+211814
+Emery
+4.5937
+4.2917
+
+Qrifger rm
+
+70
+BEE PV
+
+Spy
+
+DRAF
+Felofax-
+
+Original
+
+Ablage
+
+Vowdenl rst amc Rud 2,
+

@@ -1,0 +1,53 @@
+MEMORANDUM
+Auguat 12, 1987
+
+To: Whit Peterson
+From: Robin Hearic
+Subject: Summary of July OCF aun
+
+Assuming that each truckload reprasented a ict of material, a
+variables sampling plan was used to determina whether a lot (truck)
+would pass or fail inspection and to determine percent nonconforming
+material present. The current specifications are:
+
+PARAMETER LOWER Lint UPPER LIMTS
+Basis Weight 160 180
+bor 2.5 3.5
+caliper 0.039 0.042
+Tensile (#D) 30 58
+Tensi1e Ratio 1.8 3.2
+
+None of the eight trucks of material shipped passed all the inspection
+criteria. All trucks failed due to three or more of the parameters
+above. The majority of the trucks vhich did not mest the specifications
+for basis veight fatied due to the average basis weight being too close
+to the lover spec Jimit. The percent out of spec for basis weight ranged
+from 0.18% to 12.9% (using the second set of data for truck #4, noted by
+ans"),
+
+Trucks failing to meet the LOI requirements nad either a low average
+or a large amount of variation present. The percent out of spec ranged
+from 0.06% to 5.33%,
+
+None of the trucks met the requirements for caliper due to the average
+of 0.042 lying at the upper specification. With a standara deviation of
+0.001 in caliper and a spec range of only 0.003 units, caliper will
+never nest the inspection criteria required by a variables sampling
+plan. This {s due not only to tight specifications but algo to the tact
+that caliper is only measured to two significant digits. Since caliper
+is not really a continuous variable (only 4 values are possible: 0.039
+0,040, 0.041, 0.042) ve may have to devise another method for sampling
+for caliper. AS information, using an attributes plan at an equivalent
+AQL would have also rejected all truckloads for caliper
+
+Almost ail of the trucks failed to mest the tensile atrength (machine
+@irection) criteria due to the average being vary close to the lover
+spec limit. In some cases the variability in tensile vas also very
+lerge. The percent ont of spec for tensile ranged from 1.29% to 27.32%
+
+£992 ELvTS
+
+For ali of the trucks, vith tha exception of #8, the tensile ratio
+average vas too low, ie., close to the lover spec limit. The percent out
+of spec ranged from 5.1% to 21.93%,
+

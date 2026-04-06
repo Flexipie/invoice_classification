@@ -1,0 +1,13 @@
+INBIFO institut fOr biologische porschung Gmbki + Kan
+
+PREFILE
+
+CONTENTS
+Project Control Sheet
+General Objective and Specificatians
+
+Rough Time Estimate
+
+Remarks; This fie is to be added to the Project management file after the GM authorization
+
+trezsesose

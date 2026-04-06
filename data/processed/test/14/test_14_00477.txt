@@ -1,0 +1,54 @@
+PROJECT DESCRIPTION
+
+TITLE: Structure-Function Studies of Tubulin:The Roles of Conserved Cysteine
+Residues and The Non-exchangeable GTP Site.
+
+INTRODUCTION
+
+Tubulin is an essential cellular protein in eukaryotes, playing a role in
+chromosome and other types of cellular movement. Progress in determining the
+structure of tubulin has been very slow, and in its absence, problems related to
+assigning function to specific regions of the protein are best studied using a
+mutagenesis approach. | have just finished a sabbatical year in the laboratory of Dr.
+Kevin Farrell at the University of California, Santa Barbara, where | learned the
+techniques and methodologies used to mutagenize yeast tubulin. For the most part,
+my studies of tubulin and microtubules have had a chemical orientation, and | now
+Pian to add this approach to my laboratory atthe University of Kaneas. wil be used 10
+study the role of nucleotides in microtubule assembly and stability and to address
+questions concerning the function of specific amino acid residues and regions of the
+protein molecule, Abbreviated background and experimental sections are presented
+below. Because of space limitations references have been omitted.
+
+OVERALL GOALS AND SPECIFIC AIMS
+
+The overall goal of this study is to identity amino acid residues in tubulin that are
+hypothesized to be involved in GTP binding and/or hydrolysis and others that may be
+involved in dimer-dimer interactions during microtubule assembly. In this proposal we
+shall concentrate on the following aims.
+1, To mutagenize residues in u-tubulin that may be involved in nucleotide
+binding.
+2. To change conserved cysteine residues to alanines.
+3. To study the effects of these mutations on the biochemical properties of yeast
+tubulin and on certain cellular microtubule-dependent processes.
+
+BACKGROUND AND SIGNIFICANCE
+GTP binding sites, GTPase activity, and microtubule stability.
+
+Microtubules (MTs) are essential elements in several cellular processes,
+including chromosome movement and intracellular transport. Cytoplasmic and mitotic
+MTs are dynamic structures, meaning that in a population of MTs, individual MTS
+efongate or shorten wie the total mass of MTs remains constar, Le. al steady state
+This behavior is thought to be a necessary property as the MTs search for their targets,
+4g. Kinetachores. It is also thought to be involved in the movement of chromosomes
+during mitosis. This dynamic nature of MTs is undoubtedly under cellular control as
+mitotic MTs grow and shorten at rates which are 20- to 100-fold higher than
+cytoplasmic MTs.
+
+The protein component of MTs is tubulin, a heterodimeric molecule with two
+guanine nucleotide binding sites, an exchangeable site (E-site) on the #i-subunit and a
+non-exchangeabie site (N-site) an the o-subunit. The N-site is always occupied by
+GTP while the E-site is occupied by GTP or GDP. During the addition of a tubulin dimer
+to the end of a growing MT, GTP al the E-site undergoes hydrolysis to GDP and Pi
+One model for dimer addition to a MT proposes thal an incoming tubulin molecule
+induces the hydrolysis of the GTP in the former terminal dimer. A consequence of this
+model is that a MT is capped at the ends by tubulin-GTP molecules.

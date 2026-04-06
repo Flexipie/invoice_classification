@@ -1,0 +1,42 @@
+tay monthly - hynakarani (8384,p143)
+
+1) Geb permeation columm examined for clean-up Batch 2
+material, An SW 3000 (7.5 mm X 60 cu) was initially examined. Peak
+separation of standards (BSA, bovine serum albumin and ovalbumin) did
+not appear to be sufficient for good clean-up. Therefore, two HPLC gel
+permeation colanns were connected in tandem (SW3000 and SW4000)
+7.5 mm X 60cm each) w the ISCO HPLC system. The $W3000 column
+‘was obtained from RL zac and the $4000 column was obtained from W.
+
+Hempfling.
+
+2) —_Analiquot of Batch 2 was fractionated using the tandem
+FPLC columns, Exantination of the fractions on SDS-PAGE showed
+Promise in clean-up of the Batch 2 sample, The 50-60 kD region was
+‘enhanced as expected.
+
+3) The active fractions were examined by Isogel agarose
+(FMC) IEF geis to assist in resolving the 50-60 KD region with these
+samples, No bands were apparent after Coomassie Blue staining of this
+
+gel
+
+4) Re-examined GPC fractionation using 3
+pooled/concentrated aliquots of Batch 2 material. Major protein banding
+appeared in the 50-60 kD region by SDS-PAGE examination {other bands
+in the 40 ED and 33 kD region). PMT-active fractions from the GPC
+column were pooled, washed and concentrated and applied to agarose IEF
+fractionation. Reduced aueober of proteins are evident in the banding
+pattern obtained for the GPC sample compared to the Batch 2 material
+after agarose IEF,
+
+5) Protein bands were obscrved in the appropriate pH region
+for PMT-activity after Cooconssie Bloe staining of the IEF'ge!. Bands
+‘were excised and subjected 10 SDS-PAGE analysis. Staining in the 60 kD
+region was observed for the samples of interest.
+
+6) _ Prepared flat-plate conventional type “native™
+polyacrylamide gel for examination of Batch 2 sample and assisted Debra
+‘Tamer in the methodology. PMT-activity was observed near stacker. The
+
+S2SSeepeor

@@ -1,0 +1,51 @@
+i
+f
+
+5
+
+PER
+
+BAYESIAN META-ANALYSIS, WITH APPLICATION TO
+STUDIES OF STS AND LUNG CANCER
+
+Richard L. Tweedie, DJ. Scott, B.J. Biggerstaff
+and KL, Mengersen
+
+Depactment of Statistics
+Colorado State University
+Font Collins, Colorado, USA
+
+Abstract
+
+Meta-mnalysis enables sesearchers to combine the results of several studies to assess the
+information they provide as a whole. It has been used to give a systematic overview of many areas in
+which data on a possible assoeistion between an exposure and an ourcome have been collected in a
+umber of studies but where the overall picture remains obscure, both as ¢0 the existence or size of the
+effect.
+
+‘This paper ourlines some innavations in meta-analysis, based on using Markov chain Monte Carlo
+(MCMC) techniques for implementing Bayesian hierarchical models, and compares these with a more
+‘wellinown random effects (RE) model. The new techniques allow different aspects of variation to be
+incorporated into descriptions of the association, and in particular enable us to berier quamify differences
+between studies
+
+We apply both the clssical and Bayesian methods (0 the current collection of studies of the
+association between incidence of lung cancer in female never-smokers and exposure to environmental
+tobacco smoke (BTS), both in the home through spousal smoking and in he workplace, We demonstrate
+that, compared with the RE model, the Bayesian methods
+
+@ allow more detailed modelling of study heterageneity 1 be incorporated;
+(©) are relatively cobust against a wide choice of specification of such information;
+
+(©) allow for more detailed and satisfactory statements to be made, not only about the overall
+risk but about the individual studies, on the basis of the combined infomation,
+
+For the workplace exposure data set, the Bayesian methods give a somewhat lower overall estimate of
+relative risk of lung cancer associated with ETS, indicating the care that needs to be taken fn using point
+‘estimates based,on any one method of analysis, “On the larger spousal dataset the methods give similar
+answers.
+
+We also consider some of the other concems with meta-analysis, such as consistency between
+different geographic areas (such as Asia and the United States), and show that Bayesian methods allow
+
+espeso620e

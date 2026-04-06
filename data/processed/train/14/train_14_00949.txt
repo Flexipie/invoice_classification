@@ -1,0 +1,49 @@
+THE REGIONAL AEROSOL TRANSPORT AND DYNAMICS
+MODEL MADE - APPLICATIONS TO EUROPE -
+LJ. Ackermann, If, [lass and B, Schell
+Ford Research Centre Aachen
+Siisterfeldstr. 200, D- $2066 Auchen. Germany
+
+‘The Aerosol Model MADE
+
+Tn order to fulfill their scientific tasks state-of-the-art air quality models have to be
+capable of predicting particulale matter in addition (o the gas-phase concentrations. A
+suitable model aerosol model bas for the application im complex regional transport
+models has (o provide sullicieat information on the chemical composition as well a3 on
+the size distribution of the particles. Furthermore it has to be integrated into a
+photochemical model in order to be able to represent the numerous interactions between
+the phases. On the other such a model has to be computationally efficient to enable it's
+use for numerous sensitivity studies. Such a model has been developed with MADE
+which is based on the Regions: Particulate Model (RPM) and has been implemented into
+the regional model system ELRAD, The model system has been applied in @ one-way
+nesting scheme from the regioral o the urban scale.
+
+Figure | shows the current model structure of the aerosol model. The size distribucion is
+approximated by three different modes spanning the size range of atmospheric particles.
+Fach mode is described by a log-normal size distribution that is specified by the number
+concentration, the surface. concentration and the mass concentration in each mode. The
+mass concentration is further sub-divided into the chemical compounds of tropospheric
+particles that are currently given by inorganic ions (sulfate. nitrate and ammonium),
+secondary organic compounds (in 4 different bingenic and anthmpagenic species each),
+water and secondary particles. The model can treat different kinds of secondary particles
+depending on the availability of appropriate emission mventovies. New particle formation
+by nucleation, growth by condensation, coagulation, sedimentation, acrosol-cloud
+interaction and transport processes are laken into account.
+
+Although this model describes a rather complex aerosol system, it still can be used on
+large grids without causing an extensive computational burden,
+
+Secondary Orgunic Particles
+
+The aerosol model has revently been extended to include secondary organic particles, ie,
+the particles that result from the low-vapor pressure products (hat are formed in gas-phase
+oxidation processes in the atmosphere. First applications of this model system to an
+episode in July 1994 show thet these compounds can not be neglected in assessing the
+tropospheric PM load.
+
+Figure 2 shows an example of the daily average secondary organic PM mass resulting
+from biogenic and anthropogenic precursors. It can be clearly sten that the biogenic
+Contribution to the total mass is sigaificant. However these results are strongly sensitive
+to the biogenic VOC emission paramettization used. Due (0 the formation process of
+
+bLOLépsose

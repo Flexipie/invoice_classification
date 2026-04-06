@@ -1,0 +1,39 @@
+.
+
+PRUFPLAN P 0500/3198 930222 SEITE 2
+
+Mack UDA
+3.2.43
+
+1 ART UND ZWECK DER PRUFUNG
+
+Die mutagene aAktivitt von Hauptstromrauchkondensat der Test-
+zigaretten X6D2EYL (L), X6D2EYM (M), X6D2EYN (N) und X6D2E¥O (0)
+soll in dem "Salmonella Reverse Mutation Assay" mit den Testetim-
+men TA9B und TA100 in Gegenwart eines metabolischen Promutagen-
+aktivierenden Systems untersucht werden.
+
+2) EXPERIMENTELLE DURCHFUHRUNG
+
+2.1  Prlifsubstanz
+
+Die Priifsubstanz ist Rauptetromrauchkondensat der 4 Testzigaret~
+
+ten. Die Testzigaretten gehéren zu dem PM-Richmond-Projekt "Banded
+Paper", Sie unterscheiden sich im wesentlichen in ihrem
+Zigarettenpapiertyp und in ihrer Filterventilation. Die Zigarette
+L ist die nichtventilierte, die figarette M die ventilierte
+Kontrolie. Die Zigaretten N und 0 unterscheiden sich in der
+—Bohandiung des Zigarettenpapiers.
+
+8
+E
+2IGARBETEN- BESCHRIFTUNG INBIFO- 3
+CODE AUF DER LIEFER-NR. g
+SIGARETTE 8
+X6D2EYL - K 420
+X6D2EYM 231 K 421
+X6D2EYN 525 K 422
+
+X6D2EYO 218 K 423
+

@@ -1,0 +1,38 @@
+te Prev Ti em Peay.
+
+(october 1946)
+
+Condensation of Supersaturated Vapors of Bydrofen Bonding
+Molecules: Ethylene Glycol, Propylene Glycol, Trimethylene Glycol
+and Glycerol
+
+David Kane and M. Samy El-Shall*
+Department of Chemistry
+Virginia Commonwealth University
+Richmond, Va. 23284-2006
+
+Abstract
+
+The critical supersaturations required for the homogeneous nucleation (rate of 1
+dropfem3is) of ethylene glycol, propylene glycol. trimethylene glycol and glycerol vapors have
+been measured over wide temperature ranges (e.g. 280 - 400 K) using an upward thermal
+diffusion cloud chamber. At lower temperatures the experimental nucleation rates are much
+higher than the predictions of the classical nucleation theory. Glycerol shows the best agreement
+between experiment and theory in the temperature range of 340 - 370 K. An increase in the
+critical supersaturation of glycerol is observed with inereasing carrier gas (helium) pressure and
+this effect is more pronounced al lower temperatures.
+
+“The results from corresponding states and scaled nucleation models indicate that the
+nucleation behavior of glycerol is quite different from other glycols. Glycerol requires higher
+critical supersaturations compared fo the other glycols at the same reduced temperatures, This
+isnplies quite small critical clusters for glycerol (20 - 50 molecules) in the temperature range 300 -
+380 K.
+
+“The discrepancy between experiment and theory at lower temperatures may be explained
+by considering that the surface lension of the eriticai clusters is Lower than the built surface
+tension. Itis, however, surprising that a Tolman type correction for the curvature dependent
+surface tension could be applicable for such small critical clusters. Further theoretical work is
+required in order to fully understand the observed higher mucteation rates at lower temperatures
+of glycols and glycerol.
+
+ESPSLSE90z

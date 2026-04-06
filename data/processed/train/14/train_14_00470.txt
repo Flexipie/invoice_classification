@@ -1,0 +1,40 @@
+REPORT P ~/3136 BH_ANOSIG 911209
+
+GROUP = STATISTICAL «BODY WEZGHT ¢q)
+PARAMETER
+
+DATE
+
+08-OCT-91 12-OCT-91 16-0¢T-91 20-OCT-94
+
+0-6R “ 17708 204.3 224.5 240.5
+RSD (x) 3.2 3.0 2b 3.0
+
+N 42 42 12 42
+
+MR 100 160 100 100
+
+S-ER * 180.4 198.2 213.8 232.3
+Rep Cy 4:2 4.2 a7 5.2
+
+N 12 42 42 12
+
+a MR 102= a= a8 a=
+&-GR 4 178.8 197.7 214.4 230.4
+asd (Z> 37 a? 4.3 Sat
+
+N 42 12 12 12
+
+mR 1D4= 98 96+ Sex
+
+TEST ANOVA = + »
+
+TABLE BODY WEIGHT
+
+Remarks: eeans, rel. means, and rei. standard deviations,
+analysis of variance followed by Duncan test
+
+29¥LPESOSe
+
+911209 12:00:39 Page 1 File : USER_DISK:CBA2MIBW_ANOSIG_3136.L19;
+

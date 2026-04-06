@@ -1,0 +1,54 @@
+PROJECT MOMBER: 1620
+
+reeEGT TITLE: Elect rophysiologicel Studies
+PROJECT LEADER: FF, Gullotta
+WRITTEN BY: o. 8. Hayes
+
+PERIOD COVERED: April, 1988
+
+A. Qhlective: To develop methods by which to objectively and reliably
+Sbissace human responses te cigarettes, smoke constituents and
+
+tobacco flavorants.
+
+B. Resulta:
+
+Cognitive NERP Study
+
+problens continue to be encountered wich she Of odorant
+sreeery syste of the olfactonater delaying the onset of
+eenicive HERP experiments. The problens appear to be related
+CORE new birbinal wwitching device. Spon stimulation, (Lia.
+Sectehing of the aizstreans), 2 pulse (Lf. + change in airflow)
+reese retable in both of the olfactasster sisFer sre. There
+
+ae ete ng detectable chenge fn Flow during ‘the switching of
+mist veene in otder co asture areifact free event-related
+fotancial recordings. Additionally, ‘odorant is being released
+{nto the airstreap during the Tater.atimulus-intexval (ISI).
+into ee indicating @ problem vith rhe switching ‘and/or plumbing
+foreher [feceonster. When correctly operartobs the olfactometer
+of tna release @ controlled anount, of oderany nto « clean
+sho a gad then rapidly be flushed out. To date, these
+etoblena are avaiting investixation bY ‘J. Washington. Until
+Provlre corrected, experinents employing the olfactoneter
+eannot be conducted,
+
+optinal methods for quancifying cognitive NERPA continua to be
+guplored. To date, it appears thee ‘eS1 ie neither powerful not
+et Cnough to handle the extensive aneure of data generated
+etiog a principal copponent snalysis- ‘The BMDP software
+Gppeaes promising, but it 15 al¢o Very, slow and would require en
+appetghe batching of the data to the Unix system, OU
+SNavistical/graphical aoftware packases continue to be evaluated
+Saar e uciiiey in conduccing principal component: analyses and
+other aultivariate analyses.
+
+plana: Once the sbove problens vite the olfactomater 2)
+Bade" gg, plans are to conduct pLlot experiments tos 3) teat the
+Cperacion of the new system ond. 2) determine the optimal parameters
+spare vieietacion of the Late positivity OF the NERP. Following the
+for tinene of these objectives, cogntstve Qiscrimination experl-
+fart comparing natural and synthecis penthol will begin.
+
+bLgTSPOO0Z

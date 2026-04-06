@@ -1,0 +1,36 @@
+INTEROFFICE MEMORANDUM
+
+SUBJECT: Aluminum Determination DATE: July 22, 1987
+on Cigarette Condensate
+Composite (A292, A293,
+A297, A303, A304)
+
+To: Ur. M. F. Borgerding PROM: R. T. White, Jr.
+
+Cigarette Condensate samples were analyzed on the
+Perkin-Elmer 5000 heated Graphite Atomizer-Atomio Absorption
+Spectrophotometer (HGA-AA). A composite sample was prepared
+by combining 5 samples (A292, A293, A297, A303, A304) of
+cigarette condensate. Each of the 5 samples contained
+condensate from 200 cigarettes collected by electrostatic
+precipitation. A 2X dilution of the cigaratte condensate
+
+composite sample was read against an aluminum calibration
+curve.
+
+The calibration curve (Figure 1) was prepared from
+Certified Standard Reference Material 1412 (Multicomponent
+Glass). ‘The powdered National Bureau of Standard material was
+weighed into a solution of synthetic condensate and methanol
+to form a slurry. The synthetic condensate, consisting of
+glycerol:water (2:1), was prepared to match the matrix of
+actual cigarette sample condensate. The statistical data from
+the NBS - 1412 (slurry) curve can be seen in Table 1.
+Analyses were made on duplicate samples prepared from the
+eigarette condensate composite using the NBS-1412 calibration
+curve. The statistical data can be seen in Tables 2 and 3.
+
+Following are the aluminum resuits including the methods of
+calculation.
+
+2959 SLITS

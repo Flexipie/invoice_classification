@@ -1,0 +1,28 @@
+A New Theory of Evaporation of Nicotine from Cigarette Smoke in a Denuder Tube
+P. J. Lipowicz, J. Seeman, J. Piade
+
+Abstract
+
+‘We have developed a new theory of how nicotine from cigarette smoke deposits in a
+denuder tube, and we have applied that theory to the analysis of denuder tube
+experiments. Prevailing theory separates the denuder into two distinct zones: the inlet
+Zone, where it is assumed that nicotine initially in the gas phase deposits, and the
+evaporation zone, where all dapositing nicotine is from evaporation from the smoke
+Particles. Our theory eliminates this artificial distinction and assumes that nicotine
+‘evaporation occurs in af parts of the denuder, especially at the inlet where fresh nicotine
+containing particles come in close proximity to the dennder wall. We find that for the
+special case where gas-particle equilibrium exis in all parts of the denuder and follows
+Henry's Law, the differential equation governing deposition in the denuder is readily
+solved analytically, leading to the families Newmen and Gormley-Kennedy
+approximations applicable for dilute gas deposition, except that the diffusion parameter is
+scaled to the Henry's Law constant. A criterion for equilibrium wes derived and found
+to be satisfied by nicotine in cigarette smoke. The theary was tested with equilibrium
+relationships ther deviate from Henry’ Law by finite element modeling and found to be
+only madestly sensitive when the gas phase Traction is low. The model is robust with
+‘egurd to perturbations to Hinear equilibrium and therefore should provide an improved
+estimate of the gas phase fraction of nicotine in cigurette smoke. Application of the
+theory to experimental data shows that the theory predicts the deposition curve, that most
+deposition of nicotine from smoke is due to evaporation, and that the initial gas phase
+amount is Jess than previous estimates by an order of magnitude. .
+
+T9S6PLEDNZ.

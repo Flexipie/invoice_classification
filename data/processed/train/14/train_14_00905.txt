@@ -1,0 +1,16 @@
+Aldehydes Method
+IITRIAINBIFO Differences
+
+Method Difference between TRI ‘Observation/Comments
+and INBIFO.
+Aldehydes | IITRI brings extraction
+
+volume up to $0 ce with
+acetonitrile, while INBIFO
+uses DNPH trapping reagent
+
+UTRI uses gradient elution
+‘on HPLC while INBIFO
+uses isocratic
+
+vezzpesosz

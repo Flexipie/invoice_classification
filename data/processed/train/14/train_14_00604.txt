@@ -1,0 +1,49 @@
+CHARGE NUMBER: 1708
+
+PROJECT TITLE: Physical and Chanical Properties of Tobacco
+PERTOD COVERED: February 3-28, 1979
+
+PROJECT LEADER: C. B. Hoetzel
+
+DATE OF REPORT: March 9, 1979
+
+STRESS RELAXATION OF FILLER (B. C. LaRoy}
+
+Using the servohydrauiic Instron testing machine, we have begun to
+investigate the mechanical (stress-strain-time) behavior of bright filler.
+An interesting early observation is that, when uncased E-55 filler is held
+in a cytinder at constant density, the restoring force against the piston
+often "relaxes" in a stepwise fashion with time. Similarly, when a constant
+force is maintained on the piston, the filler bed density often decreases
+("creeps") with time in wetl defined steps.
+
+In the constant density case, we have been able to remove the cylinder
+walls after initial compression of the filler. This has little effect on
+the stress-strain properties of the bed. In particular, the stepwise relax-
+ation of restoring force is sti1] noted--thus it is not due to wall effects.
+
+These stepwise results are similar to those noted by Irving in force
+transmitted through a filler bed. It seems likely that the steps result
+from physical mavenent of the shred-shred contact points within the bed. If
+this is the case, then shred-to-shred effects may contribute significantly
+to filling power.
+
+MECHANICAL PROPERTIES OF FILLER (D. A. Full)
+
+An optical shaft encoder has been coupled to a counterweighted cylinder
+volune apparatus in order to provide a continuous digital readout of CV, with
+exactly 20 counts per cm. With an electronic digital output available in
+binary form (12 bits}, it should be easy to feed time-dependent C¥ data to
+the central computer or to a local data acquisition systen in the near future.
+The electronics for transforming the encoder outputs (a pair of square waves,
+1/4 cycle apart) into a form suitable for the up/down counter was @ custom
+Job, to provide 4 counts per cycle, which is the maximum possible.
+
+MOISTURE STUDIES (J. C. Crump, 111)
+
+Data has been obtained for the kinetjcs of water sorption by cellulose
+(paper containing 25% cotton fiber) at 24°C taken from 30% RH to 60% RH, The
+data has been modeled and compared with similar data obtained for bright and
+buriey tobaccos. As reported last month, the rate constants for sorption of
+
+ETLogFez0g

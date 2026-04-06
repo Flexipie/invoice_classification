@@ -1,0 +1,47 @@
+CRC contAact RESEARCH CENTER
+
+2600.83 RAWMCM  [OATEXTIEEME2] PAGE 1
+
+Poster Sesaton IX:
+tn Vitrofin Vivo Genotoxiclty Testing
+
+35 posters
+
+Study objective:
+
+68 % test substanos/matetial toxicity .
+24 % assay methodology .
+‘9% mechanisms
+
+Assay type:
+
+71 % in vitro
+43 % In vivo
+
+Test materials:
+
+38 % contaminants
+
+26 % drugs, medical devices
+19 % environmental samples
+16 % model compounds
+
+Endpoints:
+
+71 % mutagenicity
+43 % clastogenicity, SCE
+6% DNA adducts
+
+Assays:
+
+y
+eS
+$1 % Salmonefia 8
+37 % oylogenatics 8
+17 9% micronucleus
+
+9 % Saccharomyces
+
+9% Drosophila
+
+‘9 % P-450 induction

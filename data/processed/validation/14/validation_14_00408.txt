@@ -1,0 +1,58 @@
+CHARGE NUMBER: 1706
+
+REPORT TITLE: Tobacco Physics
+PERIOD COVERED: April 1 - 30, 1973
+DATE OF REPORT: May 5, 1973
+WRITTEN BY: Alc, Lilly
+
+Conversion of Rod to Smoke‘! +?+3)
+
+The equations describing combustion processes and flow processes
+in burning cigarettes are now being expanded to include the
+solid phase plus several species. in order to do this kinetic
+expressions describing tobacco vaporization, condensation
+processes, and carbon oxidation would be convenient. An
+
+initial investigation of several tobacco weight loss curves
+indicates that the gross kinetics can be described by a sum
+
+of simple “one-step” first order kinetic functions. Presently,
+the carbon oxidation and condensation data are being investiga
+ted to see if a similar simplification can be made.
+
+A set of experiments were completed that were designed to
+measure dilution effects in cigarettes with conditions that
+simulate a burning cigarette at high flow rates. In general,
+the dilution through the paper increases with increasing flow
+for Marlboro type cigarettes. However, for cigarettes with
+dilution holes in the filter the total dilution decreases
+slightly with increasing flow rate. The experiments will be
+described in detail in a separate report.
+
+Work has continued on the oxidation of thin foils of Ta to be
+used as substrates for deposition of thin-film thermocouples.
+It is possible to obtain a continuous and uniform thin film of
+oxide which has a very high electrical resistance. The first
+Au/Ni thin film thermocouples were deposited and calibrated
+against 43 mil diameter wire thermocouple of the same
+materials between room temperature and 100°C. The wire
+thermocouples have a de/dT of 20u¥/°C and the thin film
+thermocouples have a de/dT of 13uV/°C. Attempts witl be
+
+made to increase de/dT by reducing the resistance.
+
+Miscet taneous 4?
+During this perfod another ten companies visited the laboratory
+to see the sensors and discuss the licensing of the technalogy.
+
+sage ca,
+
+References:
+
+(1) A.C. Lilly, Book 6292, pp. 1-7,
+
+(2) Steve Thurston, Book 6023, pp. 32-36.
+(3) Allen Kassman, Book 6274, pp. 21-24.
+(4) Calvin Tiller, Book 6198, pp. 29-48.
+
+SSLBSTZ202

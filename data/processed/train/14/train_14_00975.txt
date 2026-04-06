@@ -1,0 +1,73 @@
+Karen L. Bennett
+1. Report of Progress (init uf four pages)
+
+‘This past year has been a watershed for reaching the goals as set out in the currently-tunded
+CTR grant. We have established that both gerniline helicases, GLH- 1 and GLH-2, are germ granule
+components. A manuscript coporting GLH-1 and GLH-2 as the fitst nematade P granule
+components ta be identifiad has just been submitted to the Proceedings of the National Academy
+of Science, USA., Appendix 6C-5. If accepted, it will be the secand PNAS paper to result from
+this CTR support, Since last year we have completed the genamic sequorces of gih-¥ and gihi-2,
+as well as isolating the 6” end of the farer git-2 eDNA to complete the characterizations of the
+yits. Analyses of these sequences enabled us to devise several eynthetic peptides that were
+specific for one or the other protein. We have praduced a saries of specitie palyclonal antibodies
+in rabbits and chickens, Three different 23 aa peptides wore synthesized and canjugated to KLH
+(keyhole limpet hemocyanini, BSA and biotin. We were successful in generating our fust aGLH-2
+antibodies in a rabbit. We also produced antibodies in chickens after finding their pre-immune sera
+either completely unreactive or only weakly reactive to worm protein ipre-immune rabbits, by
+conteast, are often reactive with worm protein}. One month after immunizations, all four chickens
+produced either aGLH-1 or @GLH-2 antibodies. These antibodies are specilically reactive. By
+western analysis of total worm protein each recognizes a single protein of the expected size; by
+inununocytochemistey with embryos, adult heemaphrodites and ma'es, each is germline specitic,
+Figures 3 and 4, Appendix 6C-5. The chicken, and previousty-generated mouse @GLH-1
+antibodies, have been affinity purified against fusion poptides’protains, We have used the affinity
+unified antibodies from these (wo species in dualtabeled fuorescent confocal microscopy. Figure
+5, below, demonstrating the two GLH proteins progressively co-locahze to the germline F cel
+hneage in the early embryonic division of C. elegans.
+
+Antisense Injections have given us the first glimpse into the functian of the germline RNA
+helicases. We and aur collaborators, the Strome laboratory at Indiana U... letter, Appandix 68-1
+have used antisense RNA injections, with git. and gih-2. Appendix 6C-S and with the three
+families of C. elegans cyetin genes, the cyclin A, Bs and 83s, Appendix 6C-4, and pg. 5, this
+Progress Report. Injection of an in vitro-syathesized, capped antisense git-? or gih-2 RNA inte the
+distal arm of the syneyvel hermaphrodite gonad causes ~10% of the progeny of the injected
+worms 10 develop into sterle adults with under-proliferated germlines. A control antisense
+injection of unc-54 RNA, coding for the myesin gene, produces ~ 10% uncoordinated warms, and
+no adult steriles, Appendix 6C-S. The sterile worms fail to stain with ether @GLH antibody, or
+wath any of the other antibodies against P granules that have been raised by our collaborators to
+undetermined epitopes 115,171, ‘These findings, of a "phenocopy” of a gif) mutation, imply that
+ether wild type git-1 or gih-2 or both genes are reauired fos normal germiine development and that
+these genes are critical for P qranule assembly. It is now important (o generate and analyze
+mutations in these genes to resolve if the phenotypes of lesions in the two git genes can be
+differentiated and to determine the cause of the steviity.
+
+Fig. §. Confocal images: C.elegens
+
+embryos dual labeled with aGLH-1 (red:
+
+TRITC, @GLH-2 igreen: FITCH, both
+
+tyellow!. Left to right {top) fertifized egg.
+
+2..6-, {bottom 24-, > 60-cell, "two-fold"
+
+sieges (421, At >60-cell the P, cell has
+
+divided: at the “two-fold” stage, the
+
+embryo is on it's side and the two germ
+
+cell precursors aro atop one another.
+
+Alter the 2-cell stage, the background in
+
+the non-germtine lineagos had to be
+
+e eomputer-enhanced to see the outline of
+the embryos; using these atfinity-purified
+
+antibodies almost no GLH-1 or GLH-2 is
+
+x detected in the pre-somatic cells.
+3
+
+50660066.

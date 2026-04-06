@@ -1,0 +1,58 @@
+SE Eee
+
+CHARGE NUMBER: tol
+
+PROGRAM TITLE: Cigarette Testing Services
+SECTION LEADER: Joyce F, Stargardr
+
+PERIOD COVERED: November, 1984
+
+t.
+
+AL
+
+METHODS AND _INSTRUMENTATLON DEVELOPMENT
+
+MASSCOMP WS500 Laboratory Station (H. A. Early)
+
+Objective: To develop software for processing data from
+Sat chron chromatographs using a MASSCOMP WS500 Laboratory System,
+
+Status: The UNIX operating system and C Language are being
+‘used to develop the software for this microprocessor. UNIX
+Ucilities and System Management courses have been taken.
+These are needed in order to customize the system to the
+needs of the CISD.
+
+LICORICE ANALYSIS (G, V, Carter}
+
+Objective: To quantitate glycyrrhizic acid in licorice
+containing products.
+
+Status: Melted Licorice block and spray dried licorice
+were analyzed for glycyrrhizic acid by HPLC. The station-
+ary phase was a reverse phase Cig, 5u particle size
+column. The mobile phase was acetic acid in water,
+gradient eluted with acetonitrile. Separation and quanti~
+tation of glycyrrhizic acid in cigarette filler was also
+achieved. This was done with modifications to the gradient
+program,
+
+TECHNOLOGICAL SUPPORT (R, W. Kanipe and B, T, Joyner)
+
+Objective: To determine if nicotine and water in TPN pads
+Sab be Guceacced in isopropanol in less than two hours
+Gwhile rotating).
+
+Status: Eighteen commercial cigarette brands of various
+‘nicotine levels were selected for a test comparing one and
+two hour extractions. Results indicated that there were nog
+significant differences in the nicotine and water data ford
+the samples. A recommendation has been made to reduce chepe
+extraction time to one hour for domestic C.1. (supplementh
+only) and overseas samples. Since the history of them
+nicotine and water levels for these samples is known, any
+discrepancies due to the change in extraction time will beta
+easily noted. This procedure should begin in January, 198558
+and continue for four to six months, Changes in method
+documentation will he made following this period,

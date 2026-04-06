@@ -1,0 +1,28 @@
+RAR INTEROFFECE KEMORANDUN
+
+Subject: Custoner Complaint Samples Date: June 30, 1988
+
+To: Jim Dobbins From: F. 8. Wendelboe
+
+The following sample has been analyzed by gas chromatographic techniques with
+the indicated results,
+
+SAMPLE: 88-033, Chavis BRAND: Salem Lights
+TECHNIQUE USED: Purge and trap gas chromatographic analysis,
+
+FINDINGS: The sample was run using FID detection only as the mass spec detector
+was disabled. Comparing the resulting chromatogram to one fron a controt
+sample, there are peaks in the complaint sample chromatogram which don’t match
+any in the control chromatogram. The identity of the peaks in question is
+unknown. They do not match the characteristic pattera previously associated
+with tax stamp ink, but they are in the same retention tine vicinity. No valid
+conclusions can be drawn about their identity without further mass spec
+identification. The earliest that can be accomplished on my instrument would be
+duty 12-13, My understanding is that the other purge and trap/MS instrument is
+committed to a high priority project for a sinilar period.
+
+DISPOSITION: Further analysis indicated.
+
+rxe CER, RAH, JFE
+
+£20z Loga¢

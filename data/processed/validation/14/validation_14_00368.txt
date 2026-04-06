@@ -1,0 +1,97 @@
+CHARGE HUMBER: 0307
+
+PROJECT TITLE: Cigarette and Tobacco Measurenent Methods
+PROJECT LEADER: C.-L. Irving
+
+PERIOD COVERED: duly, 1960
+
+DATE OF REPORT: August 7, 1980
+
+Moisture Measurement
+
+The automatic microwave aoisture meter was rect
+checked out and set up for testing. Inftial te
+uses § to 26 gram tobacco samples, will be dont
+
+eived fron Steinbrecher Corporation,
+esting of the L-band unit, which
+2 with Marlboro and Merit cut filler
+
+at seven different OV levels, The data from these tests will be analysed by #r.
+
+J. E. Tindall to determine the ancunt of varia’
+microwave test. The data from this test will
+relationship ta predict OV. The X-band unit,
+tested statically in the laboratory before mour
+dynamic tests. The date analysis procedure for
+Used on the L-band unit. Preliminary tests cor
+a correlation coefficient af 0.997 between mici
+gram Mariooro samples. The more exhaustive te:
+
+Ii. Cigarette Firmness.
+
+ition in the OV test-relative to the
+also be used to generate an espirical
+which uses cigarette rods, will be
+inting the unit on a Mark 9 for
+
+yr the X-band unit will be Ike that
+inducted with Or, Steinbrecher showed
+rowave attenuation and OV for 15
+sting outlined above is now underway.
+
+The cigarettes made for the subjective evaluation of the firmess while smoking
+
+characteristics of cigarettes were machine tes
+fective testing and is currently teaching pane
+the cigarettes of different firmesses. Thus
+by the panelists when ranking cigarettes from
+panelists have been trained, cigarettes will b
+the panelists will be asked to rank them by ft
+about two weeks.
+
+LI]. Dynamic Circumference Transducer
+
+Additiona) testing of the strain gauge spring
+
+3 Mark 8 maker showed approximately 50% of the
+
+te be due to short term drift of the system.
+
+caused by small mechanical changes in the syst
+
+ted. Frank Ayan has begun sub-
+Lists to assign numerical values to
+far no problems have been encountered
+softest to firmest. Once the
+
+e partially smoked by machine and
+emess. This phase should begin {n
+
+dynamic circumference transducer on
+variation observed in dynamic tests
+This short tern drift is most likely
+en or amplifier drift. The mechanical
+
+cigidity of the system should be improved when the unit is moved to the Mark 9 due
+to the improved bracket design. If short term drift remains a problem after that.
+
+semiconductor strain gauges wil] be used to re
+used. The senfconductor strain gauges have 2
+strain, allowing the amplifier gain and (ts as:
+
+1y, Mathematical Modeling
+
+place the constantan gauges currently
+much higher output for a given
+saciated noise to be reduced.
+
+The mathematical modeling routines were used to evaluate the effect of RL AITing
+
+power changes on tobacco utilization. The cal
+Marlboro as a baseline to predict the tobacco
+
+jculations used current production
+required per 1000 cigarettes if
+
+PeseLTz202

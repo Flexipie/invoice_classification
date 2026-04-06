@@ -1,0 +1,59 @@
+Maathly Summary Novesber 1988:
+
+Mathematica) Mode) of Flavor Chanber:
+
+Work continues in developing a model which includes hoch smoldering and
+puffing conditions. Experimental values for the kinetics of
+devolatilization have been included, but now seem somewhat too fast:when
+incorporated into the model. Further work has been undertaken to reduce the
+CPU requirements on the new Multiflow computer. Currently the CPU is below
+our expectations for this computer. Further temperature measurements will
+ke made in the flavor chamber to better define the boundary conditions for
+the model development.
+
+Iron Carbide /CO Reduction:
+
+As reported last month mixtures af iron carbide with activated carbon
+reduce CO evolution during corbustion. There is an 80% reduction in CO
+evolved from PN 142 compared with the Stackpole activated carbon starting
+material. A 10% addition of Fe,C, reduced Cp by 89% compared to this same
+Stackpole starting material. This activated’ carbon with a 1% addition of
+Fe}0, reduced the CO by 65% while J 18 addition of Fe,C; reduced the CO by
+758. Iron carbide by itself produces significantly less CO than any of the
+carbons or the iron caxbide/carbon or iron oxide/ carbon mixtures.
+
+on Carbide ag @ Heat Source:
+
+Experinents were performed to determine if the source of iron oxide or
+surface area of the iron oxide has any influence on the burn properties of
+the carbide. Carbidization of iron oxides from several difvereat vendors
+was carried out at 300 ¢ using a mixture of CO/R,. In all cases pellets
+were produced which had good busa properties. Ignition temperatures as
+measured by DSC vere around 360 C. All samples exhibited cracks after
+cerbidization and broke quite easily
+
+It was found that pellets which had between 10-18% additions of carbon
+had impzoved mechanical properties and a density in the range of 48 -56% of
+theoretical, The burn proparties of these compacts were improved with a
+longer time of burn as well as more uniform burn throughout the pellet.
+Experiments with a 38 addition of pectin to a mixture ez S08 iron oxide anc
+108 carbon displayed tha best mechanical etrength efter carbidization.
+
+A variety of other preparations were attempted. Pellets of iron were
+mot able te be carbidized. Tt was noted from TGA analysis that most of the
+time for the reaction of iron oxide to iron carbide in Co/H, mixtures is
+involved in the reduction reaction, About 30 minutes is required for the
+reduction and only about 2 minutes for the carbidizetion at 300 C. atteapts
+were made at preparing the material only using only CO. This reaction was
+not complete after 3 hours and was not pursued further.
+
+Other experiments explored other sources of iron oxide prepared in,the
+lab. ‘These oxides synthesized in the lap had surface areas around 10m /g
+while commercial sources typically had 8m /g. Carbides had values around
+26m /g. One oxide from a hydrated iron oxide gave a value of 80m /g.
+
+xRay analysis of the carbides reveals mostly iron carbide with a peak
+due to unreacted Fe,0,. Densities of the carbide as prepared ky the above
+method using izon oxide has a value of §.98g/on .
+
+ggpzetozoz

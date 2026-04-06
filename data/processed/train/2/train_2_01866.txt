@@ -1,0 +1,36 @@
+From: Reallva, Jechine on Thu, Feb 10, 1994 5:34 OM
+
+‘Subject: NeoData questions re: RR
+
+"Yo: Mansmann, Jack; Petts, Reggie: Young, Tracy
+
+Co: Kowal, Puals McDaniel, Janive: Spector, James; Spill, Nichoiss
+
+Tracyfleck:
+
+Reggie sent me a bunch of questions from NeoData re: the RR program that {I think) anby
+‘you can answer, Here they ure:
+
+WZ688562202
+
+1} Are all retailers a0 the retail file dincet stores? Or ave chains, depots andl warehouses,
+inctuded? VW depots and warehouses are inchided, how cam we distinguish which is which?
+
+2 Row do we handle acvounts that ure narkec ax closed on the Retailer File?
+3) How do we handle a retailer that ig not on the Retuiler File?
+
+4) Row do we handle a eon-Master Retailer that catts?
+
+5) What if'we reveive a siga-up foun from a retailer that is not a Retail Master?
+
+6) What shonld wwe do whet! a customer valis that is not on uny file? Send signature card?
+
+seaseeesesnsssguserseven
+
+Weerrrreen rneeeonn yy
+
+Reggie, from a contact history perspective, | would fike NeoData co houve comact history for,
+retailers. 1 don’t know the answers to any af Gary's olher questions in terns of whet kind of
+‘number shouid be assigned if thuse who call without an account number.
+
+‘With regard to those with no acvount suumber, what shoud be disptayed to the user. (E would,

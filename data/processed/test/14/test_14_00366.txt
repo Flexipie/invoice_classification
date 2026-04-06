@@ -1,0 +1,43 @@
+Motes ete
+
+SUBMITTED FOR PUBLICATION
+
+Changes in Proteoglycan Core Protein (PCP) mRNA Levela
+During HL=60 Cell Differentiation
+
+€arol A. Whyzmuzis, Joseph M. Wu,” and Isidore Danishefsky
+
+Department of Biochemistry and Molecular Biology,
+New York Medical College, Valhalla, N.¥. 10595
+
+Summary, The steady-state level of the PCP mRNA was investigated
+during HL-60 cell differentiation, When cells were induced to
+differentiate into granulocytes with 1.3% dimethylsulfoxide or 1 uM
+eis or trans retinoic acid, no significant changes in PCP mRNA
+levels were observed. In contrast, cells cultured in the presence
+of the phorbol] ester TPA, which promotes the cells to be
+differentiated into monocytes/macrophages, were associated with a
+marked decrease in the steady-state concentration of PCP mRNA. When
+cells were simultaneously treated with a combination of TPA and
+staurosporine, a protein kinase ¢ (PKC) inhibitor, the TPA-elicited
+decrease in PCP mRNA was partially prevented. These data euggest
+that PCP mRNA expression is not directly linked to HL-60 cell
+differentiation but appears to involve the participation of PKC.
+Introduction.
+
+The HL-60 cells, isolated from a patient with acute
+promyelocytic leukemia, have been widely employed to investigate
+the process of myeloid differentiation (1-3). HL~60 cells can be
+induced te differentiate into granulocytes with dimethyleulfoxide
+(DMSO) or retinoic acid (RA) (4-10), and into monocytes/macrophages
+with the tumor promoter 12-0-tetradecancy} phorbel-13-acetate (TPA)
+or 1,25-dihydroxyvitamin D, (vit D,) (7, 13-16). Proteoglycans are
+macronolecules composed of one or more sulfated glycosaminoglycan
+chains covalently linked to a core protein. In HL-69 cells, the
+giycosaminoglycan is predominately chondroitin sulfate (17). A
+number of studies analyzing ("5)-sulfate incorporation into
+chondroitin sulfate in HL-60 cells have shown that treatment with
+TPA, RA, or DMSO resulted in a 20-30%, 30-50%, and 45% decrease,
+respectively, in sulfate incorporation (17-20). These data suggest
+
+a correlation between proteoglycan synthesis and differentiation of

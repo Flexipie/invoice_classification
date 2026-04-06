@@ -1,0 +1,59 @@
+PROJECT NUMSER: 1702
+PROJECT TITLE: Aerosol Generation and Filtration
+PROJECT LEADER: =X. Cox
+
+PERIOD COVERED: — Gctober, 1967
+
+I. SUBJECE: OPTICAL mvSpEcTION SYSTEMS
+
+A. Qbiective: Develop optical processing techniques for the inspection
+of cigarette packs.
+
+B, Regults: The acquisition ef a video library containing images of
+both good and defective (fabricated) packs has been completed.
+
+Software routines were written to align (scale, rotate, and
+translate) images and to form the dot product matrix, A, for any
+given image set. The elements of this matrix are A,.= F,.F, where
+F, ig a vector of length $12* and contains the imagainténsdties.
+The calculation of the dot product matrix has been carried out for a
+set of images of beth good packs and those with bad tear tape. a
+synthetic discriminant function (SDF) for discriminating between the
+good and bad images will be calculated from this matrix using a
+theory developed earlier. This function will be used to design a
+matched spatial filter toc use in an optical detection system
+capable of distinguishing between the two pack types.
+
+‘Two LeD-Ts (made by Epison and Casio) have been modified, The
+Allomination sources, scattering screans, and polarizers were
+removed and the screens made more homogeneous and optically flat by
+cementing optical flats cut from holegraphic film plates onto both
+sides. an optical processing system was assembled to test the
+performance ef the modified LCD-TV’/s. when the Episen unit was used
+te encode images of different cigarette packs on a laser bean, the
+images produced were found to be of a much higher quality than those
+produced previously using other LCD-TV!s
+
+One of the most promising optical detection systems currently being
+considered is based on an optical Nough tranaformation. The results
+obtained using this system can be improved significantly if the
+image is edge enhanced prior to the Nough transformation. We have
+found that edge enhancement can ba very effectively carried out
+simply by rotating the polarizers used with the LCD-TV's by 43
+degrees.
+
+Plans
+
+1. Complete evaluation of the LCD-TV's for use in an optical
+Processing system.
+
+2. Evaluate the Global Holonetics SMART CAMERA. Determine its
+effectiveness in discriminating between good and defective
+Cigarette packs.
+
+SBSLTTLO0z
+
+more weer wr Owe ee eae ie ee,
+
+36
+

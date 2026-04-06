@@ -1,0 +1,53 @@
+The information contained herain helps to validate the accuracy of the cigarette
+design model in predicting the presaure drop and ventilation of & fit cigarette. The
+Seperimartes data is teen {10% ublited report by Henwerd 1986. inthis
+Guperimertation. the vertiaton aera prossuro drop, among Orne" variables, were
+on apuit-oy-putt pasis. Using the known ‘characteristics of the cigarettes. the
+‘jerete design model wes USeG > predict these values at each puft. Some important
+input parameters that were cg in each case were the follow
+
+ha length of the cigarette B.4cm
+the length of the tipping Paper 250m
+(othe length of the fiter 2am
+G the circumference of tho tobacco rod 25cm
+Cr the position of the vent fort “apne mouthend 42 em
+Wi, the relative open area OF ‘the vent row 1
+the pressure drop at standard flow 175 om"s
+ap’. the pressure drop ot standard flow across the 6.0 cmw.g-
+unventitated cigarette
+
+ther Input parameters that were Know? put sifferad between cigarettes Wore
+the following:
+‘APag the pressure crop across the ventilated cigarette at standard flow
+the pressure drop at putf zero
+D%e__ the total fiter ventilation €F° onal form at the standard flow rate~
+the titer yentiiation at putt zero
+oi
+
+ep the per ity of the: cigarette paper (64, 27, 48, or 6.5
+CORESTA)
+aye the pormeabiliy of ME plug wren (estimated at 6,000 oF 26,000
+
+CORESTA)
+Qn thie known information, th calculations proceeded 8S apecitied in the
+example throughout Part |. Betore continuing to Part Il, the pressure drop af the coal at
+Md flow {APPooa) wes needed. “fo estimate this value, an average of the values
+paeded to minimize tha Orror ar poth the fiter ventilation and ‘the pressure drop was
+The four samples chosen for this fverage were satected Only because their
+experimental data had “sendy boar gathered and recorded from tha graphs it
+Harwerd's report. Other ‘experiments have Mremonetrated thet the first ans test putts
+fend to have unique coal pressure ‘drop, typically much ower £05 the first and higher for
+the last pull, so the values ae wated to minimize thelr error Wee ot Included in the
+Mworage. Using the values {fom Tne remaining puffs, the everogy wes calculated 10 De
+aire orn value was then used 2 ‘hg coal pressure drop and the ‘computations in Part
+arreuld proceed as in the exam tage. In order to calculate the ‘cigarette pressive
+drop and fiter ventilation in, STL, the pull number needed 'O be converted to 2700 _
+length. The cigarottes gtusind in this exporiment Wore Smoked by a machine taking
+
+tena red, equal puts each time ane prot te arnt the sae fel OAS This B
+Tyeeise mattod leads to the time oreo that each cigarotte on the Sore pulls the 8.
+procis ain. An extimation af he length hat 3acrng one puffs reached by {S00 a
+Sane een tne tal engl 1ooeeoe or eng rod engin the Yang oF 3
+tipping paper plus $ mmm) and dividing by (1 ‘qumber of pulls {six in each case). The 3S
+
+Tenath at the beginning of the frat putts assumed to be tuk Tength, the fength for the ‘

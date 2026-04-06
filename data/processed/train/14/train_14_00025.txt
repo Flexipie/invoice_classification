@@ -1,0 +1,52 @@
+CHARGE NUMBER: 1600
+
+PROJECT TITLE: Smoker Psychology
+PERIOD COVERED: ‘July 1 - 31, 1981
+PROJECT LEADER: Ww. L. Dunn
+
+DATE OF REPORT: August 10, 1981
+
+Acceptability and Fizmness (Frank Ryan)
+
+R&D smokers are rating 13 different cigarettes on an
+acceptability scale. The cigarettes differ only in firm-
+ness and weight, with compacimetric firmness scores of
+37.8, 37.5, 35.5, 31.9, 31.5, 29.5, 29.0, 27.5, 24.0, 23.8,
+21:9, 20.9’ and 20.5. The acceptability scale ranges from
+terrible to excellent with 7 other adjectives or phrases in
+between: bad, poor, marginal-but not accepteble, marginal-
+barely acceptable, acceptable, good, and very good.
+
+Five samples of each cigarette are presented in random
+order, so that 65 ratings ere made in about 20 minutes. Eight
+peoplé had rated the cigarettes as of 7 August, and although
+it 1s too soon to meke statements about the firmness which
+will eventually get the highest mean rating, we can see that:
+(1) the subjects are able to make distinctions between cigarettes,
+(2) they assign their ratings systematically, and in conformity
+to such expressed beliefs as “the firmer, the better:, "I like
+them soft, but not mushy", (3) the form ofthe resulting accept-
+ability vs. firmness plot'will depend in part on the balance of
+soft- or firm-likers in the sample, so that it may make sense
+to construct two different curves instead of combining the data.
+
+The Inhalation Monitoring Program (Jan Jones)
+
+Computer Programing
+
+Frank Ryan has provided the additional software to give us
+data output on a subject's respiration patterns, which can be
+compared with the smoke-laden inhalations. For the two subjects
+studied thus far we find that the smoke-laden inhalation is of
+greeter yolune and is held longer prior to exhalation than the
+typical breath. ‘The more shallow inhaler inspired 132% greater
+volume when smoking his usual brand and retained this saoke-laden
+inhalation 864% longer than his normal breath; the second sub-
+fect inhaled 190% greater volume when smoking and held the in-
+halation 273% longer.
+
+etzeszeoor
+Sg oa
+
+LAT eee
+

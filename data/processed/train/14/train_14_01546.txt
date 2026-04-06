@@ -1,0 +1,49 @@
+CHARGE NUMBER: 1620
+
+PROGRAM TITLE: ELECTROPHYSIOLOGICAL STUDIES
+PERIOD COVERED: JULY 1 - 31, 1986
+
+PROJECT LEADER: F. P, GULLOTTA
+
+DATE OF REPORT: AUGUST 1, 1985
+
+WRITTEN. BY: C. S. HAYES
+
+1, EVENT-RELATED POTENTIALS 10 CHEMICAL STIMULI
+
+A, Nasal Event-Related Potentials (NERPs): Difference
+Testing Employing Cognitive ERPs
+
+A flavor discrimination experiment utilizing the cognitive ERP para-
+dign was attempted for the first time since installation of the new olfac-
+tometer /Cadwell computer system. Vartous "bugs" were observed in the computer
+database for waveform storage and reteieval. Therefore, flavor difference
+testing will be delayed until the appropriate modifications can be made, Once
+testing resumes, the initial compounds to be tested are acetylpyrazine, 2-
+methoxy-3-methyTpyrazine and 2,5-dimethylpyrazine. These compounds have been
+selected in order to compare the electrophysiological data with data obtained
+in behavioral studies such as odor profiling, multidimensional scaling (MOS)
+and cross-adaptation experiments,!
+
+B. Nasal _Event-Related Potentials (NERPs): Mapping Studies
+
+Cortical mapping experiments employing event-related potentials
+(ERPs) to nasally presented stimuli have been initiated in order to investigate
+the relative contributions of the olfactory and trigeminal nerves to flavor
+characteristics. These experiments allow, for the first time, NERPs to be
+recorded from 16 scalp electrode sites simultaneously, Compounds which vary in
+their purported olfactory/trigeminal contributions to the sense of smell are
+currently being tested, These compounds are: (1) vanillin {"pure" olfactory
+stimulant); (2} COz (pure trigeminal stimulant); and (3) the mixture of
+yaniilin and Coz {mixed olfactory and trigeminal stimulant). Tt is believed
+that by determining where in ‘the brain these compounds, and other “similar
+compounds, are producing their maximal effects, insight can be gained about
+olfactory/trigeminal characteristics in flavorants.
+
+To date, preliminary data from two subjects indicate that vanillin
+Produces responses that are maximal contralateral to the nostril being stim-
+lated; whereas, maximal responses to C02 appear to be more bilaterally
+symmetrical, Data with respect to the mixture of vanillin and CO; remain to be
+interpreted:
+
+2001116261

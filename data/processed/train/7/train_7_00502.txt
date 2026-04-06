@@ -1,0 +1,60 @@
+0 ee eeEe_O_
+RECD MAR 221989 TLR
+
+RJR INTEROFFICE MEMORANDUM
+PRODUCT & APPLIED TECHNOLOGY R&Q - CIGARETTE TECHNOLOGY DIVISION
+March 20, 1989
+TO: Distribution
+
+FROM: G.E, Creamer
+Process Science/ Tobacco Technology Group
+
+TZ1S 00z0S
+
+SUBJECT: Results of Concentric Core Cigarette Test
+
+The purpose of this test was to determine the effect of a concentric
+core tobacco rod upon sidestream (s8) cigarette smoke condensate (CSC).
+Reduced mainstream (MS) and SS CS¢s have been achieved in our lab by
+substituting a G7 analogue for tobacco cut filler on an equal weight
+basis. Prior evidence from experiments in which cigarettes were
+treated with radio-labelled nicotine suggested that the nicotine con-
+tent of the MS CSC coul’ be influenced by the geometrical positioning
+of the nicotine in the sb: 120 rod. It was hypothesized that by using
+the G7 analogue (which consisted of 50% CaSO4 and no extract) in a con-
+centric core rod design, the SS CSC would be reduced more than expected
+from a mass balance consideration.
+
+Kirber AG (Hamburg, FRD) had a prototype maker which they clained
+could make concentric core rods and were willing to conduct a test with
+us. A test design was prepared using two concentric core configu-
+rations- one with the G7 analogue placed in the center (CORE) and a
+second with the G7 analogue placed in the periphery (ANNULUS) and
+around a tobacco core. Controls of these designs were also to be pre-
+pared in which the G7 analogue was blended (MIXED) with the tobacco cut
+filler (CAMEL Filter Export) in the corresponding percentages. As a
+Precaution in case the G7 analogue would not process through the ciga-
+rette maker, two additional parts were added to the test. ‘They
+invelved replacing the G7 analogue with G13 and oriental blend.
+
+The G7? anlogue was prepared on the G7 pilot line and reduced to
+cut filler on the R&D primary processing line in November 1968. The
+concentric core cigarettes were all manufactured in December. ‘The
+control cigarettes were manufactured at the RJR GmbH facility in Trier
+during December. In order to reduce the test size, the test part with
+control cigarettes made with oriental blend was cancelled.
+
+Upon inspection and conferring with the Kérber staff, it was learned
+that the concentric core rods were not ideal because the central core
+was not aligned along the horizontal axis of the rod, i.e., it was off-
+center. Consequently, an imperfect test was conducted. Still, it was
+believed that there was adequate partitioning of the blend components
+and that some meaningful results might be obtained from the analyses.
+The diameter of the core section was 4 mm. This meant that the core
+section was roughly 25% of the volume of the tobacco rod.
+
+Upon receipt of the cigarettes at the Bowman Gray Technical Center,
+they were physically characterized and analyzed for total blend nico-
+tine and pack moisture. To determine the percentage of G7 analogue in
+the prototypes, the rod blends were hand picked. Statistics of the
+data are included in the attached tables. The smoke components (both

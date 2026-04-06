@@ -1,0 +1,45 @@
+lInboraxory applications. The FT-IR spectrometer is equipped with a maintenance-free, room
+‘temaperature, deuterated triglycine sulfate (DTGS) detector, and simple transmission gas cell with
+replaceable, low-cost KCI windows. An intecface delivers the smoke from the smoking auschine
+to the FT-IR spectrometer and purges the samnple cell between puffs. The entire analysis
+Procedure, with the exception of the lighting of the cigarestes is auromated.
+
+ANALYSIS SYSTEM DESIGN
+
+Ciguretes were smoked on a five-port smoking machine using a 35-mL, 2-seoond duration puff,
+‘every 60 seconds, Cigarettes were stoked to a but length of 3 mm from the tipping paper for
+filtered cigerees. The environmentat Saioking conditions of temperature and relative humidity
+‘were maintained at 24° C and 60% selative humidity. ‘The smoke passes through a standard
+Cambridge filter pad (0.3 micron pore size) in a Lucite® filter assembly. ‘The 175-anL output of
+the smoking machino is pushed through a sumple loop connected to the samoking-machine-m-FT-
+IR-specwometer interface (Figure 1). The opposite end of the sample loop is open to an
+snmospheric pressure vent. After a short delay period of 2 seconds, the sample loop is connected
+tothe analysis loop. The analysis loop cousists of the sample loop, a pevistaltic pump, and the
+‘gas cell in the sample compartunent of the FT-IR spectrometer. The pump is activated and he
+smoke suixple, dilued with nitrogen, circulanes through the analysis loop for 35 seconds. The
+saurple spectrum is obtained during this time. The analysis loop is purged with high pressure
+nitrogen during the last 20 secands of the one mimute smoking cycle. The timing of che smoking
+ycle, pump activation, sumple-scan period, and valve operation is controlled by a programmable
+controller. The FT-IR spectometer computer commanicates with the smoking machine
+programmable controller and analyzes the data at the end of the smoking cycle.
+
+‘The analysis sequence ig iniGated by the operator entering the program name. A spectrumis
+then obsained of the nitrogen purged sample cell, This spectrum is used as a background for the
+sample spectra, Experimental effects of factors such as variation in source intensity,
+conuinination of the ges cell windows, ov utisiignment of the gus cell are eliminated by
+dividing sample spectra with a background spectrum aoquired immediarly prior to the analysis.
+‘A report is generated at the end of the analysis detailing the paff-count for each port of the
+smoking machine, ibe concentrations of each of the analytes per puff. and e total concentration
+for cach cigareme, Sample names are entered into the program by a bar-code reader. The FTIR
+‘sconaputer is interfaced to a mainframe computer where analysis data are stored.
+
+A Laser Precision Analytical RFX-20 series 2 cm-' FT-IR spectrometer is used. The
+spectrdimeler is controlled by an IBM PC/AT compatible computer. An important fearure of the
+specurdroeeer is its permancatly-aligned, iodustially hardened TRANSEPT-III refractively “=~
+scanned interferometer with mechanical bearings. An air-cooled source is used.
+
+A 15-cm pathlength, single-path, transmission gas cell is located in the sample compartment of
+the spectrometer. The gas cells equipped with screw-on end caps that contain the KCL
+windows, A reference spectrum of the gas cell with new windows is stored for comparison with
+
+ZETORSTZOZ

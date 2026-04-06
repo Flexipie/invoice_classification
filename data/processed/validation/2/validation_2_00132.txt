@@ -1,0 +1,29 @@
+INTEROFFICE MEMO
+
+July 2, 1999
+
+TO: Mr. M.R. Martin
+FROM: Mike Cassidy
+
+SUBJECT: Executive Summary
+
+Information Technology Project Management
+June, 1999
+
+‘Y2K progress continues on schedule with 97% of the application code tested and back in our
+production environment. 92% of departmental action tems are complete and all 42 requied
+‘contingency plans have been documented. integrated application testing continues as planned
+and the Y2K Team is documenting year-end crossover plans.
+
+Using the reporting tool (ACTUATE) supported Packaging’s Radius Package by
+Producing a quote process, as well as, vendor and customer master listings.
+
+Computer Operations worked with Security on the destruction of 20,693 aged
+tapes. For future tape destruction, Jim Melton is researching options to
+purchase a degausser or have PRO destroy old tapes.
+
+RJR0000001 707034600
+
+70041 2621
+
+ages e9ezs

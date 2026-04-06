@@ -1,0 +1,45 @@
+GDS [s) B7 WS 9.0ct.81
+
+AMES ASSAY (10)
+
+1h incubation of bacteria + S9 + test substance with limited
+histidine (sufficient for 2.5 divisions),
+
+3 hb incubation of mix with nutrient broth (improvement of gene
+expression),
+
+centrifugation and resuspension of bacteria,
+
+plating on {1} minimal medium (for revertants} (2) nutrient medium
+(survivors),
+
+incubation for 48 h
+
+Result!
+
+TASB, MNNG, MMS, triaminobenzene, triaminoluene, aniline and
+2aP: liquid assay more sensitive at highly mutagenic and/or
+very toxic conc. of test substance, but less sensitive with
+B(a}P towards TAloo (Mitchell, I, de G., Microbial assays for
+mutagenicity: a modified liquid culture method compared with
+the agar plate system for precision and sensitivity, Mutat. Res.
+54: 1-16, 1978, 142232)
+
+Radiation-Mutagenesis:
+
+several tester strains respond to ionizing radiationt
+7~(qase and TAtoo: gamma~induced (600Co) revertants (Imray, F. and
+Macphee, D, Mutagenesis by ionizing radiation in strains of Salmo—
+nella typhimurium used in the Ames test. Int. J. Radiat. Biol. 4o:
+11-115, 1981+).
+
+Spontaneous Reversion:
+
+low spontaneous revertants with TASS and TAloo, when medium supple~
+mented with small amount of broth instead of defined amount of
+histidine (Imray, F. and Macphee, D, Mutagenesis by ionizing
+radiation in strains of Salmonella typhimurium used in the Ames
+test. Int. J, Radiat. Biol, 40: 111-115, 1981+).
+
+EPSETSZOS
+

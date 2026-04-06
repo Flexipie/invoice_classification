@@ -1,0 +1,8 @@
+24-12-1999 KRU. STANDARD.XLS
+P15367
+Sample # TSNA (pgim))
+NNN NAT NAB NNK
+4 10.4 10.4 12.8 10.3
+2 10.4 10.8 127 105
+M 10.2 104 127 10.4
+Tabla Concentration of TSNA in 2 Standard Solutions.

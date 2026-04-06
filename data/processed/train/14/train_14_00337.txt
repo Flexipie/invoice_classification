@@ -1,0 +1,50 @@
+We are interested in understanding the mechanism of eucatyotic DNA primase and q
+examining inhibiton of it by several nucleotide analogues. Primase synthesizes the RNA @
+primers that are then elongated by the replicative DNA polymerase, and is therelore essential
+for DNA replication (t}. All known eucaryotic primases share several features; i) they exist as
+a multisubunit compiex (PP complex) with DNA polymerase a, and the pol « is associated
+with @ peptide of ca. 180 kilodaltons (2-4); ii) primers are synthesized on polypyrimidines (ex.,
+poly (dT)), bul not palypurines (5); ii) complete primers are of discrete length (ca. 10
+nucleotides}, even on homopolymer DNA (2) and: iv) with ‘natural’ DNA, the initial nucleotide
+is ATP, although GTP will suflice (6,7). These similarities suggest that the mechanisms of
+eucaryotic primases are all quite similar, The source of enzyme for this work is calf thymus,
+which was chosen on the basis of ils high yield during purification (ca. 2 mg PP from 500 g
+celts (2)),
+
+Our present work is directed towards; i) developing a DNA template of defined
+sequence that supports primer synthesis and: i) understanding the unusual processivity of
+primase Previous work with primase has typically utilized either phage DNA (ex. M13) or
+synthetic homopolymers (@x. poly (AT) (2.8)). For a number of these studies, a DNA template
+of defined sequence would be advantageous since we could control the nucleotides to be
+polymerized. To this end, we have synthesized a DNA oligomer based on nucleotides §584-
+5603 of M13 that supports primer synthesis in the presence of ATP and GTP. The primers are
+8-10 nucleotides long, bul due to the polypyrimidinic nalure of this template, we do not yet
+know the precise primer initiation site.
+
+DNA (3) AAGCTCTTTCCTICCCTICTTICGCTITAA F
+
+The initiation site(s) will be defined by incubating PP with DNA2, GTP and [a-
+S2PJATP, then dNTPs will be added to form runoff replication products. The length of the
+products will determine the approximate start site and the number of slat sites, Only the
+approximate start site will be known due to the small differences in the electrophoretic mobility
+of RNA and DNA and the primer 5" triphosphate. If only ane product is detected, the start site
+will be ascertained by partial base hydrolysis of the products of reactions as above, except
+[2P)ATP will be replaced with [a-32P|UNTPs. After gel electrophoresis, a ladder of products
+will be observed, with the shontest product containing only DNA. The number of bands in the
+product ladder gives the length of the primer and the length of the shortest praduct gives the 3°
+terminal nucleotide of the primer. Thus together, these data will demarcate the primer
+syothesis site. In the case of muttiple initiation sites, site specific mutagenisis of the template
+will be used to reduce the number of sites to one. Initially, the approximate location of each
+sian site will be determined by forming runoff replicalion products as above, Elimination of
+unwanted start sites will be attempted by converting pyrimidines in the template to purines,
+since primase appears to require pyrimidine rich DNA for initiation of primer synthesis.
+
+Using @ poly (dT) template and ATP, primers ate mainly 8-11 nucleotides long, similar
+{0 previous work (2). Interestingly, while decreasing the ATP concenitation from 200 4M 10 25
+uM resulted in a 18-fold decrease in the rate of primer synthesis, the distribution of complete
+(8-11 nucleotides) primers did not vary. This indicates that processivity is nol a competition
+between dissociation and ATP polymerization, since tho polymerization rate is ATP.
+dependent. Rather, processivity must be determined by a compelition belween dissociation
+and an ATP independent step, tor example translocation. Similar results were obtained by 8
+decreasing the polymerization ate via inclusion of CTP or GTP.
+

@@ -15,9 +15,7 @@ __pycache__/
 .idea/
 .vscode/
 
-# Generated data & checkpoints (large — regenerate with scripts/ocr.py)
-data/processed/*
-!data/processed/.gitkeep
+# OCR outputs (~56 MB for 12k docs) are committed; to exclude locally, use .git/info/exclude
 
 # Trained artifacts (when added)
 models/*

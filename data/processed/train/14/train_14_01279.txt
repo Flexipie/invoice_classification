@@ -1,0 +1,37 @@
+PROROSAL A 0500/3042 GDS (S) 83 "PAGE 5-11
+
+5.2.4 Determination of hydrogen ign concentration
+
+Principle: electrochemical determination
+
+Time: on the day of dry condensate
+preparation
+
+Sample material and quantity: application stock solution, 2 ml
+
+Results expressed in: pH (= minus log of hydrogen ion
+concentration)
+
+Equipment: pH meter, Pit 9409, with glass elec-
+trode, CA 1-8,
+
+Philige Gnbii,
+
+De3800 Kassel
+
+Chemicals and reagent:
+
+calibration buffers, pH 7.00 and
+PH 4.00, no, 9887 and 9864,
+
+R. Merck,
+
+D-6100 Dacmstadt 1
+
+Procedure: determination at RY after calibra-
+tion of pi meter with 2 standard
+: buffers
+Scientific version: 28.Feb.81
+Text version: 12.gun.85
+
+pgegostosz

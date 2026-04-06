@@ -1,0 +1,60 @@
+Plan for Analysis of the U. 3. Mortality Data Using Age-sdjueted,
+Baath Rates
+
+We want to confirm the regional differences in mortality,
+using the ten geographic regions as the basic classification of
+states. Next, we want to see what factors (covariates), which
+are measurable by state, are associated with different levels
+of mortality. When two factors are correlated with a specific
+mortality, #e want to sce whether each factor is still corre-
+lated when correction is made for the effect of the other
+factor. The correlations are across the four states,
+
+One can say, thus, if levels of Factor A are high, mortality
+iu also high, or vice veraa. Similarly, Factor B may be tested.
+What must be determined is whether Factor A ia acting through
+Factor @ on mortality, or Vhether it is independant and acting
+en its own. For example, assume that low income levels and law
+breast cancer mortality occur in the same states, also that higher
+levels of breast cancer mortality and larger percentages of for
+aign born occur together in the game states. Does this mean that
+high incomé levels and large percentages of foreign born occur
+together in the same etatea? If ao, then either income level or
+ethnic background is effecting the mortality rate directly, but
+
+jot both. If the two factors are not themselves correlated, then
+ch one is effecting the mortality separately. If this isthe
+case, it is aleo possible that the effact of income and the effect
+of ethnic background, though independant of each other, may in~
+teract on mortality go that their effect together is greater than
+the sum of their individual effects. Tt could then be that being
+affluent has an enhancing affect on tha ethnic influences an
+mortality, or that being foreign born enhances the income level
+effect on mortality. This 1s called interaction and it can be
+positive or negative,
+
+There are many ways of determining the form and extent of the
+influence of several factors on the dependant variable, tha mor
+tality rate, Another method besides using multiple regression
+equations, is principle components, These are linear functions
+
+of the factor variables, with coefficients which reflect the
+importance and input from each factor.
+
+When there are many interrelated factors to deal with, the
+principle components reduce them to the one or two which a¢count
+for most of the variation among the whole sct of factors. The
+principle components are not correlated with each other, so each
+one represents an independant set of forces acting upon mortality.
+For example, 4f you were looking at all the body measurements as
+@ factor in total weight, the first principle component would be
+@ linear sum function of all the measurenents with all positive
+coefficients, representing a general size component, The second
+Principle component would be a linear function of ail the measure-
+Renta, of which soma would be positive and sone negative coeffi-
+Sients, such as width of shoulders contrasted to width of hips
+plus length of arms contrasted to circumference of ams, i.e
+
+CTR SP-FILES 013043
+
+11013062

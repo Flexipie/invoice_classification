@@ -1,0 +1,66 @@
+Harvey Rubin MD, PhD
+August 1992
+
+REGULATION OF NEUTROPHILS AND PROTEASES BY SERINE PROTEASE
+INHIBITORS
+
+Synopsis
+
+Inhibitors of proteolytic enzymes have multiple roles in limiting the molecular and cellular
+mechanisms of inflammation, which if not controlled, would result in acute and chronic lung damage
+(Rinaldo and Rogers 1982; Suter et al 1992). ‘Therefore, protease inhibitors based on heterocyclic
+compounds, short linear and cyclic peptides and mammalian enzyme inhibitors have been investigated in
+order to produce safe and effective agents for clinical applications (Travis and Fritz 1991; Trainor 1987).
+‘The human neutrophil and the serine protease, human neutrophil elastase (HNE), are recognized as major
+mediators of inflammation and tissue destrection. The experiments in this proposal focus on the molecular
+biology, biochemistry and cell biology of human serine protease inhibitors (serpins) in order to. 1) define
+the molecular imeractions berween FINE and serpins and 2) determine the role of serpin in regulating
+neutrophil mediated events in jung injury, To test our understanding of these basic mechanisms we will
+evaluate newly designed recombinant inhibitors for their effects on the activation of adherent and non-
+adherent hurnan neutrophils and in limiting inflammation in an animal model of acute lung injury.
+
+Aims
+
+‘Einst, we will use specifically designed recombinant serpins to determine the residues that are
+involved in, a) establishing the one-t0 -one stoichiometry of inbibition between the serpin and HE, b)
+deternining the rate constant of inhibition of HNE, ¢) maintaining the long-term stability of the serpin-
+TINE complex and d) defining the specificity for HNE compared to other serine proteases, The
+zelationship between these biochemical properties and the structural features of HNE-targeted serpins will
+bbe investigated using CD spectroscopy and X-ray orystallography.
+
+‘Second, we will investigate the regulatory properties of HNE-targeted serpins on neutrophil
+associated events, focusing on the effect of these serpins on responses of non-adherent and adherent
+neutrophils to C5a, FMLP, PMA, TNF, IL-8, enzyme-releasing factor, fibronectin fragments and elastin-
+derived peptides. ‘The responses we will analyze are, production of free radical oxygen, release of
+elastase, cathepsin G, proteinase 3, PAF and LTB4.
+
+‘Thind, we will test sclected HNE-targeted serpins for differential efficacy in reducing pulmonary
+inflammation in an animal model of acute lung injury.
+
+Background and Present Status
+
+The of serine proteases in the circolation are closely regulated by che level of circulating
+serine protease inhibitors (sempins) and any imbalance is usually associated with devastating
+pathophysiologic consequences (Neuhoff etal 1986). [tis increasingly evident that serine protease
+inhibitors manifest complex regulatory properties at the cellular and tissue levels, in addition to controlling
+the activites of the circulating serine proteases of the fibrinolytic, coagulation and complement activation
+pathways. Although pathologic clinical conditions mediated by an imbalance berween proteases and
+protease inhibitors are weil described, vety litle is known about the kinetics and thermodynamics of the
+enzyme reactions that lead to the clinical syndromes.
+
+‘The interaction of serpins with endogenous and microbial proteases produces a spectrum of
+molecular species each of which are components of a highly evolutionarily conserved homeostatic
+mechanism that operates (o maintain a concentration of intact, active serpin necessary for host survival
+Of these species, the serpin-enzyme complex and the hydrolyzed, inactive form of the intact serpin,
+stimulate the production of IL6, signaling hepatocytes to increase syathesis of the acute phase proteins,
+including a subpopulation of the serpin superfamily of proteins (Kurdowska and Travis 1990). Although
+serpin-enzyme complexes are rapidly cleared from the circulation (Mast et al 1990,1991; Pizzo et al 1988),
+they may accumulate along with the cleaved and intact forms in local areas of inflammation. This
+establishes a complex microenvironment of chemoatractants (Hoffman et al 1989; Banda et al 1988a,b;
+Poiempa et al 1991) and inhibitors of chemotaxis (Lomas et al 1992) as well as activators and inhibitors of
+acutophil degranulation, leukotriene, platelet activating factor (Camussi etal 1988, 1989) and superoxide
+production, We showed that native and recombinant antichymotypsin (ACT) inhibited sperexide
+generation by human neutrophils in suspension (Kilpatrick et al 1991). In this system, intact ACT and
+
+1
+

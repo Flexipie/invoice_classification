@@ -1,0 +1,48 @@
+RIR Inter-of fice Memorandum
+
+Subject: Tipping Specification Ranges Oate: December 21, 1987
+
+To: Mr. J, L. Mckenzie From: Or. C. T. Mansfield
+- Component. Technology
+of Applied R&D
+
+Only some of our tipping specification ranges exceed 425% of target.
+It is only these that I propose that we change. Our current tipping
+specification ranges are given on the attached sheet.
+
+We do not now have a guide for setting tipping specifications. As
+our suppliers have indicated that they can supply tipping at 125% of
+target with no upcharge, We should certainly not have specifications that
+exceed these units.
+
+Using our computer model, we would predict the following changes on
+tar delivery (mg/cigarette) for brands significantly affected:
+
+TIPPING +/- TARGET
+
+BRAND <LIM. LIN. ~25% #254
+DORAL II 5.7 0.7 5.8 2.5
+DORAL 11 5.7 0.7 5.8 2.5
+NOW CPB 80 0.7 O.7 0.1 ot
+NOW CPB 98 0.1 0.1 0.7 one
+SALEM Ultra 6.4 3.5 6.4 4.3
+VANTAGE Ultra 100 4,7 1.3 4.8 2.2
+WINSTON Ultra 7.9 27 74 5.5
+
+VieTaoe 100
+
+No significant QA action would be required as brand managers now are
+responsible for specifications. In most cases, tipping is usually already
+within these specifications. This would just ensure that no extreme tipping
+would be allowed.
+
+xc: Ms. J. P, Wheeler ~ 5 ¢ Mansfield
+
+Mr. A, 8, Norman
+
+Attachment
+‘NOTE: Can't accurately catculate.
+
+296m oszts
+
+URL FORM 2429-Aiw, 270

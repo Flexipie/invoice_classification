@@ -1,0 +1,56 @@
+INBIFO Institut fOr biologische Forschung - Kéln
+
+REPORT A 0500/3050 .06 NOZ6 (RB) A29 PAGE 5-6
+
+&
+
+5.5 Execution of the Experiment
+
+Principle: The change of electrical resistance
+in the Statham Universal cell
+produced by the isometric contraction
+serves as signal, which, after
+anplification, is recorded, The
+change of resistence is proportional
+to the force of contraction.
+
+Time: immediately after preparation of the
+heart auricle
+
+@ "Ret ana quantity: 1 guinea pig
+Results expressed in mol /1
+Equipment : | water-jacketed glass oryan vessel
+
+(20 ml) with stopcock for flushing
+and frit for aeration, 1 immersion
+thermostat
+
+1 glass storage vessel (2 1)
+
+Statham Universal cell,
+amplitier [ASE-Messbr icken-Koppler},
+heart rate coupler,
+Watanabe linearcorder Mark V
+WR 3001
+Hugo Sachs Elektronik,
+e D-7801 Hugstetten
+
+Chemicals and reagents: Tyrode's solution (same as given
+in 5.4 Preparation of the heart
+auricle),
+test substances,
+reference substance
+
+2805195424
+
+Procedure
+
+() calibration
+
+The calibration of the amplifier is
+arried out before each experiment +
+The load on the heart auricle is 1/9.
+
+The heart rate coupler is set to the
+frequency range of 40 to 400 pul-
+sations/inin.

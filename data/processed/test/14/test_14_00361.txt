@@ -1,0 +1,63 @@
+DRAFT
+
+CARCINOGENICITY DATA SUMMARY: TRUFLURALIN
+
+‘Trifluralin (CAS No, 1582-09-8) is an herbicide for gasses and broadleaf weeds, Triflwalin was reviewed
+by TARC in 1991. IARC concluded thet the evidence of carcinogenicity wes inadequate io kumans and
+Timited in enimals (group 3 carcinogen). However, their review included only the NCI (1978) rat and
+‘mouse studies and the mouse studies by Francia etal (1991). The studies by Eismerson et al. (1990) and
+Bl Lilly (1966) wero not considered. US HPA has posted 2 series of rovicws and actions relating to
+‘vifluin (USEPA, Pederal Register) and IRIS currently lista tifluriin as a Class C ~ possible human
+carcinogen.
+
+Carcinogenicity data available:
+
+Epidemiological studies
+
+1. Population-based case-control sturdy: Hoar, 1986. This study of white males in an agricultural setting:
+‘found an elevated odds ratio for non-Hodgkin's lymphoms among farmers exposed to wiflursdin (OR
+12.5, 95% CT 1.6-116.1). Other significant chemical exposures also occurred, however, confounding
+she aoa.
+
+dninal bioaseaye
+‘Mouse fong-term diet studies (treated 78 weeks + additions! 12 weeks observation): NCI, 1978
+Significant inreases ia hopatecaliular carcinomas and alveclar and broachial adenomas were seen it
+{ermal mice receiving 0, 7140 or $192 ppm in the dict Amal! inctease in relatively re forestomach
+catcinomas seen in low-dose female mie (#45 versus 0/60 in pooled controls) was also considered
+rreatmentrelaed. Increased tumor inoidences in male mice were not significant. Tas NCI concluded
+chat “techrieal grado tiluralinis a carcinogen in fomale BOC3F, mice..." This study used technical
+stade riflwalia lager ound robe contaminated with N-nitaeo-n-propyiamine (NDEA)
+
+‘2 Rat long teem dieu studies (rested 78 weeks + ariitional 33 weeks observation): NCI, 1978. No
+‘crease in mimors was observed in male or ferale rats.
+
+3. Rat diet studies: Emmerson et af., 1980 (This series of sudico bas at been published in the open
+Fiera, but wos submitted to and reviewod by CDFA [1990], and is cited by US EPA, with
+‘omnmary in TRIS). Technicel grade triflrelin with <0.0° ppm of NDPA wax administered ty both,
+sexes of Fincher 344 rate at 0, 813, 3250 of 6500 porn in diet Uncommon transitional ell
+carcinomas of the renal pelvis epithelium were inereased in all weated sroups of males, reaching
+significance inthe high-dose group. Dose-dependent increases in umrs of the bladder or renal pelvis
+‘mansitionsl epithelium were observed in bath sexes (males: 0/60, 3159, 4/60, (60; females: 0/60,
+{9760, 1/60, 5/60). In addition, tyro follicular adenomas and careinornas were significantly increased,
+in high-dose male ras,
+
+4, Mowwe long-term diet etudies 2 years): Francis et al, 1991. ‘echnical grade biflualin with < 0.01
+NDPA was administered at 0, 563, 2250, or 4450 in diet to males and femele BGC3F) mise. No
+‘evidence af encogenicity was observed, although the high dose resulied in significanly decreased bady
+weight xing,
+
+5, Rat long-torm diet studies (2 years): EU Lilly, 1966, as reported in US EPA 1986 Peer Review of
+‘Teiflualin, In groupe of 25 ofeach sex, Sprague-Dawley vate were administered 0, 200, 1000, or 2000
+rm tifurain in the diet, "The CAG concluded that this study showed no evidence of
+‘carcinogenicity and tha the srudy was an adequate bass for sfety evatvation "
+
+TARC (1991) reviewed th publivted data on tifusalin and concluded that tare was Iimited evidence of
+carcogeniity in animals (group 3). However, since they da nol, as a mate of policy, review studies
+‘which have only been submited for product egicwaon purposes and not otherwise published, thir review
+included only the NCI (1978) sat and mouse snodies and the mouse studies by Francis et al. (1991)
+Neither the positive study by Emmerson ei af. (1980), nor the non-positive result obigined by EH Lilly
+(1966) was considered. US EPA curently classifies ifturin a a Class C- possible human er
+
+3
+
+6916915207

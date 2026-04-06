@@ -1,0 +1,119 @@
+Appendix ¢
+
+MERIDIAN
+
+ACAS 470
+
+INTERACTIVE LASER CYTOMETER™
+
+Application Note Number E-1
+Quantitative Ratioing
+
+calelum Measurements in Single Cells with the
+ACAS Interactive Lasee Cytometer
+
+Margaret H. Wade, Ph.D. and Susan A. McQuiston,
+MT(ASCP), Meridian Instruments, Inc.
+
+Intracellular free calcium in single cells can
+be quantitated using the ACAS Interactive Laser
+Cytometer. Small changes in free calcium can
+have dramatic effects on many cellular processes
+including cell motility, muscle contraction, gap
+junction function, fertilization and cell division
+(5).
+
+Free intracellular calcium levels arc typically
+between 50 and 150 nM, These levels ace
+approximately 20,000 times lower than the total
+calcium concentration estimated to be bound in
+mammalian cells or in the external mitieu. Most
+of the calcium within a cell is sequestered within
+nuclei, mitochondria, end endoplasmic and
+sarcoplasmic reticuli, Multiple mechanisms in the
+cell maintain this enormous —conoentration
+gradient. Other mechanisms ace responsible for
+relcasing free calcium ions into the cytosol in
+response to a variety of environmental stimuli
+6).
+
+Calcium ions are therefore regarded as “one
+of the most important intracellular messengers in
+biology" (7.8). Since the changes in free calcium
+levels which trigger cell activity are minute and
+often very rapid, quantitating these changes has
+been technically very difficult, Recently,
+however, Roger Tsien and his associates (9) have
+developed a fluorescent calcium indicator, Indo-l,
+which is particularly well suited for quantitating
+rapid caleium flux in single cells.
+
+The fluorescent probe, Indo-l, is used to
+monitor calcium in its bound and frec states by
+exciting the dye with the 351-363 nm Lines of the
+argon laser, and simulianeously detecting two
+emissions at 405 nm and 485 nm (9). A ratio of
+these emissions is computed automatically by the
+integrated software and allows quantitation of
+free calcium within the cell, The ratio method
+eliminates most of the problems associated with
+dye leakage and concentration of fluorescent
+probe within the cell, and the simultancous
+detection provides for extremely accurate
+quantitation of temporal and spatial calcium
+changes. The laser excitation source provides a
+small beam (about ! micron in diameter} which
+both allows for extremely low levels of
+fluorescence to be detected with minimum laser
+power, and greatly reduces the amount of
+phototleaching that might accur wich repeated
+scanning. The X-¥ scanning stage allows for .25
+
+micron data
+spatial analysis
+
+Several Iypes of experimental data
+collected using the ACAS, Single point dats,
+integrated cross stztional line scans as well as ta
+dimensional spatial scans can be measured within
+a cell.
+
+Calcium is quantitated directly in cells by
+comparing the ratio of the emissions to that
+generated in a itandard curve. The standard
+curve is procucet hy mixing the Indo-I free acid
+with varying amounts of added calcium in a
+physiological buffer containing EGTA. A typical
+standard curve i: shown in Figure | where the
+Detector 2/Detector I ratio is plotted against fee
+calcium conceatrstion
+
+cuisition 10 provide maximum
+
+Flguce 1. Standard curve of the ratio of the twa eriaions generated
+Dy adding ealcirs ov VTA caning solution of Indonl feee nc
+
+Examples of linc and image scan da are
+presented vsirg serum starved = human
+teratocarcinoma sells (HT) labelled with 1 uM
+Inda-} AM, the cell permeant form of the dye.
+The additio: of fetal calf serum to these cells
+causes a sharp 2-3 Fold increase in calcium
+concentratio: which then retuens to a baseline
+level. The particular component(s) in serum
+responsible for ih: calcium spike have not yet
+been identif ied.
+
+Figures ? and 3 are typical examples of Line
+sean data. Figure 2 represents ane ef the
+consecutive scan: across the cell. Kiguee 3 is a
+
+ratio plot of the integrated value under cach scan
+asa function af time, The vertical mark denotes
+the time when serum was added, The temporal
+shift has occurmid very rapidly and the calcium
+levels retura to baseline.
+
+Figure 4. Line scan data showing szsae azzoss the cell wich
+Auoretcenice al Lolly 42% see ABB diay
+

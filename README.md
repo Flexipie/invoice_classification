@@ -2,7 +2,7 @@
 
 Traditional ML pipeline (no LLMs): OCR → TF-IDF + structural features → sklearn classifiers → regex/spaCy extraction for invoices.
 
-**Git:** Generated OCR files under `data/processed/` (and future `models/`, `reports/`) are **not** committed—large and reproducible. After cloning, run `setup_env.sh` and `python scripts/ocr.py` locally.
+**Git:** `data/processed/` (OCR text + CSVs, ~tens of MB) is **included** so clones can run feature extraction without re-OCR. To regenerate from scratch, delete that folder and run `python scripts/ocr.py`. `models/` and `reports/` stay empty until you train.
 
 ## Prerequisites
 

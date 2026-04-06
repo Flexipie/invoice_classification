@@ -1,0 +1,27 @@
+PRAET
+“Te Be REVWED
+
+Simulation of Volatile Loss From Tobacco Smoke Usi
+the Aqueous System Ammonia, Acetic Acid and Nicotine
+
+Clarence G. Trowbridge," James P. Snyder, Jeffrey I. Seeman,’ Peter J. Lipowicz*
+
+Department of Chemistry, Emory University, Adanta, Georgia 30322
+*Philip Mortis, P.O. Box 26583, Richmond, Virginia 23264
+
+Abstract
+
+‘The distribution of nicotine among its states of ionization in tobacco smoke has
+been commonly treated as an equilibrium calculation requiring only knowledge of pH
+and the ionic equilibrium constants involved. Such an approach does not consider the
+consequences that follow if smoke is recognized to bea system that evolves in time as
+volatile components pass from the aerosol particles to the gas phase. A mathematical
+model of an aqueous solution of ammonia, acetate, and nicotine has been developed
+to simulate the volatile loss of these components from tobacco smoke. In the simula-
+tions the high volatility of ammonia relative to that of the other components causes its
+tapid toss from the system. This shortens the time interval within whic ammonia can
+affect the pH of the system, leading to rates of loss of acetate and nicotine which are
+quite different from those expected on the basis of equilibrium calculations alone.
+
+Se Lepasose
+

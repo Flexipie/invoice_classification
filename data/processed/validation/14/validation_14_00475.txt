@@ -1,0 +1,28 @@
+P 43034
+Page in
+Title:
+
+Acute Smoke Inhalation Study with 2R1 Standard Reference Cigarettes on Chinese
+Hamsters; SCE Mutagenicity Study
+
+SD: WRE Experimental Part: 1980
+
+Objective:
+Evaluate the end point bone marrow SCE.
+
+Cigarette Codes:
+art
+
+‘Test Parameter:
+Bone marrow SCE
+
+Study Design:
+
+3 groups with 10 mals Chinese hamsters, each; head-only exposed for 7 Iv, fo
+460 yg TPM
+
+Results / Comments:
+
+No influence of acute MS exposure on bone marrow SCE in Chinese hamsters
+
+S6pL66L09%

@@ -1,0 +1,59 @@
+FSC7-B T1398
+
+SUBJECT: _ Wholesale Partners RIR Promotion Reporting
+
+DISTRIBUTION:
+
+X_ AVP x_ KAM _X DM
+
+7X7 RSM Oe AN ™ RM
+
+x_ RBM X” AE * sates Rep
+xT Rom — Retail Rep
+
+(Please distribute to any salve representatives with Direct Account responsibilities)
+
+Qbiective: Emphasize importance of proper MSA promotion reporting
+
+Purpose: Current promotional reporting in many cases is not acourate. [tis important that
+the first and second quarters of 1998 are utilized to troubleshoot and correct
+teporting discrepancies,
+
+‘The st Half 1998 Wholasale Partners Program is a first step in establishing a truly
+performance-based incentive program. Going forward, Direct Accounts will be continually re~
+evaluating the priority of each manufacturer's VAP program based on timing and logistics. We
+believe this p2rformance-based program will assist RUR in gaining the leverage needed to
+execule our promotions in a timely and efficient manne.
+
+In adattion to timely and efficient promotion execution, correct promotion reporting will allow
+RAR the opportunity to know where, in what quanlitigs, and In what timeframes our promotions
+are being shipped. In order to make this happen, however, tis critical that the promotion
+descriptions are reported properly by our Direct Accounts, Direct Accounts must report
+promolion descriptions to MSA exactty as described in the Quarterly Promotion Descriptions
+Tables (see FSC-132B Addendum 11/4/97). ‘1st Half 1998 is being used to work out any
+problems or issues accounts are having with proper promotion reporting. Accounts will be
+required to provide you with their ovn report for you to determine promotion performance
+payment manually. In the 2nd Half 1998 Program, account's promotion data reported to MSA
+‘wil be utlized to determine shipments to retail automatically. If promotion data is net reported
+properly, the account will be in jeopardy of losing the $.03 Category Ill payment.
+
+A “promotion description’ fi is being provided as @ slarting point for you to identity promotions
+not being properly reported. This file resides
+
+G\_sales\_98plansiWhipartitstHalt,
+
+Double-click on your individuat sales area fie (.. MWSA.xis, NESA xls, SSA.xls, WSA xls)
+Each sales area file contains a tab for each region that lists accounts reporting of RIR
+promotions to MSA in November, 1997. Single-click appropriate region tab. The file lists all
+‘eporting of promotion descriptions by all Direct Accounis with the following exceptions:
+
++ Accounts not having promotion activity to report, or
+
+«Accounts that have reported promotion activity, but failed to use a brand style in the
+promotion description. (EXAMPLE: 82G2F Promo will not show as any activity.)
+
+‘You should review these fles and have any necessary conversations with our Direct Accounts
+that are not correctly reporting promotions ASAP. A file will also be sent out fo you shorlly
+reflecting promotion reporting for the ‘st week in January 1898 as a comparison.
+
+9ItS zsets

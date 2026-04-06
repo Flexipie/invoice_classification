@@ -1,0 +1,59 @@
+eisernaa7 16:28 7 NasesNEE WISTAS INST EDITORTA Page 1a
+
+6. Repatt of Progress.
+
+‘The overall goal of the research is to understand the mechanism of
+\anseriptional activation by the p53 transcriptional activator. We have taken two
+approaches: the first has been to dissect the structure of the amino terminal
+activation domain of p53. and the second has been to deternune whether activation by
+p&3 requires transcriptional adaptors, Our results indicate that there are two
+independently active sub-regions within the p53 activation domain, and the activity
+of each sub-region is adaptor dependent. Moreover. in the last year, the
+transcriptional adaptor, GCNS, has been shown to be a histone acetyltransferase
+(Brownell. et al. Cell, v.84, p.843), potentially linking chromatin modification ta
+transcriptional activation, We have studied the dependence of p53 activation an the
+histone acetyltransferase (HAT) activity of GCNS, and have shown that,
+transcriptional activation by p&3 does. indeed, require the HAT domain of GCNS.
+Most recently we have shown that both subactivation domains of p52 require GCNS's
+histone acetylation activity, suggesting that each of the activation pathways requires
+chromatin modifeation.
+
+A. Analysis of a novel transcriptional activation subdomain in p53. (Candau et al,
+submitted; tn Appendod
+
+In the last update we reported the identification of a novel activation
+subdomain in the amino terminus of p53 that was active in yeast. In the past year we
+have analyzed this region in yeast arid in mammalian cells, and have Identified
+critical amino acid (aa) residues for its activity in both organisms.
+
+‘The regions within aa 1-40 (ASD1) and aa 40-83 (ASD2) were Independently
+active as fustons to the yeast GAL4 DNA binding domain in yeast and HeLa cells, and
+each had similar levels of activity not shown). Analysis of these subdomains within
+full-length p53 also showed independent and comparable activity, in human SAOS
+celis (Figure 1). Thus, 8a 40-83 constitutes a novel activation subdomain in p53.
+
+J vo
+
+Bow
+
+Figure 1, Two ASDs in bw:
+
+the amine terminus Tw
+
+of p33. H =
+* ef?
+
+oe
+
+The hydrophobic residues L22 and W23 were previously identified as critica) for
+»53-medlated transcriptional activation in mammalian cells, We mutated the
+adjacent hydrophobic residues W53 and F54 In ASD2, and tested their effect on p53
+transactivation. Mutation of either aa 22/23 or aa 53/84 within full-length p53
+caused a comparable decrease in activation potential in mammalian SAOS cells
+{Figure 2, left), Similarly, within p63 deleted either for ASD1 or ASD2, mutation of
+either aa 22/25 or aa 53/54 dramatically reduced activation (data not shown),
+Residues 22/23 and 53/84 were algo required for function of GAL4-pS3 fusions in yeast.
+(Figure 2, righ). Thus, we have identified critical residues for function of the aa 40-83
+actlvation subdomain of p53.
+
+60661280.

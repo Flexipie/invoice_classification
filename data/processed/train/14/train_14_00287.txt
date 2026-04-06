@@ -1,0 +1,54 @@
+CHARGE NUMBER: 2525
+PROJECT TITLE: Chemistry and Isolation of Tobacco Constituents
+
+PROJECT LEADE!
+
+Harvey J. Grubbs
+
+PERIOD COVERED: December 1-31, 1982
+ATE OF REPORT: January 12, 1983
+dC Study
+
+The first large scale smoking and condensate collection utilizing '*¢(u)-
+nicotine spiked cigarettes has been compteted.' The mainstream cold trap
+condensate from 122 cigarettes (2.1é6uCi/cigt.) was fractionated? using the
+Snook® procedure. The aza-arene fraction contained 0.28% of the activity
+found in the condensate, These preliminary data show an appreciable amount
+of activity in the aza-arene fraction, Repeated gas chromatographic examination
+has established this activity 1s not due to residual nicotine. Nicotyrine has
+been tentatively identiffed as a major component in the matnstream aza-arene
+fraction. The sidestream smoke condensate was Simultaneously collected by an
+electrostatic collection technique,’ and has been subjected to fractionation
+using the Snook procedure,” The aza-arene fraction accounted for approximately
+0.5% of the activity found im the sidestream condensate,
+
+The second large scate carbon-14 smoking run will be conducted in wid
+January, For this and all future carbonel4 runs, all analysis and clean-up
+from one run will be totally completed.before beginning the next run so as to
+minimize possible cross contamination,
+
+After evaluating several different procedures, a general procedure fer the
+preparation of several different ring size aza-arene has been developed.*
+Using the sodium salt of m-nitrobenzene sulfanic acid as catalyst, a modified
+Skraup synthesis has been used to prepare five specifically labelled aza~arenes.
+The following compounds are available:
+
+azararene total activity
+2,4-18C-quinol ine 7.49
+2,4-}9C-6,8-dimethyl quinoline 19.9
+1,3-1¢-benzo[f]quinal ine 5,03
+2,4-18C-dibenzo[f,h] quinoline 1.28
+1,3+**C-phena leno] ,9-gh]quino] ine 1.58
+
+These compounds will be used in recovery studies in the Snook fractionation of
+mainstream and sidestream condensate.
+
+Gas Chromatography/Pyrolysis
+
+A capillary splitter was designed and built for use in the Perkin-Elmer GC
+to enable simultaneous detection by the A/P detector and the flame ionization
+detector of the effluent froma single column,” Peak shape and retention times
+show the splitter system is working efficiently, This system will be used in
+further pyrolysis studies of deoxyfructosazines and Amadori compounds.
+
+€le2stzzoz

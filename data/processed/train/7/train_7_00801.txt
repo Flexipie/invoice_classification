@@ -1,0 +1,45 @@
+Interoffice Memorandum
+
+Tor Ms, Kathy Hege
+FROM: Dr. Steve Saunders
+DATE: May 11, 1992
+
+SUBJECT: Scientific Affairs Evaluation of XA Prototypes
+
+You have requested Sclentific Affairs approval for consumer testing
+of five XA prototypes. These prototypes utilize varying quantities of
+magnesium and calcium acetate (10-22%), and 3% each of potassium acetate
+and potassium chloride in the cuter wrap. The paper is 80% wood pulp and
+20% CaCO2. The inner wrap is either wood pulp/tobacco (prototypes AB and
+AC) or flax with varying amounts of calcium carbonate, magnesium hydroxide,
+and potassium malate.
+
+Ames data were generated for prototypes AB and AH {n a previous test
+to establish limits for XA wrapper ingredients. No significant difference
+fron a Camel Light control was noted in efther TA98 or TA10O activity.
+Anes data were not requested for the remaining three prototypes since they
+contain lesser amounts of the paper ingredients than prototypes AB and AN.
+
+Prototypes AB and AH were submitted for a full battery of smoke
+chemtstry analyses, whereas the other prototypes were analysed for only FIC
+parameters, For AB and AH, most smoke chemisitry components were generally
+decreased compared to a Camel Light contro}, with the exception of CO, HCN
+and cresol (AH). HCN and cresal were within the range of existing market
+brands, whereas the CO yield of prototype AB was slightly outside of the
+market range:
+
+xA Harket Range
+co 13.9-38.7 4.9-18.6 mo/ctg
+HEN 207-239 49-295 ug/etg
+Cresols 6.5-7.7 2.4-29.3 ug/ety
+
+These increases in CO, HEN and cresols were offset by large decreases in
+some components such as acrolein and formaldehyde. For the same rationale
+as Ames testing, the remaining prototypes were not submitted for the full
+smoke chemistry battery.
+
+Scientific Affairs recommends for the proposed consumer test. This
+matter should now be referred to the HRRC for consideration.
+
+197@ 980Ts
+

@@ -1,0 +1,59 @@
+APPENDIX III, ITEM 1
+
+1. Myosin Heavy Chain Tsozymes Characterization
+
+i) Toaue Extraction, Smooth muscle tissues will be freed of mucosa, submico:
+and serosal connective tissue at 4°C. All subsequent extraction steps will be
+performed at 0-4°C.
+
+Cleaned tissue will be minced with eciesors and then homogenized for 2
+minutes. Ten volumes of extzaction buffer (40 af NagP,0,, 1 7M Mg Cly, 1 aM BOTA,
+20 MLeupeptin, 1M Dithiothreitol, 250 otf Phenylmathylaulfonylfluorida, ph 8.8)
+will be used for one gram of tissue, Following extraction, samples will be
+centrifuged (10,000 xg) to pellet connective tiseue end cellular debris.
+Supernatant will be atored in small aliguote at 70°C. An aliquot of each exteact
+will else be analysed for total protein content.
+
+44) Sodium Dodecy! sulfate Polyacrylamide Kint-Gel Electrophoresis
+
+4) Sample Proparation, Thawed crude extracta wil) be mixed 3:1 with 4 x Sample
+Buffer (0.25 Tris - HCL, pl 6.8; 8% sodium dodecyl sulfate, 457 glycerol, 202 -
+mercaptoethanol, 0.0032 bromophanol blue), heated at 100°C for 1.5 minutes and
+removed to room temperature prior to being applied to the electrophoresis gel.
+Usually 10-20 g of crude protein will be applied per gol sample well.
+
+b) Gel Preparation. SDS-PAGE will be carried out on 47 gels, 6 cnx 7emx 0.1
+cm thick. Stock solutions required are; 302 Acrylenide-Bis 29.22 Acrylamide,
+0.8 gf Bis-Acrylamide 4 x Lower Gel Buffer 1.5 M Tris-HCl, pH 8.8, 0.47 SDS, &
+x Upper Gel Buffer 0.5 M Tris-HCl, pl 6.8, 0.4% SDS.
+
+The separating gel mada according to the following recipe will be poured to
+a height of 5.2 cm. 303 Acrylamide-Bis 2 mls, 4 x Lower Gel Buffer 3.75 mls, 20
+
+9.25 mls, De-Aerace for 5 minutes, 10% Anmonium Pereulafate $0 wl, TEMED 7 al,
+
+Overlay with isopropanol, (ellow 45 minutes-to-overnight to polymerize}, rinse
+well with #0 prior to pouring stacking gal. The vecipe for the stacking gel
+mixture is: 30z Acrylanide-Bis 0.42 mls, 4 x Upper Gel Buffer 1.25 mle, Hy0 3.38
+ale, De-Aerate for 5 minutes, 102 Ammonium Persulfate 25 ul, TAMED 5 ub.
+
+Well combs will be inserted while pouring stecking gel, then 65 minutes will
+be allowed to polymerize.
+¢) Gel Running Conditions Electrode Buffer composition is 0.025 Tris, 0.192 M
+glycine, 0.1% SDA. Sample well combs will be removed form gel, and the wells
+filled with appropriate anounts sample, Conditions for the Bic-RAd mint syston
+used are 200 ¥, constant for 60 minutes in a cold room. After electropheresie
+is completed, gles vill be efther stained for protein or Western blotted to
+nitrocellulose paper-
+
+4) Gel Staining and Deying Protein bands on the gels will be visualized using
+staining. After staining is complete gels will dried between two sheets of Blo-
+weap for 2 hours under a thot" Light prior to densitometric analysis.
+
+¢) Densitometry Gels will analyzed by scanning each sample lane with en LXB
+Utroscan XL laser densitometer. The area under each peak corresponding to &
+specific protein band will he quantified using Gaussian Fit integration from &
+baseline common to all peaks in & particular scan.
+
+iid) WESTERN BLOTTING 2) Electroblotting The proteins from unstained SDS-PAGE
+

@@ -1,0 +1,43 @@
+CTR final progress report, Jan. 1, 1988 - Dec. 30, 1990
+Grant #2207, Ray C. Pittman
+
+QUANTITATION IN VIVO OF PATHWAYS
+INVOLVED IN REVERSE CHOLESTEROL TRANSPORT
+
+Ray C. Pittman
+
+Department of Medicine
+
+Division of Endocrinology and Metabolism
+University of California, San Diogo
+
+Abstract:
+
+HDL cholesterol levels correlato inversely with the incidence of coronary artery
+disease. If wo are to understand the evident protective effect of HDL, its
+physiological role must be understood. {is genorally believed ttiat HDL mediates the
+return of cholesterol! from extrahepatic tissues to the liver for excretion or reutilization,
+Several pathways may narlicipate in this, but it has not been known what role each
+actually plays in vivo. Determination of this has been a central focus of this grant.
+Our central hypothesis is that a novel pathway for the direct cellular uptake of HDL
+cholesterol esters {CE}, which we term “selective uptake”, plays a role in reverse
+cholesterol transport in humans. We tested this in rabbits, which represent an
+extreme case in that they express much more actively than humans the major
+competing pethway. Using multiple tracors in a kinetic modelling approach, we were
+able to demonstrate selective uptake in vivo even in rabbits, indicating that the
+pathway likely plays a role in humans, Regardless of the magnitude of the pathway’s
+usual expression in humans, it may play @ pratective role which should be amplified.
+
+We have also shown that selective uptake can be perturbed by drug treatment by
+@ mechanism independent of effects on cell chalesterol levels, Probucot lowers:
+plasma HDL levels. We found, however, tirat mass transport of HDL CE to the liver
+was maintained at normal levels by induction of hepatic selective uptake. A parallel
+effect of probucol was observed in cultured human hepatoma cells. This effect an
+hepatic HDL metabolism may serve as a model for drugs ta reduce atherosclerotic risk,
+and as a probe of intracollutar mechanisms involved in selective untake.
+
+This grant has also supported studies of the mechanism of selective uptake. These
+have shown that the first step in the nonendocytotic uptake of intact CE involves its
+feversibla insertion from HDL into a plasma membrane pool of CE, from which CE are
+then internalized to a cytoplasmic destination where they are hydrolyzed.
+

@@ -1,0 +1,36 @@
+CHARGE NUMBER: 1706
+
+PROGRAM TITLE: TOBACCO PHYSICS
+PERIOD COVERED: July 1 - July 31, 1972
+WRITTEN BY; ALC. Lilly
+
+DATE OF REPORT: August 3, 1972
+
+CONVERSION OF CIGARETTE ROD TO sMoKE 1 +2)
+
+Stable solutions have been obtained for the one-dimensional
+fteady-state equations describing the gas phase in's
+burning cigarette. Presently, we are changing the input
+Paraneters to determine which have the greatest effect
+
+on the solutions.
+
+Work has continued on the MASS Spectrometer measurements
+on gas phase concentration as 2 function of distance from
+the combustion zone in a burning cigarette.
+
+MISCELLANEOUS (3)
+
+feveral demonstrations of the solid state gas sensors have
+been constructed to show outside companies’in the wocth
+of August,
+
+Fede
+
+REFERENCES fk
+
+(1) A.C, Lilly, Book 5250, Bp, 71-75,
+(2) HAV. Lanzillote?, Book $584, pp. 54-61.
+G3) C.0, Tiller, Book 5570, pp. 63-70,
+
+S99bLPTzz0z

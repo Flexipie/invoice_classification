@@ -1,0 +1,33 @@
+AD-O10
+UPACO 6733-0/PM 61-455-A
+
+This is a summary of the analytical tectniques used and the
+results obtained for the analysis of a Upaco Taw Anchor adhesive,
+6733-0.
+
+NMR
+
+This adhesive was characterized by 'Ht and Pc NMR spectra
+which gave definite information of the type of polymer that was
+used in the formulation of the adhesive, as well as, the level of
+polyvinyl alcohol (PVOH) that was used.
+
+BasePolymer = PVA/PVOH Ratio
+
+polyvinyl acetate 2.19 ND,
+PYROLYSIS GC/MS
+Pyrolysis GC/MS was used to determine the thermal
+decomposition products of this tow anchor adhesive at 500°.
+Identity Ara % Gast
+argon + carbon dioxide ost
+acetaldehyde 714 7507-0
+acetone 3.15 67-64-1
+2,5-dihydrofuran 267 1708-29-8
+2-butenal 231 4170-303
+benzene + MW 70 18.1
+acetic acid 40.95 64-19-7
+possible oxo ester ed
+
+3-penten-2-one 082
+
+*2.06T9b202

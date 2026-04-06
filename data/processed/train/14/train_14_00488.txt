@@ -1,0 +1,29 @@
+TUNABLE DIODE LASER MEASUREMENT OP THE RATIO OF NITRIC
+OXIDE ISOTOPES FROM COMBUSTION
+
+ABSTRACT .
+
+High resolution infrared tunable diode laser spectroscopy
+is shown to provide unique advantages over conventional GC-MS
+techniques for the analysis of the ratios of nitric oxide
+isotopes generated during combustion, By sampling combustion
+gases at a reduced pressure of 12 torr, nearly Doppler limitéd
+infrared absorption lines of various aitric oxide isotopes can
+be observed directly. Na separation of the isotopes from
+other gases is required and reaction of nitric oxide with
+other gases is minimized.
+
+The incorporation of oxygen-18 derived from H2'*O into
+nitric oxide was examined by determination of the ratio of
+0 to N'°Q, A single sweep of a lead salt diode allowed
+second derivative spectra of both species to be recorded
+within one minute. Calibration with a known isotopic mixture
+then allowed the determination of beth the isotope ratio and
+total NO level. In the present work a cigarette with .6%
+KN'SQ, added and treated with 45 1lof H21O was found to
+generate 3.5 ug of N?*O and 51.6 yg N'f0. These measurements
+were made at a pathlength of only 5 meters and without any
+
+attempts to improve the signal to noise ratio. The precision of
+
+PESZ28E00T

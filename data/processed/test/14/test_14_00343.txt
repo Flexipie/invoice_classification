@@ -1,0 +1,56 @@
+REPORT A 0500/3050.03, PART 3
+
+Test substance
+CR-number (S-number)
+
+Rel. mol. mass, rounded
+
+Date of receipt
+
+Reference substance
+
+NO16 (R) BIS
+
+3-{dimethy1 ami nome thy? ) pyridine
+
+CR-1974 (8 2623 A (a))
+
+2 133
+
+19,Mar,82
+Date of tests, week 1981: 14. to 18.
+
+L-nicotine bis(hydrogen)-L-tartrate
+
+Date of tests, week 1981: 14. to 18. and 22.
+HO ar OF vO Freee
+CONSEC. REFERENCE SUBSTANCE ‘TEST SUBSTANCE
+No. CONC. IN AMPLITUDE CONC. IN AMPLETUDE
+(BATCH) ORGAN BATH ORGAN BATH
+(micromel/1) (am) {micromol/1) (mm)
+1A) 0.908 94 2.61 7
+1.96 101 12.4 42
+4.22 115 56.2 79
+261.0 107
+24a) 0.909 60 2.61 29
+1.96 5 qt 52
+4,22 412 56.2 80
+261.0 107
+3) 0.908 Bo 2.61 24
+1.96 105 pal n
+4:22 116 56.2 123 ur
+261.0 136 Seed al bral
+meant+-SB 0.909 78.0+-5.7 2.61 3o.0¢-2.2 gid
+1.96 93.74-5.4 wa 55.04-4-9
+4.22 114.34-0.7 56.2 94.04-8.4
+261.0 6274-516 ek
+2610 NG 756 AE
+TABLE 17
+AMPLITUDE, CR-1974
+s
+N
+Fa
+(a) Letter behind S-number indicates batch, 1 ampul was deliverea = B
+37.5 mg were used for test model .03.
+
+remaining quantity approx, 952.5 mg

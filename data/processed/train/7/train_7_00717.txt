@@ -1,0 +1,38 @@
+RR Interof£fice Wemorandum
+
+Subject: ‘Thoughts on Use of an Index of Dates July 18, 1986
+Biological Activity
+
+To: tr. Bill Rice Pron: Dr. Randy Deskin
+
+This is a follow-up to our discussion last week regarding tha development
+of an index of biological activity that could be applied to Project RAN. In
+an attempt to quantitate and correlate changes in Anes activity, SCE, ete a
+way is needed to ascribe biological significance to the observed changes.
+Ideally, it would be nice if a 50 percent decreasa in Anes activity would be
+accompanied by a similar decrease in SCE or chromosomal aberrations. After
+reading Ors. J. 2, Hayes and D, J, Doolittle’s trip report to the Swedish
+‘Tobacco Company, this may be unlikely to occur. Hence, you could have a
+scenario where Anes goes dom 50 percent and SCE goes up or dow 20 percent.
+
+An alternate method to consider might be to use an approach similar to
+the “Weighted Contribution Method" proposed by fave Brusick for a battery of
+genetic toxicology tests (Brusick, D., Rrinciples of Genetic Toxicology,
+pe. 9 - 105), ‘The Weighted Contribution Method assigns a quantitative score
+for each assay and weights the appropriateness of a response as being positive
+or negative in the absence or presence of metabolic activation (see attached
+example). ‘The tests proposed by Brusick and the weight assigned to each
+response way be inappropriate for en evaluation of CSC, but I feel that a
+similar approach will aid in quantifying responses in your proaren. for
+example, you may wish to consider weighting responess in Ames, SCE,
+chromosomal aberrations, cytotoxicity, (perhaps cell cycle kinetics from SCE
+and chromosomal aberrations assays}, and irritation (i.e., Alaite RDgg}. ‘this
+could provide you with the information to say that an IR4P has an index of 100
+and a new prototype has an index of 75.
+
+As we discussed, this is only a rough idea that needs the input of others
+at ROR, It may be advisable to schedule an off-site meeting with the people
+dn the Genetic Toxicology group; the Inhalation group might also be included.
+It may be desirable to have the input of someone like Brusick.
+
+BEZT Sozos

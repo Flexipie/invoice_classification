@@ -1,0 +1,50 @@
+0: Dr. G.R- DiMarco -
+
+FROM: R.G. Haberkern
+W.S. Simmons
+B.S. Fagg
+G.M. Dull
+
+SUBJECT: Use of Asparagine in Cigarette Products
+
+We recently acquired information that Philip Morris has been purchasing
+significant quantities of asparagine (possibly up to 30 metric tons per
+year) for at least the last two or three years. Our conjecture is that
+it is being used for reaction flavor development. A literature search
+identified a Philip Morris patent, U.S. 4,379,464, 1983, describing the
+reaction of reducing sugars with ammonium hydroxide or ammonium salts
+in the presence of trace amounts of amino acids, including asparagine,
+to produce reaction flavors for use in smoking products. A separate
+reference, Koehler and Odell, J. Agr. Food Chem. 18, No. 5, 895,
+(1970), describes the production of alkylpyrazine compounds from sugar~
+amine acid reactions, Greatest yields were attained utilizing
+asparagine as the amino acid.
+
+The sugar-amine acid reaction occurs at temperatures above 100 degrees
+Celcius. This indicates three immediately apparent possibilities: (1)
+The reaction flavors are produced in vitro and applied to tobacco
+material; (2) The reaction constituents are placed on tobacco material
+and dryers utilized to drive the reaction; and/or (3) The reaction
+constituents are applied to tobacco material and the heat of combustion
+during smoking utilized to drive the reaction.
+
+Competitive Brands reports that RJR's exoding competitive position
+versus Philip Morris is expected to worsen over the next three years
+according to the most recent Operating Plan Update. RJR's inability to
+penetrate the young adult smoker market and its disadvantage in the
+lights/low tar category are keys to this decline. Neither critical
+area can be totally explained by RIR advertising or marketing
+strategies, nor can these areas be explained by routine analytical
+testing which has not been helpful in identifying meaningful
+differences between RJR and PM products. Therefore, product
+differences which current methods cannot identify must account for some
+of this dilemma.
+
+Based on the above information, APT, Competitive Brands, and S. Simmons
+propose preliminary research which may identify flavor differences that
+account for some of our competitive disadvantages and form a basis for
+development work for improved performance in the described critical
+areas. We plan to begin the investigation through the following
+analyses of PM products and RIR products:
+
+evog es905

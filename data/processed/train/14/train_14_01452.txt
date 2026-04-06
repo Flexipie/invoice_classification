@@ -1,0 +1,60 @@
+Page No. 1
+09/15/92
+Philip Morris TRAACS Report
+(Reported as %ASIS)
+
+Sample id Auk TRS SON NOS-N
+BRT 9,02
+BRT 9,02
+RL 0.33
+RL 0.33,
+Lezigsa 02
+Lezipa4 a,02
+Lezige5 0.02
+Lozigas 4.02
+Lezie4e 8,02
+Lezin4s 0.02
+921847 0.02
+L921B47 0.02
+Cezigss a.02
+Le2i855 0.02
+Le2iese 9.02
+Leziese 0.02
+921957 9,02
+Cozies? a102
+Leziesa a.oz
+Leziese 0,02
+beziese 2.02
+L921859 9.02
+BRT 2,02
+BRT 6.02
+RL, o.3t
+RL a32
+Le21g60 8,02
+Le2iB60 0102
+Lezigea 0.02
+Leziae4 0.02
+Lezi@es 9.02
+Loziaes 9.02
+LeziB7i 0.02
+Lezig71 0.02
+921675 0,02
+Le2iB75 9.02
+921876 0,02
+Lezig76 0.02
+921877 a,02
+921877 9.02
+veziaet ats
+921881 9.88
+u921928 a.02
+tez1928 0,02
+BRT 0102
+BRT 9.02
+RL 0.29
+RL, 9230
+921937 0.02
+921937 9.02
+
+SOR0015 8
+
+OLPETEDZOS

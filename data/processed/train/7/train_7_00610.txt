@@ -1,0 +1,52 @@
+Ws Tloyd Lockany / FILE
+FROM: Rich Guarino MSS
+
+SUBJECT: Quick Reference Specifications
+
+DATE: July 21, 1986
+
+I have reviewed the sample that Kay Adams and Carl Mathews have submitted
+to me as a replica of what their maaufacturing counterparts would like to
+see on @ consolidated specification d{splay screen for Making & Packing
+and Filter Making supervisors, respectively. In summary, thetr requests
+are implementable. We estimate that it would cost approximately 4
+
+‘ogrammer-weekS to develop, test, document and implement in production,
+Wowever, there are trade-offs. 1 have documented the trade-offs for your
+consideration,
+
+Background ?
+
+MSS hae individual on-Wine displays for aach cype of product, process or
+material with a fairly eimple browsing technique to either access the
+initial specification or branch from one specification ¢o another related
+specification. Also, MSS has a direct access technique which allows the
+user to obtain the desired specification If the precise fdentity fe known.
+
+Furthermore, MSS has numerous methods for retrieving detail or
+consolidated specification information {n hard copy format.
+
+Hanufacturing’s Concerns
+
+As you read these comments please consfder my recommendation relative to
+the perceived and real MSS-related problems within the production
+enysronnent that wore addreesed in a prior memo to you.
+
+Manufacturing has three concerns regarding the current design:
+
+1, It takes too long to log inte MSs
+
+This is a valid criticien, However, there ie very little we ean do to
+shorten it other than promoting the one ehort cut which we have
+documented that saves two steps, The various layers of security are
+required due to the sensitive nature of the information entrusted to
+MSS, We have followed standard system security polictes in the design
+of MSS and do not feel justified in eliminating any just to make the
+Jog on sequence shorter.
+
+The actual problem stems from the need to log off of che Labor
+Reporting System to log into the Manufacturing Standarde Syetem, ot
+vice versa. Terminal contention is the real issue.
+
+Tees Gatts
+

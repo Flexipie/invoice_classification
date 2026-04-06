@@ -1,0 +1,70 @@
+(eel eentlll onal eel eae
+
+ee el
+
+PROJECT NUMBER: 1333
+PROJECT TITLE: Semivorks Process Control
+
+PROJECT LEADER:
+PERIOD COVERED
+
+AL
+
+D. A. Phan
+January, 1988
+
+Qbjective: Evaluate and revise the process control and data acquisition
+system te improve processing performance and production quality.
+
+Results:
+
+Bright Top Casing Flavor System Upgrade (Oliver) ~ Work is underway to
+design the control system for a second bright top casing flavor tank.
+The design will allow both flavor systems at the bright casing
+cylinder to function simultaneously to accomodate unusual high
+application flow rate.
+
+Ads _Drver Control Tmprovenente (Sims) - Provox control
+
+modifications have been made to allow: 1) automatic coil pressure
+venting before dryer startup to insure pressure ramping
+consistency, and 2) control of steam te dryer coils either by
+pressure or flow.
+
+BG Dryer Study (liver) - Additional averaging temperature sensors
+have been installed and successfully checked out to measure
+
+air temperature after tobacco bed ingide the dryer. This work is
+Performed to support the project being conducted by the Semiworks
+Process Development Group to evaluate the performance of the P&S dryer.
+
+Tobacco Lot Analysis (Phan/Sims) - A new contzol panel for TLA dryer
+and conditioner has been redesigned and built for improved
+operational performance and maintenance. This work is performed to
+support the installation phase of the TZA project being conducted by
+PM Engineering at the QA Audit facility.
+
+Semivorks Primary Computer Upgrade (Oliver/Sims) - Initial software
+
+eonfigurarion for the HP backup computer has bean generated and
+Successfully checked out. The new configuration allows the backup
+computer access the Pravox database without communicating with the heat
+computer. A status report for this project, including plans and
+schedule, has been issued. The project is planned to be completed by
+June 1988.
+
+A purchase order has been issued for required Fisher hardware interface
+and process control software package for a PC-based computer.
+
+Blans: Continue the work on the Adt dryer process control improvement
+and primary computer upgrade projects. Complete the design of a second
+bright top casing flavor control aystem, Provide a database for
+make/pack 0A defect results and computerize the make/pack QA monthly
+report. Order an THPS pack-seal instrument to establisn baseline
+Performance of ail packers in Semiworks. Continue providing electrical
+Plant engineering support for the Semivorks and conduct routine QR
+functions.
+
+27
+
+O@8LTT1I00z
