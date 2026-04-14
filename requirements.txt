@@ -15,6 +15,11 @@ huggingface_hub>=0.20
 Pillow>=10.0
 opencv-python>=4.8
 pytesseract>=0.3.10
+scikit-image>=0.21
+
+# Deep learning (CNN)
+torch>=2.0
+torchvision>=0.15
 
 # NLP — spaCy 3.8+ pulls thinc>=8.3.12, which requires Python 3.10+; 3.7.x works on 3.9
 spacy>=3.7,<3.8

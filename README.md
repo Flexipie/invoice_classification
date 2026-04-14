@@ -1,71 +1,166 @@
 # Document Classification & Invoice Extraction
 
-Traditional ML pipeline (no LLMs): OCR → TF-IDF + structural features → sklearn classifiers → regex/spaCy extraction for invoices.
+Pure Computer Vision pipeline — no LLMs, no OCR at classification time.
 
-**Git:** `data/processed/` (OCR text + CSVs, ~tens of MB) is **included** so clones can run feature extraction without re-OCR. To regenerate from scratch, delete that folder and run `python scripts/ocr.py`. `models/` and `reports/` stay empty until you train.
+**Categories:** email · invoice · letter · scientific_report  
+**Dataset:** [RVL-CDIP](https://huggingface.co/datasets/aharley/rvl_cdip) (12 000-image subset, balanced 4-class)
+
+## Approach
+
+Three models are trained and compared:
+
+| Model | Features | Classifier |
+|-------|----------|------------|
+| A | Raw pixels → TruncatedSVD (200 components) | SVM (RBF) |
+| B1 | HOG (orientations=9, cells=8×8) | SVM (linear) |
+| B2 | HOG | Random Forest |
+| C | End-to-end CNN (3 conv blocks) | Softmax |
+
+Invoice extraction (fields: number, dates, issuer, recipient, total) runs only after a document is classified as `invoice`, using Tesseract OCR + regex + spaCy NER.
 
 ## Prerequisites
 
-- **Python 3.9+** (for **Python 3.9**, `requirements.txt` pins **spaCy 3.7.x**; use **Python 3.10+** if you want newer spaCy without that pin)
-- **Tesseract OCR** (system binary; required by `pytesseract`):
+- Python 3.9+
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
   - macOS: `brew install tesseract`
   - Ubuntu: `sudo apt-get install tesseract-ocr`
 
-## Setup (automated)
-
-From the `document-classifier` folder:
+## Setup
 
 ```bash
-bash setup_env.sh
-source .venv/bin/activate
+cd document-classifier
+python -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
 ```
 
-This creates `.venv`, installs everything in `requirements.txt`, downloads `en_core_web_sm`, and checks Hugging Face access to `chainyo/rvl-cdip`. Install **Tesseract** separately if the script warns (see Prerequisites).
+## Pipeline (run in order)
 
-Manual setup is the same as before: `pip install -r requirements.txt` and `python -m spacy download en_core_web_sm`.
-
-## Stage 1 — OCR
-
-Builds stratified samples from `chainyo/rvl-cdip` (labels 2, 6, 7, 14), runs OpenCV preprocessing and Tesseract, writes:
-
-- `data/processed/{split}/{label}/{id}.txt`
-- `data/processed/{split}.csv` (columns: `id`, `label`, `text`, `label_name`)
-
-Splits: `train` (2000/class), `validation` (500/class), `test` (500/class). Random seed **42**.
-
-Processing uses chunks of **100** images; progress is stored in `data/processed/ocr_checkpoint.json`. Existing `.txt` files are treated as done so runs can resume. CSVs are rebuilt from `.txt` files after each chunk.
-
-**Disk space:** OCR uses Hugging Face **streaming** (no full ~100+ GiB local copy of RVL-CDIP). You only need space for OCR text output and the Hugging Face cache for shards as they stream (far smaller than materializing the whole dataset).
+### 1 — Download images
 
 ```bash
-python scripts/ocr.py
+python scripts/download_data.py
 ```
 
-The first run still **streams** many examples over the network until quotas are filled; it can take a long time but should not require hundreds of gigabytes free.
+Streams RVL-CDIP from HuggingFace and saves:
+```
+data/raw/{train,validation,test}/{email,invoice,letter,scientific_report}/*.png
+```
+2 000 train + 500 val + 500 test images per class. Progress is checkpointed — safe to interrupt and resume.
 
-### Faster OCR (optional)
-
-OCR is the slow part. Defaults use **several threads** (`OCR_WORKERS`, capped at 8) because Tesseract runs in a subprocess and work can overlap. Tune with environment variables:
-
-| Variable | Effect |
-|----------|--------|
-| `OCR_WORKERS` | Thread count (default: up to 8, based on CPU). Set `1` to force single-threaded. |
-| `OCR_PARALLEL_BATCH` | Flush parallel batches when this many images are queued (default: `max(8, 2 × OCR_WORKERS)`). |
-| `OCR_MAX_EDGE` | If set (e.g. `1800`), shrink long page sides before OCR — **much faster**, slightly rougher text. |
-| `OCR_SKIP_DESKEW` | Set to `1` to skip deskew — faster, worse on rotated scans. |
-| `OCR_TESSERACT_CONFIG` | Extra Tesseract flags, e.g. `--oem 1 --psm 6` (see Tesseract docs). |
-
-Example:
+### 2 — Preprocess
 
 ```bash
-OCR_MAX_EDGE=1800 OCR_SKIP_DESKEW=1 python scripts/ocr.py
+python scripts/preprocess.py
 ```
 
-## Later stages (not yet implemented)
+Resizes every image to 128×128 grayscale and saves `.npy` arrays:
+```
+data/processed/{train,validation,test}_{images,labels}.npy
+```
+
+Override the target size: `IMG_SIZE=64 python scripts/preprocess.py`
+
+### 3a — Train classical models
 
 ```bash
-python scripts/features.py
-python scripts/train.py
-python scripts/extract.py
-python app.py   # Flask on port 5000
+python scripts/train_classical.py
+```
+
+Trains Models A, B1, B2. Saves `models/{svd_svm,hog_svm,hog_rf}.pkl`.  
+Prints per-model validation accuracy and classification report.
+
+### 3b — Train CNN
+
+```bash
+python scripts/train_cnn.py
+```
+
+Trains Model C for 20 epochs with cosine LR decay and light augmentation.  
+Saves best checkpoint to `models/cnn_best.pth`.
+
+Override hyperparameters:
+```bash
+EPOCHS=30 BATCH_SIZE=64 LR=5e-4 python scripts/train_cnn.py
+```
+
+### 4 — Evaluate all models
+
+```bash
+python scripts/evaluate.py
+```
+
+Runs every saved model on the test set, prints confusion matrices, saves:
+- `reports/cm_*.png` — per-model confusion matrix plots
+- `reports/results.json` — accuracy summary
+
+### 5 — Single-image prediction
+
+```bash
+python scripts/predict.py path/to/document.png
+python scripts/predict.py path/to/document.pdf --model hog_svm
+```
+
+Options:
+- `--model cnn|svd_svm|hog_svm|hog_rf` (default: `cnn`)
+- `--no-extract` — skip invoice extraction
+
+### 6 — Invoice extraction (standalone)
+
+```bash
+python scripts/extract.py --image path/to/invoice.png
+```
+
+Returns JSON:
+```json
+{
+  "invoice_number": "INV-2024-001",
+  "invoice_date": "01/03/2024",
+  "due_date": "31/03/2024",
+  "issuer_name": "Acme Corp",
+  "recipient_name": "John Doe",
+  "total_amount": "$1,250.00"
+}
+```
+
+### 7 — Flask API
+
+```bash
+python app.py          # default port 5000
+PORT=8080 python app.py
+```
+
+**Endpoints:**
+
+```
+POST /classify        multipart file → {"label": "invoice", "confidence": 0.97}
+POST /extract         multipart file → {"label": "invoice", "confidence": 0.97, "fields": {...}}
+GET  /health          → {"status": "ok", "cnn_ready": true}
+```
+
+Example with curl:
+```bash
+curl -F "file=@invoice.png" http://localhost:5000/extract
+```
+
+## Directory structure
+
+```
+document-classifier/
+├── app.py                    Flask API
+├── requirements.txt
+├── data/
+│   ├── raw/                  Downloaded PNG images (git-ignored)
+│   └── processed/            .npy arrays + label_map.json (git-ignored)
+├── models/                   Trained model files (git-ignored)
+├── reports/                  Confusion matrix plots + results.json
+└── scripts/
+    ├── download_data.py
+    ├── preprocess.py
+    ├── train_classical.py    Models A, B1, B2
+    ├── train_cnn.py          Model C
+    ├── evaluate.py
+    ├── predict.py
+    └── extract.py
 ```
