@@ -2,9 +2,9 @@
 Single-image inference CLI.
 
 Usage:
-  python scripts/predict.py path/to/document.png [--model cnn|svd_svm|hog_svm|hog_rf]
+  python scripts/predict.py path/to/document.png [--model stacking|cnn|svd_svm|hog_svm|hog_rf]
 
-Prints the predicted class and confidence (CNN only).
+Prints the predicted class and confidence.
 If the document is classified as 'invoice', runs extraction automatically.
 """
 
@@ -90,14 +90,32 @@ def predict_classical(img: np.ndarray, model_name: str) -> tuple[str, None]:
     return LABEL_NAMES[pred], None
 
 
+def predict_stacking(img: np.ndarray) -> tuple[str, float]:
+    import joblib
+    from train_stacking import build_meta_features
+
+    svd_svm_data = joblib.load(ROOT / "models" / "svd_svm.pkl")
+    svd_svm = svd_svm_data if not isinstance(svd_svm_data, dict) else svd_svm_data["pipe"]
+    hog_svm_data = joblib.load(ROOT / "models" / "hog_svm.pkl")
+    hog_svm = hog_svm_data["pipe"] if isinstance(hog_svm_data, dict) else hog_svm_data
+    hog_rf_data = joblib.load(ROOT / "models" / "hog_rf.pkl")
+    hog_rf = hog_rf_data["pipe"] if isinstance(hog_rf_data, dict) else hog_rf_data
+
+    meta_clf = joblib.load(ROOT / "models" / "stacking.pkl")
+    M = build_meta_features(np.array([img]), svd_svm, hog_svm, hog_rf)
+    probs = meta_clf.predict_proba(M)[0]
+    idx  = int(probs.argmax())
+    return LABEL_NAMES[idx], float(probs[idx])
+
+
 def main():
     parser = argparse.ArgumentParser(description="Document classifier")
     parser.add_argument("image", help="Path to image or PDF")
     parser.add_argument(
         "--model",
-        default="cnn",
-        choices=["cnn", "svd_svm", "hog_svm", "hog_rf"],
-        help="Model to use (default: cnn)",
+        default="stacking",
+        choices=["stacking", "cnn", "svd_svm", "hog_svm", "hog_rf"],
+        help="Model to use (default: stacking)",
     )
     parser.add_argument("--no-extract", action="store_true",
                         help="Skip invoice extraction even if classified as invoice")
@@ -107,7 +125,10 @@ def main():
     img = load_image_as_array(args.image)
     print(f"  Shape: {img.shape}")
 
-    if args.model == "cnn":
+    if args.model == "stacking":
+        label, conf = predict_stacking(img)
+        conf_str = f" (confidence: {conf:.2%})"
+    elif args.model == "cnn":
         label, conf = predict_cnn(img)
         conf_str = f" (confidence: {conf:.2%})"
     else:

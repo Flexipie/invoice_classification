@@ -33,27 +33,34 @@ app = Flask(__name__)
 LABEL_NAMES = ["email", "invoice", "letter", "scientific_report"]
 IMG_SIZE    = 128
 
-_cnn_model    = None
-_cnn_loaded   = False
+_stack        = None
+_stack_loaded = False
 
 
-def get_cnn_model():
-    global _cnn_model, _cnn_loaded
-    if not _cnn_loaded:
+def get_stack():
+    global _stack, _stack_loaded
+    if not _stack_loaded:
         try:
-            import torch
-            from train_cnn import DocumentCNN
-            ckpt_path = Path(__file__).parent / "models" / "cnn_best.pth"
-            ckpt = torch.load(ckpt_path, map_location="cpu")
-            model = DocumentCNN(ckpt["num_classes"])
-            model.load_state_dict(ckpt["model_state"])
-            model.eval()
-            _cnn_model = model
-            print("[startup] CNN model loaded.")
+            import joblib
+            from train_stacking import build_meta_features  # noqa: F401 — imported for use below
+
+            models_dir = Path(__file__).parent / "models"
+            svd_raw  = joblib.load(models_dir / "svd_svm.pkl")
+            hog_svm_raw = joblib.load(models_dir / "hog_svm.pkl")
+            hog_rf_raw  = joblib.load(models_dir / "hog_rf.pkl")
+            meta_clf = joblib.load(models_dir / "stacking.pkl")
+
+            _stack = {
+                "svd_svm":  svd_raw  if not isinstance(svd_raw,  dict) else svd_raw["pipe"],
+                "hog_svm":  hog_svm_raw["pipe"] if isinstance(hog_svm_raw, dict) else hog_svm_raw,
+                "hog_rf":   hog_rf_raw["pipe"]  if isinstance(hog_rf_raw,  dict) else hog_rf_raw,
+                "meta_clf": meta_clf,
+            }
+            print("[startup] Stacking ensemble loaded.")
         except Exception as e:
-            print(f"[startup] CNN not available: {e}")
-        _cnn_loaded = True
-    return _cnn_model
+            print(f"[startup] Stacking not available: {e}")
+        _stack_loaded = True
+    return _stack
 
 
 # ---------------------------------------------------------------------------
@@ -81,10 +88,27 @@ def load_image_from_request() -> np.ndarray:
 # ---------------------------------------------------------------------------
 
 def classify_image(img: np.ndarray) -> tuple[str, float | None]:
-    model = get_cnn_model()
-    if model is not None:
+    # Primary: stacking ensemble
+    stack = get_stack()
+    if stack is not None:
+        from train_stacking import build_meta_features
+        M = build_meta_features(np.array([img]),
+                                stack["svd_svm"], stack["hog_svm"], stack["hog_rf"])
+        probs = stack["meta_clf"].predict_proba(M)[0]
+        idx   = int(probs.argmax())
+        return LABEL_NAMES[idx], float(probs[idx])
+
+    # Fallback: CNN alone
+    try:
         import torch
         from torchvision import transforms
+        from train_cnn import DocumentCNN
+
+        ckpt_path = Path(__file__).parent / "models" / "cnn_best.pth"
+        ckpt  = torch.load(ckpt_path, map_location="cpu")
+        model = DocumentCNN(ckpt["num_classes"])
+        model.load_state_dict(ckpt["model_state"])
+        model.eval()
 
         tfm = transforms.Compose([
             transforms.ToPILImage(),
@@ -93,30 +117,15 @@ def classify_image(img: np.ndarray) -> tuple[str, float | None]:
             transforms.Normalize(mean=[0.5], std=[0.5]),
         ])
         with torch.no_grad():
-            x = tfm(img).unsqueeze(0)
+            x   = tfm(img).unsqueeze(0)
             out = model(x)
             probs = torch.softmax(out, dim=1)[0]
             idx   = int(probs.argmax())
-            conf  = float(probs[idx])
-        return LABEL_NAMES[idx], conf
+        return LABEL_NAMES[idx], float(probs[idx])
+    except Exception:
+        pass
 
-    # Fallback: HOG + SVM if CNN not available
-    import joblib
-    from skimage.feature import hog
-
-    hog_path = Path(__file__).parent / "models" / "hog_svm.pkl"
-    if not hog_path.exists():
-        raise RuntimeError("No trained model found. Run train_cnn.py or train_classical.py first.")
-
-    data = joblib.load(hog_path)
-    pipe = data["pipe"] if isinstance(data, dict) else data
-
-    pil = Image.fromarray(img).resize((128, 128))
-    arr = np.array(pil, dtype=np.float32) / 255.0
-    feat = hog(arr, orientations=9, pixels_per_cell=(8, 8),
-               cells_per_block=(2, 2), block_norm="L2-Hys", feature_vector=True)
-    pred = int(pipe.predict(feat.reshape(1, -1))[0])
-    return LABEL_NAMES[pred], None
+    raise RuntimeError("No trained model found. Run train_stacking.py first.")
 
 
 # ---------------------------------------------------------------------------
@@ -159,8 +168,8 @@ def extract():
 
 @app.route("/health", methods=["GET"])
 def health():
-    cnn_ready = (get_cnn_model() is not None)
-    return jsonify({"status": "ok", "cnn_ready": cnn_ready})
+    stack_ready = (get_stack() is not None)
+    return jsonify({"status": "ok", "stacking_ready": stack_ready})
 
 
 # ---------------------------------------------------------------------------
@@ -168,8 +177,7 @@ def health():
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    # Pre-load model
-    get_cnn_model()
+    get_stack()
     port = int(os.environ.get("PORT", 5000))
     print(f"Starting server on port {port} …")
     app.run(host="0.0.0.0", port=port, debug=False)
