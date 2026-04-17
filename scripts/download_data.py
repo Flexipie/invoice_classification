@@ -27,7 +27,7 @@ REPO_ID       = "chainyo/rvl-cdip"
 TARGET_LABELS = {2: "email", 6: "invoice", 7: "letter", 14: "scientific_report"}
 NUM_CLASSES   = 16
 
-TARGETS    = {"train": 2000, "validation": 500, "test": 500}
+TARGETS    = {"train": 10000, "validation": 1000, "test": 1000}
 TOTAL_ROWS = {"train": 320_000, "validation": 40_000, "test": 40_000}
 # HF split name differs from our key
 HF_SPLIT   = {"train": "train", "validation": "val", "test": "test"}

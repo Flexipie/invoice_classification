@@ -162,7 +162,6 @@ def main():
     meta_clf = Pipeline([
         ("scale", StandardScaler()),
         ("lr",    LogisticRegression(C=1.0, max_iter=1000,
-                                     multi_class="multinomial",
                                      solver="lbfgs", random_state=42)),
     ])
     meta_clf.fit(M_val, y_val)
