@@ -80,10 +80,61 @@
         `;
       }
 
-      fetch('/reports/results.json')
-        .then((response) => response.json())
-        .then((data) => {
-          const models = Object.entries(data || {}).map(([name, payload]) => {
+      function normalizeComparisonModel(model) {
+        const perClassPrecision = model.per_class_precision || {};
+        const perClassRecall = model.per_class_recall || {};
+        const perClassF1 = model.per_class_f1 || {};
+        const precisionValues = Object.values(perClassPrecision).filter((value) => value !== undefined && value !== null);
+        const recallValues = Object.values(perClassRecall).filter((value) => value !== undefined && value !== null);
+        const average = (values) => values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : null;
+        const macroPrecision = average(precisionValues);
+        const macroRecall = average(recallValues);
+
+        return {
+          name: model.model,
+          accuracy: model.accuracy,
+          report: {
+            email: {
+              precision: perClassPrecision.email,
+              recall: perClassRecall.email,
+              ['f1-score']: perClassF1.email,
+            },
+            invoice: {
+              precision: perClassPrecision.invoice,
+              recall: perClassRecall.invoice,
+              ['f1-score']: perClassF1.invoice,
+            },
+            letter: {
+              precision: perClassPrecision.letter,
+              recall: perClassRecall.letter,
+              ['f1-score']: perClassF1.letter,
+            },
+            scientific_report: {
+              precision: perClassPrecision.scientific_report,
+              recall: perClassRecall.scientific_report,
+              ['f1-score']: perClassF1.scientific_report,
+            },
+            ['macro avg']: {
+              precision: macroPrecision,
+              recall: macroRecall,
+              ['f1-score']: model.f1_macro,
+            },
+            ['weighted avg']: {
+              precision: macroPrecision,
+              recall: macroRecall,
+              ['f1-score']: model.f1_macro,
+            },
+          },
+          confusion_matrix_image: '/comparison-reports/cm_distilbert.png',
+        };
+      }
+
+      Promise.all([
+        fetch('/reports/results.json').then((response) => response.json()),
+        fetch('/comparison-reports/comparison.json').then((response) => response.json()),
+      ])
+        .then(([baseData, comparisonData]) => {
+          const models = Object.entries(baseData || {}).map(([name, payload]) => {
             if (payload && typeof payload === 'object') {
               return {
                 name,
@@ -100,6 +151,11 @@
               confusion_matrix_image: `/reports/cm_${name.toLowerCase().replaceAll(' ', '_').replaceAll('+', '_')}.png`,
             };
           });
+
+          const distilbert = (comparisonData?.models || []).find((model) => model.model === 'DistilBERT-OCR');
+          if (distilbert) {
+            models.push(normalizeComparisonModel(distilbert));
+          }
 
           if (!models.length) {
             confusionGrid.innerHTML = '';

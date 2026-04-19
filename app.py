@@ -28,6 +28,7 @@ app = Flask(__name__)
 
 ROOT_DIR = Path(__file__).parent
 REPORTS_DIR = ROOT_DIR / "reports"
+COMPARISON_REPORTS_DIR = ROOT_DIR / "comparison" / "reports"
 
 # ---------------------------------------------------------------------------
 # Shared state: load best model once at startup
@@ -202,6 +203,11 @@ def health():
 @app.route("/reports/<path:filename>")
 def reports_file(filename):
     return send_from_directory(REPORTS_DIR, filename)
+
+
+@app.route("/comparison-reports/<path:filename>")
+def comparison_reports_file(filename):
+    return send_from_directory(COMPARISON_REPORTS_DIR, filename)
 
 
 # ---------------------------------------------------------------------------
