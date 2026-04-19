@@ -169,11 +169,78 @@ def extract_names(text: str) -> tuple[Optional[str], Optional[str]]:
 
 
 # ---------------------------------------------------------------------------
+# Bounding box helpers
+# ---------------------------------------------------------------------------
+
+def _get_word_boxes(img: np.ndarray) -> list[dict]:
+    """Return list of {text, x, y, w, h} for each OCR word."""
+    import pytesseract
+    import cv2
+    import pandas as pd
+
+    _, binary = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+    data = pytesseract.image_to_data(binary, config="--psm 6", output_type=pytesseract.Output.DATAFRAME)
+    data = data[data["conf"] > 0]
+    boxes = []
+    for _, row in data.iterrows():
+        txt = str(row["text"]).strip()
+        if txt:
+            boxes.append({
+                "text": txt,
+                "x": int(row["left"]),
+                "y": int(row["top"]),
+                "w": int(row["width"]),
+                "h": int(row["height"]),
+            })
+    return boxes
+
+
+def find_field_bboxes(img: np.ndarray, fields: dict) -> list[dict]:
+    """Find bounding boxes for extracted field values on the image."""
+    word_boxes = _get_word_boxes(img)
+    if not word_boxes:
+        return []
+
+    bboxes = []
+    for field_name, value in fields.items():
+        if not value:
+            continue
+        value_lower = str(value).lower()
+        value_words = value_lower.split()
+        if not value_words:
+            continue
+
+        # Find consecutive words that match the field value
+        for i, wb in enumerate(word_boxes):
+            if wb["text"].lower().startswith(value_words[0][:4]):
+                # Try to match the full value across consecutive words
+                end = min(i + len(value_words) + 2, len(word_boxes))
+                span = word_boxes[i:end]
+                span_text = " ".join(w["text"] for w in span).lower()
+                if value_words[0][:4] in span_text:
+                    x = min(w["x"] for w in span)
+                    y = min(w["y"] for w in span)
+                    x2 = max(w["x"] + w["w"] for w in span)
+                    y2 = max(w["y"] + w["h"] for w in span)
+                    bboxes.append({
+                        "field": field_name,
+                        "x": x, "y": y,
+                        "w": x2 - x, "h": y2 - y,
+                    })
+                    break
+    return bboxes
+
+
+# ---------------------------------------------------------------------------
 # Main entry point
 # ---------------------------------------------------------------------------
 
-def extract_invoice_info(img: np.ndarray) -> dict:
-    text = ocr_image(img)
+def extract_invoice_info(img: np.ndarray, pdf_text: Optional[str] = None) -> dict:
+    # Use embedded PDF text when available (cleaner than OCR)
+    if pdf_text and len(pdf_text.strip()) > 30:
+        text = pdf_text
+    else:
+        text = ocr_image(img)
     issuer, recipient = extract_names(text)
     return {
         "invoice_number":  extract_invoice_number(text),
@@ -189,14 +256,16 @@ def extract_invoice_from_path(image_path: str) -> dict:
     """Convenience wrapper: load image and extract."""
     from PIL import Image
     p = Path(image_path)
+    pdf_text = None
     if p.suffix.lower() == ".pdf":
         import pdfplumber
         with pdfplumber.open(p) as pdf:
             pil = pdf.pages[0].to_image(resolution=150).original.convert("L")
+            pdf_text = "\n".join(page.extract_text() or "" for page in pdf.pages)
     else:
         pil = Image.open(p).convert("L")
     img = np.array(pil, dtype=np.uint8)
-    return extract_invoice_info(img)
+    return extract_invoice_info(img, pdf_text=pdf_text)
 
 
 def main():

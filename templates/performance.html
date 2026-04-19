@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Performance | Document Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/">Invoice Classifier</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/classify">Classify</a>
+        <a class="nav-link active" href="/performance">Performance</a>
+      </nav>
+    </header>
+
+    <main class="performance-page">
+      <section class="performance-hero">
+        <div>
+          <p class="eyebrow">Model evaluation</p>
+          <h1>Performance dashboard</h1>
+          <p class="hero-text">
+            Visual summary of the evaluation results from the trained classification models.
+            Accuracy, macro metrics, per-class scores, and confusion matrices are loaded from the saved evaluation output.
+          </p>
+        </div>
+      </section>
+
+      <section class="performance-grid">
+        <div class="info-card performance-card">
+          <p class="section-label">Accuracy comparison</p>
+          <canvas id="accuracyChart" height="220"></canvas>
+        </div>
+
+        <div class="info-card performance-card">
+          <p class="section-label">Precision / recall / F1 comparison</p>
+          <canvas id="macroChart" height="220"></canvas>
+        </div>
+      </section>
+
+      <section class="info-card performance-card">
+        <p class="section-label">Per-class line charts</p>
+        <div id="model-chart-grid" class="model-chart-grid"></div>
+      </section>
+
+      <section class="info-card performance-card">
+        <p class="section-label">Confusion matrices</p>
+        <div id="confusion-grid" class="confusion-grid"></div>
+      </section>
+
+    </main>
+
+      <script>
+      const confusionGrid = document.getElementById('confusion-grid');
+      const modelChartGrid = document.getElementById('model-chart-grid');
+
+      function fmt(value) {
+        if (value === null || value === undefined || Number.isNaN(value)) return '-';
+        return Number(value).toFixed(3);
+      }
+
+      function perClassChartCard(model, index) {
+        const report = model.report || {};
+        const classes = ['email', 'invoice', 'letter', 'scientific_report'];
+        const chartId = `model-line-chart-${index}`;
+
+        return `
+          <article class="model-chart-card">
+            <h3>${model.name}</h3>
+            <div class="model-chart-meta">
+              <span><strong>Accuracy:</strong> ${model.accuracy != null ? `${(model.accuracy * 100).toFixed(1)}%` : '-'}</span>
+              <span><strong>Macro F1:</strong> ${fmt(report['macro avg']?.['f1-score'])}</span>
+              <span><strong>Weighted F1:</strong> ${fmt(report['weighted avg']?.['f1-score'])}</span>
+            </div>
+            <canvas id="${chartId}" height="280"></canvas>
+          </article>
+        `;
+      }
+
+      function normalizeComparisonModel(model) {
+        const perClassPrecision = model.per_class_precision || {};
+        const perClassRecall = model.per_class_recall || {};
+        const perClassF1 = model.per_class_f1 || {};
+        const precisionValues = Object.values(perClassPrecision).filter((value) => value !== undefined && value !== null);
+        const recallValues = Object.values(perClassRecall).filter((value) => value !== undefined && value !== null);
+        const average = (values) => values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : null;
+        const macroPrecision = average(precisionValues);
+        const macroRecall = average(recallValues);
+
+        return {
+          name: model.model,
+          accuracy: model.accuracy,
+          report: {
+            email: {
+              precision: perClassPrecision.email,
+              recall: perClassRecall.email,
+              ['f1-score']: perClassF1.email,
+            },
+            invoice: {
+              precision: perClassPrecision.invoice,
+              recall: perClassRecall.invoice,
+              ['f1-score']: perClassF1.invoice,
+            },
+            letter: {
+              precision: perClassPrecision.letter,
+              recall: perClassRecall.letter,
+              ['f1-score']: perClassF1.letter,
+            },
+            scientific_report: {
+              precision: perClassPrecision.scientific_report,
+              recall: perClassRecall.scientific_report,
+              ['f1-score']: perClassF1.scientific_report,
+            },
+            ['macro avg']: {
+              precision: macroPrecision,
+              recall: macroRecall,
+              ['f1-score']: model.f1_macro,
+            },
+            ['weighted avg']: {
+              precision: macroPrecision,
+              recall: macroRecall,
+              ['f1-score']: model.f1_macro,
+            },
+          },
+          confusion_matrix_image: '/reports/cm_distilbert.png',
+        };
+      }
+
+      fetch('/reports/results.json').then((response) => response.json())
+        .then((baseData) => {
+          const models = Object.entries(baseData || {}).map(([name, payload]) => {
+            if (payload && typeof payload === 'object') {
+              return {
+                name,
+                accuracy: payload.accuracy,
+                report: payload.report || {},
+                confusion_matrix_image: payload.confusion_matrix_image || `/reports/cm_${name.toLowerCase().replaceAll(' ', '_').replaceAll('+', '_').replaceAll('-', '_')}.png`,
+              };
+            }
+
+            return {
+              name,
+              accuracy: payload,
+              report: {},
+              confusion_matrix_image: `/reports/cm_${name.toLowerCase().replaceAll(' ', '_').replaceAll('+', '_').replaceAll('-', '_')}.png`,
+            };
+          });
+
+          if (!models.length) {
+            confusionGrid.innerHTML = '';
+            modelChartGrid.innerHTML = '';
+            return;
+          }
+
+          modelChartGrid.innerHTML = models.map(perClassChartCard).join('');
+
+          const modelNames = models.map((model) => model.name);
+          const accuracies = models.map((model) => model.accuracy);
+          const macroPrecision = models.map((model) => model.report?.['macro avg']?.precision ?? null);
+          const macroRecall = models.map((model) => model.report?.['macro avg']?.recall ?? null);
+          const macroF1 = models.map((model) => model.report?.['macro avg']?.['f1-score'] ?? null);
+
+          new Chart(document.getElementById('accuracyChart'), {
+            type: 'bar',
+            data: {
+              labels: modelNames,
+              datasets: [{
+                label: 'Accuracy',
+                data: accuracies,
+                backgroundColor: '#2563eb',
+                borderRadius: 10,
+              }],
+            },
+            options: {
+              responsive: true,
+              plugins: { legend: { display: false } },
+              scales: {
+                y: { beginAtZero: true, max: 1 },
+              },
+            },
+          });
+
+          new Chart(document.getElementById('macroChart'), {
+            type: 'bar',
+            data: {
+              labels: modelNames,
+              datasets: [
+                {
+                  label: 'Macro precision',
+                  data: macroPrecision,
+                  backgroundColor: '#2563eb',
+                },
+                {
+                  label: 'Macro recall',
+                  data: macroRecall,
+                  backgroundColor: '#60a5fa',
+                },
+                {
+                  label: 'Macro F1',
+                  data: macroF1,
+                  backgroundColor: '#1e3a8a',
+                },
+              ],
+            },
+            options: {
+              responsive: true,
+              plugins: { legend: { position: 'bottom' } },
+              scales: { y: { beginAtZero: true, max: 1 } },
+            },
+          });
+
+          models.forEach((model, index) => {
+            const chartCanvas = document.getElementById(`model-line-chart-${index}`);
+            const report = model.report || {};
+            const classes = ['email', 'invoice', 'letter', 'scientific_report'];
+
+            new Chart(chartCanvas, {
+              type: 'line',
+              data: {
+                labels: classes,
+                datasets: [
+                  {
+                    label: 'Precision',
+                    data: classes.map((label) => report[label]?.precision ?? null),
+                    borderColor: '#2563eb',
+                    backgroundColor: 'rgba(37, 99, 235, 0.12)',
+                    tension: 0.35,
+                    fill: false,
+                  },
+                  {
+                    label: 'Recall',
+                    data: classes.map((label) => report[label]?.recall ?? null),
+                    borderColor: '#60a5fa',
+                    backgroundColor: 'rgba(96, 165, 250, 0.12)',
+                    tension: 0.35,
+                    fill: false,
+                  },
+                  {
+                    label: 'F1 score',
+                    data: classes.map((label) => report[label]?.['f1-score'] ?? null),
+                    borderColor: '#1e3a8a',
+                    backgroundColor: 'rgba(30, 58, 138, 0.12)',
+                    tension: 0.35,
+                    fill: false,
+                  },
+                ],
+              },
+              options: {
+                responsive: true,
+                plugins: { legend: { position: 'bottom' } },
+                scales: {
+                  y: {
+                    beginAtZero: true,
+                    max: 1,
+                    ticks: {
+                      stepSize: 0.1,
+                    },
+                  },
+                },
+              },
+            });
+          });
+
+          confusionGrid.innerHTML = models.map((model) => `
+            <article class="confusion-card">
+              <h3>${model.name}</h3>
+              <img src="${model.confusion_matrix_image}" alt="Confusion matrix for ${model.name}" />
+            </article>
+          `).join('');
+        })
+        .catch(() => {
+          modelChartGrid.innerHTML = '';
+        });
+    </script>
+  </body>
+</html>

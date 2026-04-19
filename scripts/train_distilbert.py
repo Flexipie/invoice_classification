@@ -2,12 +2,12 @@
 Fine-tune a DistilBERT classifier on OCR'd RVL-CDIP text.
 
 Input:
-  data/processed/train_texts.json       (produced by 01_ocr_images.py)
+  data/processed/train_texts.json       (produced by ocr_images.py)
   data/processed/validation_texts.json
 
 Output:
-  comparison/models/distilbert_best/    (HF save_pretrained format)
-  comparison/reports/distilbert_training.json  (train/val loss+acc per epoch)
+  models/distilbert_best/               (HF save_pretrained format)
+  reports/distilbert_training.json      (train/val loss+acc per epoch)
 
 Config (env vars):
   BERT_MODEL      default distilbert-base-uncased
@@ -35,10 +35,10 @@ from transformers import (
     TrainingArguments,
 )
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 PROCESSED_DIR = ROOT / "data" / "processed"
-MODELS_DIR = ROOT / "comparison" / "models"
-REPORTS_DIR = ROOT / "comparison" / "reports"
+MODELS_DIR = ROOT / "models"
+REPORTS_DIR = ROOT / "reports"
 
 LABELS = ["email", "invoice", "letter", "scientific_report"]
 NUM_LABELS = len(LABELS)
@@ -55,10 +55,9 @@ def load_split(name: str) -> Dataset:
     path = PROCESSED_DIR / f"{name}_texts.json"
     if not path.exists():
         raise FileNotFoundError(
-            f"{path} not found. Run comparison/scripts/01_ocr_images.py first."
+            f"{path} not found. Run scripts/ocr_images.py first."
         )
     rows = json.loads(path.read_text(encoding="utf-8"))
-    # Drop empty-text rows (Tesseract may produce "" on bad scans)
     rows = [r for r in rows if (r.get("text") or "").strip()]
     return Dataset.from_list([
         {"text": r["text"], "label": int(r["label"])} for r in rows
@@ -81,13 +80,14 @@ def main() -> None:
     torch.manual_seed(SEED)
     np.random.seed(SEED)
 
-    print("=== 02_train_distilbert ===")
+    print("=== Train DistilBERT ===")
     print(f"Model     : {MODEL_NAME}")
     print(f"Epochs    : {EPOCHS}")
     print(f"Batch size: {BATCH_SIZE}")
     print(f"Max len   : {MAX_LEN}")
     print(f"LR        : {LR}")
-    print(f"Device    : {'cuda' if torch.cuda.is_available() else 'cpu'}")
+    _dev = 'cuda' if torch.cuda.is_available() else ('mps' if torch.backends.mps.is_available() else 'cpu')
+    print(f"Device    : {_dev}")
 
     print("\nLoading splits …")
     train_ds = load_split("train")
@@ -137,7 +137,7 @@ def main() -> None:
         report_to="none",
         seed=SEED,
         dataloader_num_workers=0,
-        use_cpu=not torch.cuda.is_available(),
+        use_cpu=not (torch.cuda.is_available() or torch.backends.mps.is_available()),
     )
 
     trainer = Trainer(
@@ -166,9 +166,9 @@ def main() -> None:
     (REPORTS_DIR / "distilbert_training.json").write_text(
         json.dumps({"history": history, "final_val": final_metrics}, indent=2)
     )
-    print(f"Training log → comparison/reports/distilbert_training.json")
+    print(f"Training log → reports/distilbert_training.json")
 
-    print("\nDone. Next: python comparison/scripts/03_evaluate_distilbert.py")
+    print("\nDone. Next: python scripts/evaluate.py")
 
 
 if __name__ == "__main__":

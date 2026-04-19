@@ -26,7 +26,7 @@ from pathlib import Path
 from PIL import Image
 import pytesseract
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "data" / "raw"
 PROCESSED_DIR = ROOT / "data" / "processed"
 
@@ -120,14 +120,13 @@ def process_split(split: str) -> None:
 
 
 def main() -> None:
-    print("=== 01_ocr_images ===")
+    print("=== OCR Images ===")
     print(f"Tesseract: {pytesseract.pytesseract.tesseract_cmd}")
     try:
         version = pytesseract.get_tesseract_version()
         print(f"  version: {version}")
     except Exception as e:
         print(f"  WARN: cannot get Tesseract version: {e}")
-        print("  Install: winget install --id UB-Mannheim.TesseractOCR")
         sys.exit(1)
 
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
@@ -136,7 +135,7 @@ def main() -> None:
         print(f"\n[{split}]")
         process_split(split)
 
-    print("\nDone. Next: python comparison/scripts/02_train_distilbert.py")
+    print("\nDone. Next: python scripts/train_distilbert.py")
 
 
 if __name__ == "__main__":

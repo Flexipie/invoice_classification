@@ -3,11 +3,11 @@ Evaluate the fine-tuned DistilBERT classifier on the test split.
 
 Reads:
   data/processed/test_texts.json
-  comparison/models/distilbert_best/   (produced by 02_train_distilbert.py)
+  models/distilbert_best/   (produced by train_distilbert.py)
 
 Writes:
-  comparison/reports/cm_distilbert.png
-  comparison/reports/distilbert_test.json  (per-sample preds + probs)
+  reports/cm_distilbert.png
+  reports/distilbert_test.json  (per-sample preds + probs)
   Appends "DistilBERT-OCR" entry to reports/results.json
 """
 
@@ -29,11 +29,10 @@ from sklearn.metrics import (
 )
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 PROCESSED_DIR = ROOT / "data" / "processed"
-MODEL_DIR = ROOT / "comparison" / "models" / "distilbert_best"
-COMP_REPORTS = ROOT / "comparison" / "reports"
-REPO_REPORTS = ROOT / "reports"
+MODEL_DIR = ROOT / "models" / "distilbert_best"
+REPORTS_DIR = ROOT / "reports"
 
 LABELS = ["email", "invoice", "letter", "scientific_report"]
 
@@ -54,20 +53,19 @@ def predict_batch(model, tokenizer, texts: list[str], device: str) -> np.ndarray
 def main() -> None:
     if not MODEL_DIR.exists():
         raise SystemExit(
-            f"Model dir {MODEL_DIR} missing. Run 02_train_distilbert.py first."
+            f"Model dir {MODEL_DIR} missing. Run scripts/train_distilbert.py first."
         )
 
     test_path = PROCESSED_DIR / "test_texts.json"
     if not test_path.exists():
         raise SystemExit(
-            f"{test_path} missing. Run 01_ocr_images.py first."
+            f"{test_path} missing. Run scripts/ocr_images.py first."
         )
 
-    COMP_REPORTS.mkdir(parents=True, exist_ok=True)
-    REPO_REPORTS.mkdir(parents=True, exist_ok=True)
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"=== 03_evaluate_distilbert (device={device}) ===")
+    print(f"=== Evaluate DistilBERT (device={device}) ===")
 
     print(f"Loading model from {MODEL_DIR} …")
     tokenizer = AutoTokenizer.from_pretrained(str(MODEL_DIR))
@@ -75,7 +73,6 @@ def main() -> None:
     model.to(device).eval()
 
     rows = json.loads(test_path.read_text(encoding="utf-8"))
-    # Keep alignment: empty-text rows get zero prob for all; easier to predict dummy
     texts  = [(r.get("text") or "") for r in rows]
     labels = np.array([int(r["label"]) for r in rows])
     print(f"Test rows: {len(rows)}")
@@ -85,7 +82,6 @@ def main() -> None:
     for start in range(0, len(texts), BATCH_SIZE):
         end = start + BATCH_SIZE
         batch = texts[start:end]
-        # transformer needs non-empty strings; substitute a space for empties
         batch_safe = [t if t.strip() else " " for t in batch]
         all_probs[start:end] = predict_batch(model, tokenizer, batch_safe, device)
         if (start // BATCH_SIZE) % 10 == 0:
@@ -106,7 +102,7 @@ def main() -> None:
     ax.set_title(f"DistilBERT-OCR (test acc={acc:.3f})")
     plt.xticks(rotation=30, ha="right")
     plt.tight_layout()
-    cm_path = COMP_REPORTS / "cm_distilbert.png"
+    cm_path = REPORTS_DIR / "cm_distilbert.png"
     plt.savefig(cm_path, dpi=150)
     plt.close()
     print(f"Confusion matrix → {cm_path}")
@@ -121,7 +117,7 @@ def main() -> None:
         }
         for i in range(len(rows))
     ]
-    (COMP_REPORTS / "distilbert_test.json").write_text(
+    (REPORTS_DIR / "distilbert_test.json").write_text(
         json.dumps({
             "accuracy":        acc,
             "f1_macro":        f1m,
@@ -134,8 +130,8 @@ def main() -> None:
         }, indent=2)
     )
 
-    # Append to repo-level results.json (so 05_compare_all sees it naturally)
-    results_path = REPO_REPORTS / "results.json"
+    # Append to results.json
+    results_path = REPORTS_DIR / "results.json"
     if results_path.exists():
         try:
             existing = json.loads(results_path.read_text(encoding="utf-8"))
@@ -147,7 +143,7 @@ def main() -> None:
     results_path.write_text(json.dumps(existing, indent=2))
     print(f"results.json updated with DistilBERT-OCR = {acc:.4f}")
 
-    print("\nDone. Next: python comparison/scripts/04_run_existing_cv.py")
+    print("\nDone.")
 
 
 if __name__ == "__main__":
