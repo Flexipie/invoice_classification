@@ -105,6 +105,31 @@ def predict_cnn(model, images):
     return np.array(preds)
 
 
+def load_stacking_bundle():
+    import joblib
+    from train_stacking import build_meta_features  # noqa: F401
+
+    svd_svm_raw = joblib.load(MODELS_DIR / "svd_svm.pkl")
+    hog_svm_raw = joblib.load(MODELS_DIR / "hog_svm.pkl")
+    hog_rf_raw = joblib.load(MODELS_DIR / "hog_rf.pkl")
+    meta_clf = joblib.load(MODELS_DIR / "stacking.pkl")
+
+    return {
+        "svd_svm": svd_svm_raw if not isinstance(svd_svm_raw, dict) else svd_svm_raw["pipe"],
+        "hog_svm": hog_svm_raw["pipe"] if isinstance(hog_svm_raw, dict) else hog_svm_raw,
+        "hog_rf": hog_rf_raw["pipe"] if isinstance(hog_rf_raw, dict) else hog_rf_raw,
+        "meta_clf": meta_clf,
+    }
+
+
+def predict_stacking(images):
+    from train_stacking import build_meta_features
+
+    bundle = load_stacking_bundle()
+    meta_features = build_meta_features(images, bundle["svd_svm"], bundle["hog_svm"], bundle["hog_rf"])
+    return bundle["meta_clf"].predict(meta_features)
+
+
 # ---------- plotting ----------
 
 def save_confusion_matrix(y_true, y_pred, model_name: str, acc: float):
@@ -125,12 +150,17 @@ def save_confusion_matrix(y_true, y_pred, model_name: str, acc: float):
 
 def evaluate_model(name, y_pred, y_true):
     acc = accuracy_score(y_true, y_pred)
+    report = classification_report(y_true, y_pred, target_names=LABEL_NAMES, output_dict=True)
     print(f"\n{'='*50}")
     print(f"  {name}   (test accuracy: {acc:.4f})")
     print('='*50)
     print(classification_report(y_true, y_pred, target_names=LABEL_NAMES))
     save_confusion_matrix(y_true, y_pred, name, acc)
-    return acc
+    return {
+        "accuracy": acc,
+        "report": report,
+        "confusion_matrix_image": f"/reports/cm_{name.lower().replace(' ', '_').replace('+', '_')}.png",
+    }
 
 
 def main():
@@ -189,12 +219,21 @@ def main():
     else:
         print("  cnn_best.pth not found, skipping.")
 
+    # --- Stacking ensemble ---
+    stacking_path = MODELS_DIR / "stacking.pkl"
+    if stacking_path.exists():
+        print("\nEvaluating Stacking Ensemble …")
+        preds = predict_stacking(X_test)
+        results["Stacking Ensemble"] = evaluate_model("Stacking Ensemble", preds, y_test)
+    else:
+        print("  stacking.pkl not found, skipping.")
+
     # --- Summary ---
     print("\n" + "="*50)
     print("  MODEL COMPARISON (test set)")
     print("="*50)
-    for name, acc in sorted(results.items(), key=lambda x: -x[1]):
-        print(f"  {name:15s}: {acc:.4f}")
+    for name, item in sorted(results.items(), key=lambda x: -x[1]["accuracy"]):
+        print(f"  {name:15s}: {item['accuracy']:.4f}")
 
     with open(REPORTS_DIR / "results.json", "w") as f:
         json.dump(results, f, indent=2)

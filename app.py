@@ -13,18 +13,21 @@ Run:
 """
 
 import io
-import json
 import os
 import sys
+import socket
 from pathlib import Path
 
 import numpy as np
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, redirect, render_template, request, send_from_directory, url_for
 from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).parent / "scripts"))
 
 app = Flask(__name__)
+
+ROOT_DIR = Path(__file__).parent
+REPORTS_DIR = ROOT_DIR / "reports"
 
 # ---------------------------------------------------------------------------
 # Shared state: load best model once at startup
@@ -132,12 +135,36 @@ def classify_image(img: np.ndarray) -> tuple[str, float | None]:
 # Routes
 # ---------------------------------------------------------------------------
 
+@app.route("/", methods=["GET"])
+def home():
+    return render_template("index.html")
+
+
+@app.route("/upload", methods=["GET"])
+def upload():
+    return redirect(url_for("classify_page"))
+
+
+@app.route("/classify", methods=["GET"])
+def classify_page():
+    return render_template("classify.html")
+
+
+@app.route("/performance", methods=["GET"])
+def performance_page():
+    return render_template("performance.html")
+
+
+@app.route("/demo", methods=["GET"])
+def demo():
+    return redirect(url_for("classify_page"))
+
 @app.route("/classify", methods=["POST"])
 def classify():
     try:
         img = load_image_from_request()
         label, confidence = classify_image(img)
-        resp = {"label": label}
+        resp: dict[str, object] = {"label": label}
         if confidence is not None:
             resp["confidence"] = round(confidence, 4)
         return jsonify(resp)
@@ -152,7 +179,7 @@ def extract():
     try:
         img = load_image_from_request()
         label, confidence = classify_image(img)
-        resp = {"label": label}
+        resp: dict[str, object] = {"label": label}
         if confidence is not None:
             resp["confidence"] = round(confidence, 4)
 
@@ -172,12 +199,27 @@ def health():
     return jsonify({"status": "ok", "stacking_ready": stack_ready})
 
 
+@app.route("/reports/<path:filename>")
+def reports_file(filename):
+    return send_from_directory(REPORTS_DIR, filename)
+
+
 # ---------------------------------------------------------------------------
 # Entry
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
     get_stack()
-    port = int(os.environ.get("PORT", 5000))
-    print(f"Starting server on port {port} …")
+    requested_port = int(os.environ.get("PORT", 5000))
+
+    def find_free_port(preferred_port: int) -> int:
+        for port in (preferred_port, 8080, 5001, 8000):
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+                sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+                if sock.connect_ex(("127.0.0.1", port)) != 0:
+                    return port
+        raise RuntimeError("No free local port found.")
+
+    port = find_free_port(requested_port)
+    print(f"Starting server on http://127.0.0.1:{port} …")
     app.run(host="0.0.0.0", port=port, debug=False)

@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Classify | Document Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/">Invoice Classifier</a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link active" href="/classify">Classify</a>
+        <a class="nav-link" href="/performance">Performance</a>
+      </nav>
+    </header>
+
+    <main class="upload-page">
+      <section class="hero-panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Document AI</p>
+          <h1>Classify a document and extract invoice fields instantly.</h1>
+          <p class="hero-text">
+            Built for invoices, emails, letters, and scientific reports. When an invoice is detected,
+            the system also extracts the key fields required for the assignment.
+          </p>
+          <div class="hero-badges">
+            <span>Fast classification</span>
+            <span>Invoice extraction</span>
+            <span>No generative AI</span>
+          </div>
+        </div>
+
+        <aside class="hero-aside">
+          <div class="metric-card">
+            <span class="metric-label">Categories</span>
+            <strong>4 document types</strong>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Pipeline</span>
+            <strong>CV + ML + OCR</strong>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Output</span>
+            <strong>Structured JSON</strong>
+          </div>
+        </aside>
+      </section>
+
+      <section class="content-grid">
+        <div class="info-column">
+          <div class="info-card">
+            <p class="section-label">Workflow</p>
+            <h2>How it works</h2>
+            <ol class="step-list">
+              <li>Upload an image or PDF document.</li>
+              <li>The system classifies the document type.</li>
+              <li>If it is an invoice, the invoice fields are extracted.</li>
+            </ol>
+          </div>
+
+          <div class="info-card accent-card">
+            <p class="section-label">Classification</p>
+            <h2>Stacking ensemble structure</h2>
+            <ul class="bullet-list">
+              <li><strong>Base learners:</strong> SVD + SVM, HOG + SVM, HOG + Random Forest, and CNN analyze the same document independently.</li>
+              <li><strong>Meta-features:</strong> each model produces class probabilities, which are combined into a single feature vector.</li>
+              <li><strong>Meta-classifier:</strong> a Logistic Regression model learns from the combined outputs.</li>
+              <li><strong>Final prediction:</strong> the ensemble selects the class with the strongest combined evidence.</li>
+            </ul>
+          </div>
+        </div>
+
+        <section class="upload-card">
+          <div class="upload-card-header">
+            <div>
+              <p class="section-label">Upload</p>
+              <h2>Classify a document</h2>
+            </div>
+            <p class="upload-note">PDF or image file</p>
+          </div>
+
+          <form id="upload-form" class="upload-form">
+            <label class="file-drop">
+              <input id="file-input" type="file" name="file" accept="image/*,.pdf" required />
+              <span>
+                <strong>Choose a file</strong>
+                <small>PNG, JPG, JPEG, or PDF</small>
+              </span>
+            </label>
+            <button type="submit">Run classification</button>
+          </form>
+
+          <div class="result-card" id="result" hidden>
+            <p class="result-label">Result</p>
+            <div class="result-grid">
+              <div>
+                <span>Classification</span>
+                <strong id="result-label">-</strong>
+              </div>
+              <div>
+                <span>Confidence</span>
+                <strong id="result-confidence">-</strong>
+              </div>
+            </div>
+            <div class="fields-block" id="fields-block" hidden>
+              <h3>Extracted invoice fields</h3>
+              <div class="field-list" id="field-list"></div>
+            </div>
+            <p class="error-text" id="error-text" hidden></p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script>
+      const form = document.getElementById('upload-form');
+      const input = document.getElementById('file-input');
+      const result = document.getElementById('result');
+      const labelOutput = document.getElementById('result-label');
+      const confidenceOutput = document.getElementById('result-confidence');
+      const errorText = document.getElementById('error-text');
+      const fieldsBlock = document.getElementById('fields-block');
+      const fieldList = document.getElementById('field-list');
+
+      function renderFields(fields) {
+        fieldList.innerHTML = '';
+        Object.entries(fields || {}).forEach(([key, value]) => {
+          const row = document.createElement('div');
+          row.className = 'field-item';
+          row.innerHTML = `<span>${key.replaceAll('_', ' ')}</span><strong>${value ?? '-'}</strong>`;
+          fieldList.appendChild(row);
+        });
+        fieldsBlock.hidden = !fieldList.children.length;
+      }
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        const file = input.files[0];
+        if (!file) {
+          return;
+        }
+
+        const formData = new FormData();
+        formData.append('file', file);
+
+        result.hidden = false;
+        errorText.hidden = true;
+        fieldsBlock.hidden = true;
+        labelOutput.textContent = 'Running...';
+        confidenceOutput.textContent = '-';
+        fieldList.innerHTML = '';
+
+        try {
+          const response = await fetch('/extract', {
+            method: 'POST',
+            body: formData,
+          });
+          const data = await response.json();
+
+          if (!response.ok || data.error) {
+            throw new Error(data.error || 'Request failed');
+          }
+
+          labelOutput.textContent = data.label || '-';
+          confidenceOutput.textContent = data.confidence != null ? `${Math.round(data.confidence * 100)}%` : '-';
+          if (data.fields) {
+            renderFields(data.fields);
+          }
+        } catch (error) {
+          errorText.hidden = false;
+          errorText.textContent = error.message || 'Unable to run the upload right now.';
+          labelOutput.textContent = '-';
+          confidenceOutput.textContent = '-';
+        }
+      });
+    </script>
+  </body>
+</html>
