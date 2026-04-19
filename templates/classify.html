@@ -16,164 +16,293 @@
       </nav>
     </header>
 
-    <main class="upload-page">
-      <section class="hero-panel">
-        <div class="hero-copy">
-          <p class="eyebrow">Document AI</p>
-          <h1>Classify a document and extract invoice fields instantly.</h1>
-          <p class="hero-text">
-            Built for invoices, emails, letters, and scientific reports. When an invoice is detected,
-            the system also extracts the key fields required for the assignment.
-          </p>
-          <div class="hero-badges">
-            <span>Fast classification</span>
-            <span>Invoice extraction</span>
-            <span>No generative AI</span>
-          </div>
-        </div>
+    <main class="classify-shell">
+      <div class="classify-left">
+        <div class="classify-card">
+          <p class="section-label">Upload</p>
+          <h2>Classify a document</h2>
 
-        <aside class="hero-aside">
-          <div class="metric-card">
-            <span class="metric-label">Categories</span>
-            <strong>4 document types</strong>
-          </div>
-          <div class="metric-card">
-            <span class="metric-label">Pipeline</span>
-            <strong>CV + ML + OCR</strong>
-          </div>
-          <div class="metric-card">
-            <span class="metric-label">Output</span>
-            <strong>Structured JSON</strong>
-          </div>
-        </aside>
-      </section>
-
-      <section class="content-grid">
-        <div class="info-column">
-          <div class="info-card">
-            <p class="section-label">Workflow</p>
-            <h2>How it works</h2>
-            <ol class="step-list">
-              <li>Upload an image or PDF document.</li>
-              <li>The system classifies the document type.</li>
-              <li>If it is an invoice, the invoice fields are extracted.</li>
-            </ol>
-          </div>
-
-          <div class="info-card accent-card">
-            <p class="section-label">Classification</p>
-            <h2>Stacking ensemble structure</h2>
-            <ul class="bullet-list">
-              <li><strong>Base learners:</strong> SVD + SVM, HOG + SVM, HOG + Random Forest, and CNN analyze the same document independently.</li>
-              <li><strong>Meta-features:</strong> each model produces class probabilities, which are combined into a single feature vector.</li>
-              <li><strong>Meta-classifier:</strong> a Logistic Regression model learns from the combined outputs.</li>
-              <li><strong>Final prediction:</strong> the ensemble selects the class with the strongest combined evidence.</li>
-            </ul>
-          </div>
-        </div>
-
-        <section class="upload-card">
-          <div class="upload-card-header">
-            <div>
-              <p class="section-label">Upload</p>
-              <h2>Classify a document</h2>
-            </div>
-            <p class="upload-note">PDF or image file</p>
-          </div>
-
-          <form id="upload-form" class="upload-form">
-            <label class="file-drop">
+          <form id="upload-form" class="upload-form-stack">
+            <label class="file-drop" id="file-drop-label">
               <input id="file-input" type="file" name="file" accept="image/*,.pdf" required />
-              <span>
+              <span id="file-drop-text">
                 <strong>Choose a file</strong>
                 <small>PNG, JPG, JPEG, or PDF</small>
               </span>
             </label>
-            <button type="submit">Run classification</button>
+            <button type="submit" id="submit-btn">Run classification</button>
           </form>
+        </div>
 
-          <div class="result-card" id="result" hidden>
-            <p class="result-label">Result</p>
-            <div class="result-grid">
-              <div>
-                <span>Classification</span>
-                <strong id="result-label">-</strong>
-              </div>
-              <div>
-                <span>Confidence</span>
-                <strong id="result-confidence">-</strong>
-              </div>
-            </div>
-            <div class="fields-block" id="fields-block" hidden>
-              <h3>Extracted invoice fields</h3>
-              <div class="field-list" id="field-list"></div>
-            </div>
-            <p class="error-text" id="error-text" hidden></p>
+        <div class="classify-card preview-panel" id="preview-panel" hidden>
+          <p class="section-label">Document preview</p>
+          <div class="preview-container">
+            <canvas id="annotated-canvas" hidden></canvas>
+            <img id="preview-img" alt="Uploaded document preview" hidden />
+            <p class="preview-pdf-note" id="preview-pdf-note" hidden></p>
           </div>
-        </section>
-      </section>
+          <div class="bbox-legend" id="bbox-legend" hidden>
+            <span class="legend-item"><span class="legend-dot" style="background:#3b82f6"></span>Invoice #</span>
+            <span class="legend-item"><span class="legend-dot" style="background:#22c55e"></span>Date</span>
+            <span class="legend-item"><span class="legend-dot" style="background:#a855f7"></span>Due date</span>
+            <span class="legend-item"><span class="legend-dot" style="background:#f97316"></span>Total</span>
+            <span class="legend-item"><span class="legend-dot" style="background:#ec4899"></span>Issuer</span>
+            <span class="legend-item"><span class="legend-dot" style="background:#14b8a6"></span>Recipient</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="classify-right">
+        <div class="classify-card result-panel" id="result-panel" hidden>
+          <p class="section-label">Ensemble result</p>
+          <div class="result-main">
+            <div class="result-badge" id="result-badge">
+              <span class="result-badge-label" id="result-label">-</span>
+            </div>
+            <div class="result-confidence-wrap">
+              <span class="result-confidence-num" id="result-confidence">-</span>
+              <span class="result-confidence-text">confidence</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="classify-card" id="models-panel" hidden>
+          <p class="section-label">All model predictions</p>
+          <div class="models-list" id="models-list"></div>
+        </div>
+
+        <div class="classify-card" id="fields-panel" hidden>
+          <p class="section-label">Extracted invoice fields</p>
+          <div class="field-list" id="field-list"></div>
+        </div>
+
+        <p class="error-text" id="error-text" hidden></p>
+      </div>
     </main>
 
     <script>
       const form = document.getElementById('upload-form');
       const input = document.getElementById('file-input');
-      const result = document.getElementById('result');
-      const labelOutput = document.getElementById('result-label');
-      const confidenceOutput = document.getElementById('result-confidence');
-      const errorText = document.getElementById('error-text');
-      const fieldsBlock = document.getElementById('fields-block');
+      const submitBtn = document.getElementById('submit-btn');
+      const previewPanel = document.getElementById('preview-panel');
+      const previewImg = document.getElementById('preview-img');
+      const previewPdfNote = document.getElementById('preview-pdf-note');
+      const annotatedCanvas = document.getElementById('annotated-canvas');
+      const bboxLegend = document.getElementById('bbox-legend');
+      const resultPanel = document.getElementById('result-panel');
+      const resultBadge = document.getElementById('result-badge');
+      const resultLabel = document.getElementById('result-label');
+      const resultConfidence = document.getElementById('result-confidence');
+      const modelsPanel = document.getElementById('models-panel');
+      const modelsList = document.getElementById('models-list');
+      const fieldsPanel = document.getElementById('fields-panel');
       const fieldList = document.getElementById('field-list');
+      const errorText = document.getElementById('error-text');
+      const fileDropText = document.getElementById('file-drop-text');
 
-      function renderFields(fields) {
-        fieldList.innerHTML = '';
-        Object.entries(fields || {}).forEach(([key, value]) => {
-          const row = document.createElement('div');
-          row.className = 'field-item';
-          row.innerHTML = `<span>${key.replaceAll('_', ' ')}</span><strong>${value ?? '-'}</strong>`;
-          fieldList.appendChild(row);
-        });
-        fieldsBlock.hidden = !fieldList.children.length;
+      const FIELD_COLORS = {
+        invoice_number: '#3b82f6',
+        invoice_date:   '#22c55e',
+        due_date:       '#a855f7',
+        total_amount:   '#f97316',
+        issuer_name:    '#ec4899',
+        recipient_name: '#14b8a6',
+      };
+
+      const LABEL_COLORS = {
+        email:             '#3b82f6',
+        invoice:           '#f97316',
+        letter:            '#22c55e',
+        scientific_report: '#a855f7',
+      };
+
+      let currentImageUrl = null;
+
+      function formatSize(bytes) {
+        if (bytes < 1024) return bytes + ' B';
+        if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB';
+        return (bytes / 1048576).toFixed(1) + ' MB';
       }
 
-      form.addEventListener('submit', async (event) => {
-        event.preventDefault();
+      /* ---- File preview on selection ---- */
+      input.addEventListener('change', () => {
         const file = input.files[0];
-        if (!file) {
-          return;
+        if (!file) { previewPanel.hidden = true; return; }
+
+        fileDropText.innerHTML = '<strong>' + file.name + '</strong><small>' + formatSize(file.size) + '</small>';
+        previewPanel.hidden = false;
+        annotatedCanvas.hidden = true;
+        bboxLegend.hidden = true;
+        previewImg.hidden = true;
+        previewPdfNote.hidden = true;
+
+        if (file.type.startsWith('image/')) {
+          const reader = new FileReader();
+          reader.onload = function(e) {
+            currentImageUrl = e.target.result;
+            previewImg.src = currentImageUrl;
+            previewImg.hidden = false;
+          };
+          reader.readAsDataURL(file);
+        } else {
+          currentImageUrl = null;
+          previewPdfNote.textContent = 'PDF document \u2014 ' + formatSize(file.size) + ' \u2014 preview will appear after classification';
+          previewPdfNote.hidden = false;
         }
+      });
 
-        const formData = new FormData();
-        formData.append('file', file);
+      /* ---- Bounding box drawing ---- */
+      function drawBoundingBoxes(imageUrl, bboxes) {
+        var img = new Image();
+        img.onload = function() {
+          var canvas = annotatedCanvas;
+          canvas.width = img.naturalWidth;
+          canvas.height = img.naturalHeight;
+          var ctx = canvas.getContext('2d');
+          ctx.drawImage(img, 0, 0);
 
-        result.hidden = false;
-        errorText.hidden = true;
-        fieldsBlock.hidden = true;
-        labelOutput.textContent = 'Running...';
-        confidenceOutput.textContent = '-';
-        fieldList.innerHTML = '';
+          for (var i = 0; i < bboxes.length; i++) {
+            var box = bboxes[i];
+            var color = FIELD_COLORS[box.field] || '#3b82f6';
+            ctx.strokeStyle = color;
+            ctx.lineWidth = 3;
+            ctx.strokeRect(box.x, box.y, box.w, box.h);
 
-        try {
-          const response = await fetch('/extract', {
-            method: 'POST',
-            body: formData,
-          });
-          const data = await response.json();
+            ctx.fillStyle = color;
+            ctx.globalAlpha = 0.12;
+            ctx.fillRect(box.x, box.y, box.w, box.h);
+            ctx.globalAlpha = 1.0;
 
-          if (!response.ok || data.error) {
-            throw new Error(data.error || 'Request failed');
+            var label = box.field.replace(/_/g, ' ');
+            ctx.font = 'bold 14px sans-serif';
+            var tw = ctx.measureText(label).width;
+            ctx.fillStyle = color;
+            ctx.fillRect(box.x, box.y - 20, tw + 8, 20);
+            ctx.fillStyle = '#fff';
+            ctx.fillText(label, box.x + 4, box.y - 5);
           }
 
-          labelOutput.textContent = data.label || '-';
-          confidenceOutput.textContent = data.confidence != null ? `${Math.round(data.confidence * 100)}%` : '-';
+          canvas.hidden = false;
+          previewImg.hidden = true;
+          previewPdfNote.hidden = true;
+          bboxLegend.hidden = false;
+        };
+        img.src = imageUrl;
+      }
+
+      /* ---- Show rendered image (for PDFs) ---- */
+      function showRenderedImage(base64) {
+        var url = 'data:image/png;base64,' + base64;
+        currentImageUrl = url;
+        previewImg.src = url;
+        previewImg.hidden = false;
+        previewPdfNote.hidden = true;
+        previewPanel.hidden = false;
+      }
+
+      /* ---- Render model results ---- */
+      function renderModels(models) {
+        modelsList.innerHTML = '';
+        // Order: Stacking first, then CNN, then the rest
+        var order = ['Stacking', 'CNN', 'SVD+SVM', 'HOG+SVM', 'HOG+RF'];
+        for (var i = 0; i < order.length; i++) {
+          var name = order[i];
+          var m = models[name];
+          if (!m) continue;
+          var color = LABEL_COLORS[m.label] || 'var(--accent)';
+          var conf = m.confidence != null ? Math.round(m.confidence * 100) + '%' : '-';
+          var isPrimary = name === 'Stacking';
+          var row = document.createElement('div');
+          row.className = 'model-row' + (isPrimary ? ' model-row-primary' : '');
+          row.innerHTML =
+            '<div class="model-row-name">' + name + (isPrimary ? ' <span class="model-primary-tag">ensemble</span>' : '') + '</div>' +
+            '<div class="model-row-label" style="color:' + color + '">' + m.label.replace(/_/g, ' ') + '</div>' +
+            '<div class="model-row-conf">' + conf + '</div>';
+          modelsList.appendChild(row);
+        }
+        modelsPanel.hidden = !modelsList.children.length;
+      }
+
+      /* ---- Render extracted fields ---- */
+      function renderFields(fields) {
+        fieldList.innerHTML = '';
+        var keys = Object.keys(fields || {});
+        for (var i = 0; i < keys.length; i++) {
+          var key = keys[i];
+          var value = fields[key];
+          var color = FIELD_COLORS[key] || 'var(--accent)';
+          var row = document.createElement('div');
+          row.className = 'field-item';
+          row.innerHTML = '<span><span class="legend-dot" style="background:' + color + '"></span>' + key.replace(/_/g, ' ') + '</span><strong>' + (value != null ? value : '-') + '</strong>';
+          fieldList.appendChild(row);
+        }
+        fieldsPanel.hidden = !fieldList.children.length;
+      }
+
+      /* ---- Form submit ---- */
+      form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        var file = input.files[0];
+        if (!file) return;
+
+        var formData = new FormData();
+        formData.append('file', file);
+
+        resultPanel.hidden = false;
+        modelsPanel.hidden = true;
+        fieldsPanel.hidden = true;
+        errorText.hidden = true;
+        resultLabel.textContent = 'Classifying...';
+        resultConfidence.textContent = '-';
+        resultBadge.className = 'result-badge';
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Running...';
+
+        fetch('/extract', {
+          method: 'POST',
+          body: formData,
+        })
+        .then(function(response) {
+          return response.json().then(function(data) {
+            if (!response.ok || data.error) {
+              throw new Error(data.error || 'Request failed');
+            }
+            return data;
+          });
+        })
+        .then(function(data) {
+          resultLabel.textContent = data.label ? data.label.replace(/_/g, ' ') : '-';
+          resultBadge.className = 'result-badge badge-' + (data.label || '').replace(/ /g, '-');
+          resultConfidence.textContent = data.confidence != null ? Math.round(data.confidence * 100) + '%' : '-';
+
+          if (data.models) {
+            renderModels(data.models);
+          }
+
           if (data.fields) {
             renderFields(data.fields);
           }
-        } catch (error) {
+
+          // Show rendered image for PDFs
+          if (data.rendered_image) {
+            showRenderedImage(data.rendered_image);
+          }
+
+          // Draw bounding boxes
+          if (data.bboxes && data.bboxes.length && currentImageUrl) {
+            drawBoundingBoxes(currentImageUrl, data.bboxes);
+          }
+        })
+        .catch(function(error) {
           errorText.hidden = false;
-          errorText.textContent = error.message || 'Unable to run the upload right now.';
-          labelOutput.textContent = '-';
-          confidenceOutput.textContent = '-';
-        }
+          errorText.textContent = error.message || 'Unable to process the document.';
+          resultLabel.textContent = '-';
+          resultConfidence.textContent = '-';
+        })
+        .finally(function() {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Run classification';
+        });
       });
     </script>
   </body>

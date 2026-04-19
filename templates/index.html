@@ -17,7 +17,65 @@
     </header>
 
     <main class="home-shell">
-      <h1>Document Classification and Invoice Extraction</h1>
+      <a class="title-link" href="/classify">
+        <h1>Document Classification and Invoice Extraction</h1>
+      </a>
+
+      <section class="home-content">
+        <div class="hero-panel">
+          <div class="hero-copy">
+            <p class="eyebrow">Document AI</p>
+            <h2>Classify a document and extract invoice fields instantly.</h2>
+            <p class="hero-text">
+              Built for invoices, emails, letters, and scientific reports. When an invoice is detected,
+              the system also extracts the key fields required for the assignment.
+            </p>
+            <div class="hero-badges">
+              <span>Fast classification</span>
+              <span>Invoice extraction</span>
+              <span>No generative AI</span>
+            </div>
+          </div>
+
+          <aside class="hero-aside">
+            <div class="metric-card">
+              <span class="metric-label">Categories</span>
+              <strong>4 document types</strong>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Pipeline</span>
+              <strong>CV + ML + OCR</strong>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Output</span>
+              <strong>Structured JSON</strong>
+            </div>
+          </aside>
+        </div>
+
+        <div class="home-grid">
+          <div class="info-card">
+            <p class="section-label">Workflow</p>
+            <h2>How it works</h2>
+            <ol class="step-list">
+              <li>Upload an image or PDF document.</li>
+              <li>The system classifies the document type.</li>
+              <li>If it is an invoice, the invoice fields are extracted.</li>
+            </ol>
+          </div>
+
+          <div class="info-card accent-card">
+            <p class="section-label">Classification</p>
+            <h2>Stacking ensemble structure</h2>
+            <ul class="bullet-list">
+              <li><strong>Base learners:</strong> SVD + SVM, HOG + SVM, HOG + Random Forest, and CNN analyze the same document independently.</li>
+              <li><strong>Meta-features:</strong> each model produces class probabilities, which are combined into a single feature vector.</li>
+              <li><strong>Meta-classifier:</strong> a Logistic Regression model learns from the combined outputs.</li>
+              <li><strong>Final prediction:</strong> the ensemble selects the class with the strongest combined evidence.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
