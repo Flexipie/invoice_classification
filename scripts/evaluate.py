@@ -228,16 +228,79 @@ def main():
     else:
         print("  stacking.pkl not found, skipping.")
 
+    # --- DistilBERT-OCR ---
+    distilbert_dir = MODELS_DIR / "distilbert_best"
+    test_texts_path = DATA_DIR / "test_texts.json"
+    if distilbert_dir.exists() and test_texts_path.exists():
+        print("\nEvaluating DistilBERT-OCR …")
+        try:
+            import torch
+            from transformers import AutoModelForSequenceClassification, AutoTokenizer
+
+            tokenizer = AutoTokenizer.from_pretrained(str(distilbert_dir))
+            bert_model = AutoModelForSequenceClassification.from_pretrained(str(distilbert_dir))
+            device = "cuda" if torch.cuda.is_available() else "cpu"
+            bert_model.to(device).eval()
+
+            rows = json.loads(test_texts_path.read_text(encoding="utf-8"))
+            texts = [(r.get("text") or "") for r in rows]
+            bert_labels = np.array([int(r["label"]) for r in rows])
+
+            all_probs = np.zeros((len(rows), len(LABEL_NAMES)), dtype=np.float32)
+            batch_size = 16
+            with torch.no_grad():
+                for start in range(0, len(texts), batch_size):
+                    batch = [t if t.strip() else " " for t in texts[start:start+batch_size]]
+                    enc = tokenizer(batch, truncation=True, padding=True, max_length=256, return_tensors="pt").to(device)
+                    out = bert_model(**enc)
+                    all_probs[start:start+batch_size] = torch.softmax(out.logits, dim=1).cpu().numpy()
+
+            bert_preds = all_probs.argmax(axis=1)
+            results["DistilBERT-OCR"] = evaluate_model("DistilBERT-OCR", bert_preds, bert_labels)
+        except Exception as e:
+            print(f"  DistilBERT evaluation failed: {e}")
+    else:
+        if not distilbert_dir.exists():
+            print("  models/distilbert_best/ not found, skipping DistilBERT.")
+        if not test_texts_path.exists():
+            print("  test_texts.json not found, skipping DistilBERT.")
+
     # --- Summary ---
     print("\n" + "="*50)
     print("  MODEL COMPARISON (test set)")
     print("="*50)
     for name, item in sorted(results.items(), key=lambda x: -x[1]["accuracy"]):
-        print(f"  {name:15s}: {item['accuracy']:.4f}")
+        print(f"  {name:20s}: {item['accuracy']:.4f}")
 
     with open(REPORTS_DIR / "results.json", "w") as f:
         json.dump(results, f, indent=2)
     print(f"\nResults saved → {REPORTS_DIR / 'results.json'}")
+
+    # --- Comparison bar chart ---
+    if len(results) > 1:
+        print("\nGenerating comparison chart …")
+        names = list(results.keys())
+        accs = [results[n]["accuracy"] for n in names]
+        colors = ["steelblue"] * len(names)
+        best_idx = accs.index(max(accs))
+        colors[best_idx] = "coral"
+
+        fig, ax = plt.subplots(figsize=(10, 5))
+        bars = ax.bar(names, accs, color=colors, edgecolor="white", linewidth=0.8)
+        ax.set_ylabel("test accuracy")
+        ax.set_title("Model comparison — test set accuracy")
+        ax.set_ylim(0, 1.05)
+        ax.axhline(0.25, color="gray", linestyle="--", linewidth=0.8, label="random baseline")
+        ax.legend()
+        for bar, acc in zip(bars, accs):
+            ax.text(bar.get_x() + bar.get_width() / 2, acc + 0.01,
+                    f"{acc:.3f}", ha="center", va="bottom", fontsize=9)
+        plt.xticks(rotation=20, ha="right")
+        plt.tight_layout()
+        chart_path = REPORTS_DIR / "comparison.png"
+        plt.savefig(chart_path, dpi=150)
+        plt.close()
+        print(f"  Comparison chart → {chart_path}")
 
 
 if __name__ == "__main__":

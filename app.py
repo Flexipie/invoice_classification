@@ -30,7 +30,6 @@ app = Flask(__name__)
 
 ROOT_DIR = Path(__file__).parent
 REPORTS_DIR = ROOT_DIR / "reports"
-COMPARISON_REPORTS_DIR = ROOT_DIR / "comparison" / "reports"
 
 # ---------------------------------------------------------------------------
 # Shared state: load best model once at startup
@@ -187,6 +186,31 @@ def classify_all_models(img: np.ndarray) -> dict:
         except Exception:
             pass
 
+    # DistilBERT-OCR
+    distilbert_dir = Path(__file__).parent / "models" / "distilbert_best"
+    if distilbert_dir.exists():
+        try:
+            import torch
+            from transformers import AutoModelForSequenceClassification, AutoTokenizer
+            import pytesseract
+            from PIL import Image as PILImage
+
+            tokenizer = AutoTokenizer.from_pretrained(str(distilbert_dir))
+            bert_model = AutoModelForSequenceClassification.from_pretrained(str(distilbert_dir))
+            bert_model.eval()
+
+            pil = PILImage.fromarray(img)
+            text = pytesseract.image_to_string(pil, config="--psm 6")
+            if text.strip():
+                enc = tokenizer(text, truncation=True, max_length=256, return_tensors="pt")
+                with torch.no_grad():
+                    logits = bert_model(**enc).logits
+                    probs = torch.softmax(logits, dim=1)[0]
+                    idx = int(probs.argmax())
+                results["DistilBERT-OCR"] = {"label": LABEL_NAMES[idx], "confidence": round(float(probs[idx]), 4)}
+        except Exception:
+            pass
+
     return results
 
 
@@ -290,10 +314,6 @@ def health():
 def reports_file(filename):
     return send_from_directory(REPORTS_DIR, filename)
 
-
-@app.route("/comparison-reports/<path:filename>")
-def comparison_reports_file(filename):
-    return send_from_directory(COMPARISON_REPORTS_DIR, filename)
 
 
 # ---------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 # Core ML & data
-numpy>=2.0
+numpy>=1.24,<2.0
 pandas>=2.0
 scipy>=1.11
 scikit-learn>=1.3
@@ -21,8 +21,13 @@ scikit-image>=0.21
 torch>=2.0
 torchvision>=0.15
 
-# NLP — spaCy 3.8+ has numpy 2.x support
-spacy>=3.8
+# Transformer (DistilBERT)
+transformers>=4.40
+accelerate>=0.30
+evaluate>=0.4
+
+# NLP — spaCy 3.7.x for Python 3.9 compat
+spacy>=3.7,<3.8
 
 # PDF & API
 pdfplumber>=0.10

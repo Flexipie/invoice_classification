@@ -11,6 +11,10 @@ data/download_checkpoint.json
 # trained models (re-trainable)
 models/*.pkl
 models/*.pth
+models/distilbert_best/
+models/_hf_checkpoints/
+*.safetensors
+*.bin
 
 # HuggingFace cache
 ~/.cache/huggingface/

@@ -125,22 +125,19 @@
               ['f1-score']: model.f1_macro,
             },
           },
-          confusion_matrix_image: '/comparison-reports/cm_distilbert.png',
+          confusion_matrix_image: '/reports/cm_distilbert.png',
         };
       }
 
-      Promise.all([
-        fetch('/reports/results.json').then((response) => response.json()),
-        fetch('/comparison-reports/comparison.json').then((response) => response.json()),
-      ])
-        .then(([baseData, comparisonData]) => {
+      fetch('/reports/results.json').then((response) => response.json())
+        .then((baseData) => {
           const models = Object.entries(baseData || {}).map(([name, payload]) => {
             if (payload && typeof payload === 'object') {
               return {
                 name,
                 accuracy: payload.accuracy,
                 report: payload.report || {},
-                confusion_matrix_image: payload.confusion_matrix_image || `/reports/cm_${name.toLowerCase().replaceAll(' ', '_').replaceAll('+', '_')}.png`,
+                confusion_matrix_image: payload.confusion_matrix_image || `/reports/cm_${name.toLowerCase().replaceAll(' ', '_').replaceAll('+', '_').replaceAll('-', '_')}.png`,
               };
             }
 
@@ -148,14 +145,9 @@
               name,
               accuracy: payload,
               report: {},
-              confusion_matrix_image: `/reports/cm_${name.toLowerCase().replaceAll(' ', '_').replaceAll('+', '_')}.png`,
+              confusion_matrix_image: `/reports/cm_${name.toLowerCase().replaceAll(' ', '_').replaceAll('+', '_').replaceAll('-', '_')}.png`,
             };
           });
-
-          const distilbert = (comparisonData?.models || []).find((model) => model.model === 'DistilBERT-OCR');
-          if (distilbert) {
-            models.push(normalizeComparisonModel(distilbert));
-          }
 
           if (!models.length) {
             confusionGrid.innerHTML = '';

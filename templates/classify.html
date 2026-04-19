@@ -204,7 +204,7 @@
       function renderModels(models) {
         modelsList.innerHTML = '';
         // Order: Stacking first, then CNN, then the rest
-        var order = ['Stacking', 'CNN', 'SVD+SVM', 'HOG+SVM', 'HOG+RF'];
+        var order = ['Stacking', 'DistilBERT-OCR', 'CNN', 'SVD+SVM', 'HOG+SVM', 'HOG+RF'];
         for (var i = 0; i < order.length; i++) {
           var name = order[i];
           var m = models[name];
